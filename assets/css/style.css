@@ -14,11 +14,9 @@ body {
 a {
   text-decoration: none;
 }
-
-p {
-  color: grey;
+.wraper {
+  overflow: hidden;
 }
-
 .image-border {
   border-radius: 15px;
 }
@@ -39,47 +37,47 @@ p {
 
 /* ------ Main Top Nav Section Start ------ */
 
-.homepage-1-main-top-nav-start{
-    background-color: rgb(4, 214, 74);
-    color: white;
-    padding: 8px 40px;
+.homepage-1-main-top-nav-start {
+  background-color: rgb(4, 214, 74);
+  color: white;
+  padding: 8px 40px;
 }
 
-.homepage-1-main-top-nav-time{
-    font-size: 13px;
-    padding-top: 2px;
+.homepage-1-main-top-nav-time {
+  font-size: 13px;
+  padding-top: 2px;
 }
 
-.main-toolbar-icons-sec{
-    justify-content: end;
+.main-toolbar-icons-sec {
+  justify-content: end;
 }
 
-.main-toolbar-icons-sec ul li a:hover{
-    color: white;
+.main-toolbar-icons-sec ul li a:hover {
+  color: white;
 }
 
-.small-screen{
-    display: none;
+.small-screen {
+  display: none;
 }
 
-.main-toolbar-sgin-btn ul{
-    display: flex;
-    justify-content: end;
+.main-toolbar-sgin-btn ul {
+  display: flex;
+  justify-content: end;
 }
 
-.main-toolbar-sgin-btn ul li{
-    list-style: none;
-    margin: 0px 10px 0px 10px;
+.main-toolbar-sgin-btn ul li {
+  list-style: none;
+  margin: 0px 10px 0px 10px;
 }
 
-.main-toolbar-icons-sec ul{
-    display: flex;
-    margin-right: 50px;
+.main-toolbar-icons-sec ul {
+  display: flex;
+  margin-right: 50px;
 }
 
-.main-toolbar-icons-sec ul li{
-    list-style: none;
-    margin: 0px 10px 0px 10px;
+.main-toolbar-icons-sec ul li {
+  list-style: none;
+  margin: 0px 10px 0px 10px;
 }
 
 /* .homepage-login{
@@ -209,66 +207,100 @@ p {
 
 /* ------ Header Section Start ------ */
 
-.carousel{
-    margin: 0px 0px;
+.carousel-item {
+  transition: transform 1s ease-in;
 }
 
-.carousel-item img{
-    height: 100vh;
+.carousel-item.active {
+  transform: translateX(0%);
 }
 
-.carousel-item{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../image/homepage/slider-1.jpg);
-    background-repeat: no-repeat;
-    padding: 270px 0px;
-    background-size: cover;
-    text-align: center;
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
-.carousel-item-image-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../image/homepage/slider-2.jpg);
-    background-repeat: no-repeat;
-    padding: 270px 0px;
-    background-size: cover;
-    text-align: center;
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  transform: translateX(0%);
 }
 
-.carousel-item-image-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../image/homepage/slider-3.jpg);
-    background-repeat: no-repeat;
-    padding: 270px 0px;
-    background-size: cover;
-    text-align: center;
+.carousel-item-next,
+.active.carousel-item-right {
+  transform: translateX(0%);
 }
 
-.carousel-item p{
-    font-size: 20px;
-    font-weight: 100;
-    color: white;
+.carousel-item-prev,
+.active.carousel-item-left {
+  transform: translateX(0%);
 }
 
-.carousel-item-text-1 h1{
-    font-size: 55px;
-    color: white;
+.carousel {
+  margin: 0px 0px;
 }
 
-.carousel-item a{
-    text-decoration: none;
+.carousel-item img {
+  height: 100vh;
 }
 
-.carousel-item a button{
-    background-color: #3ac569;
-    color: white;
-    border: 1px solid #3ac569;
-    padding: 10px 30px;
-    border-radius: 10px;
-    margin: 20px 0px 0px 0px;
+.carousel-item {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../image/homepage/slider-1.jpg);
+  background-repeat: no-repeat;
+  padding: 270px 0px;
+  background-size: cover;
+  text-align: center;
 }
 
-.carousel-item a button:hover{
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
+.carousel-item-image-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../image/homepage/slider-2.jpg);
+  background-repeat: no-repeat;
+  padding: 270px 0px;
+  background-size: cover;
+  text-align: center;
+}
+
+.carousel-item-image-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../image/homepage/slider-3.jpg);
+  background-repeat: no-repeat;
+  padding: 270px 0px;
+  background-size: cover;
+  text-align: center;
+}
+
+.carousel-item p {
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+}
+
+.carousel-item-text-1 h1 {
+  font-size: 55px;
+  color: white;
+}
+
+.carousel-item a {
+  text-decoration: none;
+}
+
+.carousel-item a button {
+  background-color: #3ac569;
+  color: white;
+  border: 1px solid #3ac569;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 20px 0px 0px 0px;
+}
+
+.carousel-item a button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
 }
 
 .homepage-1-header-text {
@@ -3311,11 +3343,13 @@ a {
 }
 
 .about-counter-number .counter {
-  font-size: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #91d0a3;
 }
 
 .about-counter-number .about-percentage {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* ------ About Counter Increment End ------ */
