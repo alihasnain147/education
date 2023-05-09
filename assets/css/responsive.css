@@ -1,0 +1,29 @@
+@media only screen and (max-width:991px) {
+    .main-toolbar-icons-sec {
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .main-toolbar-icons-sec ul,
+    .toolbar-mail-contact {
+        display: none;
+        margin-top: 0px;
+    }
+
+    .homepage-1-main-top-nav-start{
+        padding: 0px 40px 8px;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .small-screen {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .main-toolbar-sgin-btn ul {
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
