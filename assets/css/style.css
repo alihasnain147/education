@@ -5348,7 +5348,7 @@ BLOG CONTAINER
 
 .card-hover {
   width: 360px;
-  height: 500px;
+  height: 400px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 32px -10px rgba(0, 0, 0, 0.08);
@@ -5489,4 +5489,16 @@ BLOG CONTAINER
 }
 .card_io{
   margin-left: 2rem;
+}
+.event_head_io{
+  margin-bottom: 3rem;
+}
+.event_head_io h1{
+  color: #2d7f0b;
+  margin-left: 1rem;
+}
+.line_io{
+  height: 3rem;
+  width: 5px;
+  background-color: #2d7f0b;
 }
