@@ -209,6 +209,37 @@ p {
 
 /* ------ Header Section Start ------ */
 
+.carousel-item {
+  transition: transform 1s ease-in;
+}
+
+.carousel-item.active {
+  transform: translateX(0%);
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  transform: translateX(0%);
+}
+
+.carousel-item-next,
+.active.carousel-item-right {
+  transform: translateX(0%);
+}
+
+.carousel-item-prev,
+.active.carousel-item-left {
+  transform: translateX(0%);
+}
+
 .carousel{
     margin: 0px 0px;
 }
