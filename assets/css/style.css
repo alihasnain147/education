@@ -238,8 +238,8 @@ a {
   transform: translateX(0%);
 }
 
-.carousel{
-    margin: 0px 0px;
+.carousel {
+  margin: 0px 0px;
 }
 
 .carousel-item img {
@@ -3343,11 +3343,13 @@ a {
 }
 
 .about-counter-number .counter {
-  font-size: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #91d0a3;
 }
 
 .about-counter-number .about-percentage {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* ------ About Counter Increment End ------ */
@@ -5362,4 +5364,17 @@ BLOG CONTAINER
   justify-content: center !important;
   text-align: center !important;
   color: white;
+}
+.three-in-one-sect {
+  background: linear-gradient(rgba(38, 56, 91, 0.85), rgba(38, 56, 91, 0.85)),
+    url(../image/about/three-in-one.jpg) !important;
+  color: white !important;
+  padding: 60px 0px 50px 0px !important;
+}
+.about-counter-sect {
+  background: linear-gradient(rgba(38, 56, 91, 0.85), rgba(38, 56, 91, 0.85)),
+    url(../image/about/three-in-one.jpg) !important;
+  color: white !important;
+  padding: 60px 0px 50px 0px !important;
+  text-align: center !important;
 }
