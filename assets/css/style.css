@@ -3199,10 +3199,12 @@ a {
 /* ------ About Hero Section Start ------ */
 
 .about-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../image/about/about-hero-background-image.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
+    url(../image/about/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 200px 0px 50px 0px;
+  background-position: bottom;
 }
 
 /* ------ About Top Nav Start ------ */
@@ -3239,11 +3241,6 @@ a {
 /* ------ About Bottom Nav End ------ */
 
 /* ------ About Hero Section Text Start ------ */
-
-.about-hero-text {
-  padding-top: 120px;
-  padding-bottom: 200px;
-}
 
 .about-hero-text h1 {
   font-size: 60px;
