@@ -5366,27 +5366,37 @@ BLOG CONTAINER
   text-align: center !important;
   color: white;
 }
+.about-business-butn {
+  background: linear-gradient(#36a0ad, #91d0a3);
+  width: 200px;
+  border: none;
+  border-radius: 50px;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: white;
+}
 /* blog-sections-started */
-.Bolgs_new_content{
+.Bolgs_new_content {
   color: #3ac569;
   font-weight: 400;
 }
-.Bolgs_new_content_1{
+.Bolgs_new_content_1 {
   font-size: 27px;
   font-weight: 500;
 }
-.Bolgs_new_content_2{
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 15px;
+.Bolgs_new_content_2 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 15px;
 }
-.Bolgs_new_buttm{
+.Bolgs_new_buttm {
   border: 2px solid #3ac569;
   background-color: #3ac569;
   color: #fff;
 }
-.Bolgs_new_buttm:hover{
+.Bolgs_new_buttm:hover {
   background-color: transparent;
   color: #000;
-  transition: .4s;
+  transition: 0.4s;
 }
 /* blog-sections-ended */
