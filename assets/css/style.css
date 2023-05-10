@@ -5366,16 +5366,27 @@ BLOG CONTAINER
   text-align: center !important;
   color: white;
 }
-.three-in-one-sect {
-  background: linear-gradient(rgba(38, 56, 91, 0.85), rgba(38, 56, 91, 0.85)),
-    url(../image/about/three-in-one.jpg) !important;
-  color: white !important;
-  padding: 60px 0px 50px 0px !important;
+/* blog-sections-started */
+.Bolgs_new_content{
+  color: #3ac569;
+  font-weight: 400;
 }
-.about-counter-sect {
-  background: linear-gradient(rgba(38, 56, 91, 0.85), rgba(38, 56, 91, 0.85)),
-    url(../image/about/three-in-one.jpg) !important;
-  color: white !important;
-  padding: 60px 0px 50px 0px !important;
-  text-align: center !important;
+.Bolgs_new_content_1{
+  font-size: 27px;
+  font-weight: 500;
 }
+.Bolgs_new_content_2{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 15px;
+}
+.Bolgs_new_buttm{
+  border: 2px solid #3ac569;
+  background-color: #3ac569;
+  color: #fff;
+}
+.Bolgs_new_buttm:hover{
+  background-color: transparent;
+  color: #000;
+  transition: .4s;
+}
+/* blog-sections-ended */
