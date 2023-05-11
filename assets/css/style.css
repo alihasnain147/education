@@ -5400,8 +5400,8 @@ BLOG CONTAINER
 }
 .about-instructor-card {
   background-color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../image/about/globe.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 1.767), rgba(0, 0, 0, 1.767)),
+    url(../image/about/globetwo.jpg);
   border-radius: 12px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: none;
