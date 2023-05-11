@@ -129,3 +129,47 @@
   width: 90vw;
   max-width: 300px;
 }
+
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
+    url(/assets/image/about/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px 50px 0px;
+  background-position: bottom;
+}
+
+.three-in-one-sect {
+  background: linear-gradient(
+      rgba(40, 58, 93, 0.8),
+      rgba(40, 58, 93, 0.8)
+    ),
+    url(./assets/image/about/three-in-one.jpg) !important;
+  padding: 100px 0px 80px 0px;
+  color: white;
+  background-repeat: no-repeat !important;
+}
+
+.about-counter-sect {
+  background: linear-gradient(
+      rgba(40, 58, 93, 0.699),
+      rgba(40, 58, 93, 0.699)
+    ),
+    url(./assets/image/about/gucci.jpg) !important;
+  padding: 100px 0px 80px 0px;
+  color: white;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  text-align: bottom;
+}
+
+.about-stsrting-businnes-sec {
+  background-color: #e6e6e6;
+  padding: 100px 0px 80px 0px;
+}
+.ca_ca_line{
+  width: 300px;
+  height: 5px;
+  background-color: skyblue;
+}
+
