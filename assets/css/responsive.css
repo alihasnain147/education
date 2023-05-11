@@ -1,31 +1,44 @@
-@media only screen and (max-width:991px) {
-    .main-toolbar-icons-sec {
-        justify-content: center;
-        margin-top: 5px;
-    }
+@media only screen and (max-width: 991px) {
+  .main-toolbar-icons-sec {
+    justify-content: center;
+    margin-top: 5px;
+  }
 
-    .toolbar-mail-contact {
-        display: none;
-        margin-top: 0px;
-    }
+  .toolbar-mail-contact {
+    display: none;
+    margin-top: 0px;
+  }
 
-    .homepage-1-main-top-nav-start{
-        padding: 0px 40px 8px;
-    }
+  .homepage-1-main-top-nav-start {
+    padding: 0px 40px 8px;
+  }
 }
 
-@media only screen and (max-width:410px) {
-    .small-screen {
-        display: block;
-    }
+@media only screen and (max-width: 760px) {
+  .small-screen {
+    display: block;
+  }
+  .strtting-business {
+    text-align: center !important;
+  }
+  .beamember {
+    text-align: center !important;
+    margin-top: 15px;
+  }
+  .about-why-choose-sect {
+    text-align: center !important;
+  }
+  .main-about-page-sectt {
+    text-align: center !important;
+  }
 }
 
-@media only screen and (max-width:767px) {
-    .main-toolbar-sgin-btn ul {
-        display: none;
-    }
+@media only screen and (max-width: 767px) {
+  .main-toolbar-sgin-btn ul {
+    display: none;
+  }
 
-    .main-toolbar-icons-sec ul{
-        padding: 3px 0px 0px 0px;
-    }
+  .main-toolbar-icons-sec ul {
+    padding: 3px 0px 0px 0px;
+  }
 }

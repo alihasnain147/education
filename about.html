@@ -10,31 +10,18 @@
     <!-- ------ Bootstrap Link Start ------ -->
     <link rel="stylesheet" href="assets/bootstrap-5.2.2-dist/css/bootstrap.min.css">
     <!-- ------ Bootstrap Link End ------ -->
-
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- ------ CSS Link Start ------ -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- ------ CSS Link End ------ -->
-
-    <!-- ------ FontAwesome Link Start ------ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- ------ FontAwesome Link End ------ -->
-
+    <!-- Bootstrap 5 Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!--animation link-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--animation link-->
-
-    <!-- ------ Carousel Link Start ------ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- ------ Carousel Link End ------ -->
-
     <!-- -------header-counter-link-start ------- -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
@@ -45,6 +32,38 @@
             });
         });
     </script>
+    <style>
+        .about-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
+                url(./assets/image/about/hero.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 200px 0px 50px 0px;
+            background-position: bottom;
+        }
+
+        .three-in-one-sect {
+            background: linear-gradient(rgba(40, 58, 93, 0.800), rgba(40, 58, 93, 0.800)),
+                url(./assets/image/about/three-in-one.jpg) !important;
+            padding: 100px 0px 80px 0px;
+            color: white;
+            background-repeat: no-repeat !important;
+        }
+
+        .about-counter-sect {
+            background: linear-gradient(rgba(40, 58, 93, 0.699), rgba(40, 58, 93, 0.699)),
+                url(./assets/image/about/gucci.jpg) !important;
+            padding: 100px 0px 80px 0px;
+            color: white;
+            height: 100%;
+            background-repeat: no-repeat !important;
+            text-align: bottom;
+        }
+
+        .about-stsrting-businnes-sec {
+            padding: 100px 0px 80px 0px;
+        }
+    </style>
     <!-- -------header-counter-link-end ------- -->
 
 </head>
@@ -54,46 +73,33 @@
 
         <!-- ------ About Hero Section Start ------ -->
 
-        <div class="container-fluid">
-            <div class="row about-hero">
-
-
-                <!-- ------ About Hero Section Text Start ------ -->
-
-                <div class="col-lg-12 text-center about-hero-text" data-animated="speedIn" data-aos="fade-in">
-                    <h1>
-                        ABOUT
-                    </h1>
-                    <h4>
-                        <span class="about-hero-home-text">
-                            HOME /
-                        </span>
-                        <span class="about-hero-contact-text">
-                            ABOUT
-                        </span>
-                    </h4>
+        <div class="container-fluid about-hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="font-size: 50px;color: #36a0ad;" class="fw-bold">About Us</h1>
+                    </div>
                 </div>
-
-                <!-- ------ About Hero Section Text Start ------ -->
-
             </div>
         </div>
 
         <!-- ------ About Hero Section End ------ -->
-        <div class="container pt-5 pb-5">
-            <div class="row">
-                <div class="col-lg-6 mt-lg-5 pt-lg-4">
-                    <span>Why Choose Me</span>
-                    <h1 class="pt-lg-1">Tools For Teachers And Learners</h1>
-                    <p class="pt-lg-2" style="text-align: justify !important;">Oxford chimney pot Eaton faff about
-                        blower
-                        blatant brilliant, bubble and squeak he
-                        legged it Charles
-                        bonnet arse at public school bamboozled. </p>
-                    <button class="p-2 about-page-join-btn ">Join for free</button>
-                </div>
-                <div class="col-lg-6 mt-4 mt-lg-0">
-                    <center><img src="./assets/image/about/scholar-student.png" alt="" width="70%"></center>
+        <div class="container-fluid" style="background-color: #E6E6E6;">
+            <div class="container pt-5 pb-5">
+                <div class="row about-why-choose-sect">
+                    <div class="col-lg-6 col-md-6  mt-lg-5 pt-lg-4">
+                        <span>Why Choose Me</span>
+                        <h1 class="pt-lg-1">Tools For Teachers And Learners</h1>
+                        <p class="pt-lg-2" style="text-align: justify !important;">Oxford chimney pot Eaton faff about
+                            blower
+                            blatant brilliant, bubble and squeak he
+                            legged it Charles
+                            bonnet arse at public school bamboozled. </p>
+                        <button class="p-2 about-page-join-btn ">Join for free</button>
+                    </div>
+                    <div class="col-lg-6  col-md-6 mt-4 mt-lg-0">
+                        <center><img src="./assets/image/about/scholar-student.png" alt="" width="70%"></center>
+                    </div>
                 </div>
             </div>
         </div>
@@ -182,10 +188,10 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid ps-0 pe-0">
+        <div class="container-fluid ps-0 pe-0 main-about-page-sectt">
 
             <div class="row">
-                <div class="col-lg-6 ps-lg-5"
+                <div class="col-lg-6 col-md-6 ps-lg-5  ps-md-5"
                     style="justify-content: center !important;align-items: center !important;display: flex;">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -199,17 +205,16 @@
                             how
                             our university like, facilities, studenst and life in this university. Meet our graduate
                             admissions representative to learn more about our graduate programs and decide what it the
-                            best
-                            for you.</p>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 p-0 m-0">
+                <div class="col-lg-6 col-md-6 p-0 m-0">
                     <img src="./assets/image/about/uni-chairs.jpg" alt="" class="w-100">
                 </div>
-                <div class="col-lg-6 p-0 m-0 ">
+                <div class="col-lg-6 col-md-6 p-0 m-0 ">
                     <img src="./assets/image/about/graduation.jpg" alt="" class="w-100">
                 </div>
-                <div class="col-lg-6 ps-lg-5"
+                <div class="col-lg-6 col-md-6 ps-lg-5  ps-md-5"
                     style="justify-content: center !important;align-items: center !important;display: flex;">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="60px" height="60px"
@@ -226,7 +231,7 @@
                             for you.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 ps-lg-5"
+                <div class="col-lg-6 col-md-6 ps-md-5 pt-md-2 ps-lg-5"
                     style="justify-content: center !important;align-items: center !important;display: flex;">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -284,7 +289,7 @@
                             for you.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 p-0 m-0 ">
+                <div class="col-lg-6 col-md-6  p-0 m-0 ">
                     <img src="./assets/image/about/alumni.jpg" alt="" class="w-100">
                 </div>
             </div>
@@ -297,22 +302,26 @@
                     <p style="font-size: 25px;">Here you can review statistics about our Education Center</p>
                 </center>
                 <div class="row pb-5 pt-5">
-                    <div class="col-lg-3 col-md-3 about-counter-number">
+                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
+                        <i class="bi bi-globe-americas" style="font-size: 55px;"></i><br>
                         <span class="counter" style="display: inline-block;">94232</span>
                         <br>
                         <span style="font-size: 18px;">FOREIGN FOLLOWERS</span>
                     </div>
-                    <div class="col-lg-3 col-md-3 about-counter-number">
+                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
+                        <i class="bi bi-bell" style="font-size: 55px;"></i><br>
                         <span class="counter" style="display: inline-block;">12225</span>
                         <br>
                         <span style="font-size: 18px;">CLASSES COMPLETE</span>
                     </div>
-                    <div class="col-lg-3 col-md-3 about-counter-number">
+                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
+                        <i class="bi bi-people" style="font-size: 55px;"></i><br>
                         <span class="counter" style="display: inline-block;">282673</span>
                         <br>
                         <span style="font-size: 18px;">STUDENTS ENROLLED</span>
                     </div>
-                    <div class="col-lg-3 col-md-3 about-counter-number">
+                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
+                        <i class="bi bi-fingerprint" style="font-size: 55px;"></i><br>
                         <span class="counter" style="display: inline-block;">37</span>
                         <br>
                         <span style="font-size: 18px;">CERTIFIED TEACHERS</span>
@@ -324,9 +333,128 @@
         <script src="assets/JavaScript/jquery.counterup.min.js"></script>
 
         <!-- ------ About Counter End ------ -->
-
-
-
+        <div class="container-fluid about-stsrting-businnes-sec">
+            <div class="container">
+                <div class="row strtting-business">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="./assets/image/about/business-img.png" alt="" class="w-100">
+                    </div>
+                    <div class="col-lg-6 col-md-6" style="justify-content: center;align-items: center;display: flex;">
+                        <div class="">
+                            <h2 class="fw-bold beamember">
+                                Be A Member! <br> Business & Start Earning <br> Limitless Today</h2>
+                            <p>Instructors from around the world teach millions of students on Edma. We provide the
+                                tools
+                                and
+                                skills to teach what you love. And you can also achieve your goal with us.</p>
+                            <button class="p-2 about-business-butn">Get Business Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5 pt-5 pb-5" style="background-color: #E6E6E6;">
+            <div class="container">
+                <div class="row">
+                    <center>
+                        <h2>MEET OUR INSTRUCTORS</h2>
+                        <p>-----------------------</p>
+                    </center>
+                    <div class="col-lg-4 mt-3 col-md-4">
+                        <div class="card about-instructor-card">
+                            <center>
+                                <div class="instructor-iimg">
+                                    <img src="./assets/image/about/instructor-one.jpg" alt="" class="">
+                                </div>
+                                <h4 class="mt-3 text-white">Rebecca Smith</h4>
+                                <p class="mt-0 pt-0 text-white">Creative Director, Photographer</p>
+                                <p class="mt-0 pt-0 text-white">Aenean eu leo quam. Pellentesque ornare sem
+                                    lacinia quam venenatis vestibulum. Donec sed odio dui. Nullam quis risus eget
+                                    urna…</p>
+                                <button class="about-view-butn p-2">View Profile</button>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3 col-md-4">
+                        <div class="card about-instructor-card">
+                            <center>
+                                <div class="instructor-iimg">
+                                    <img src="./assets/image/about/instructor-two.jpg" alt="" class="">
+                                </div>
+                                <h4 class="mt-3 text-white">Ricardo Paulson</h4>
+                                <p class="mt-0 pt-0 text-white">Motivator</p>
+                                <p class="mt-0 pt-0 text-white">Sed posuere consectetur est at lobortis. Cum sociis
+                                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                <button class="about-view-butn p-2">View Profile</button>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3 col-md-4">
+                        <div class="card about-instructor-card">
+                            <center>
+                                <div class="instructor-iimg">
+                                    <img src="./assets/image/about/instructor-three.jpg" alt="" class="">
+                                </div>
+                                <h4 class="mt-3 text-white">Simon Snow</h4>
+                                <p class="mt-0 pt-0 text-white">Programmer, System Analysist</p>
+                                <p class="mt-0 pt-0 text-white">Integer posuere erat a ante venenatis dapibus posuere
+                                    velit aliquet. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo…</p>
+                                <button class="about-view-butn p-2">View Profile</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 mb-5 pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <h2>Who Will You Learn With?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met
+                        condimentum esti</p>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-01.jpg" alt=""></center>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-02.jpg" alt=""></center>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-06.jpg" alt=""></center>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-04.jpg" alt=""></center>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-12.jpg" alt=""></center>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-10.jpg" alt=""></center>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-08.jpg" alt=""></center>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <center><img src="./assets/image/about/client-logo-07.jpg" alt=""></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <center>
+                    <h3>WE BELIEVE THAT EDUCATION IS FOR EVERYONE</h3>
+                    <p>There are many features available to help you complete your project
+                    </p>
+                </center>
+                <div class="col-md-12 mt-3">
+                    <img src="./assets/image/about/university.jpg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
         <!-- ------ Footer Start ------ -->
 
         <footer class="footer-section">
@@ -433,39 +561,6 @@
         <!-- ------ Nav Button Link Start ------ -->
         <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
         <!-- ------ Nav Button Link End ------ -->
-
-        <!-- ------ Carousel Link Start ------ -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-            integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer">
-            </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-            crossorigin="anonymous" referrerpolicy="no-referrer">
-            </script>
-        <script type="text/javascript">
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                dots: false,
-                nav: false,
-                autoplayHoverPause: true,
-                autoplay: true,
-                autoplayTimeout: 2000,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 4
-                    }
-                }
-            })
-        </script>
-        <!-- ------ Carousel Link End ------ -->
 
         <!-- -----=====animated-script-start -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

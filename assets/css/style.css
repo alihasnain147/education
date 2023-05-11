@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @font-face {
   font-family: roboto;
   src: url(../font-family/Roboto/Roboto-Medium.ttf);
@@ -3197,13 +3198,6 @@ a {
 
 /* ------ About Hero Section Start ------ */
 
-.about-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../image/about/about-hero-background-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* ------ About Top Nav Start ------ */
 
 .about-top-nav {
@@ -3238,11 +3232,6 @@ a {
 /* ------ About Bottom Nav End ------ */
 
 /* ------ About Hero Section Text Start ------ */
-
-.about-hero-text {
-  padding-top: 120px;
-  padding-bottom: 200px;
-}
 
 .about-hero-text h1 {
   font-size: 60px;
@@ -3343,7 +3332,7 @@ a {
 }
 
 .about-counter-number .counter {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
   color: #91d0a3;
 }
@@ -5365,6 +5354,16 @@ BLOG CONTAINER
   text-align: center !important;
   color: white;
 }
+.about-business-butn {
+  background: linear-gradient(#36a0ad, #91d0a3);
+  width: 200px;
+  border: none;
+  border-radius: 50px;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: white;
+}
 /* blog-sections-started */
 .blog_sec_text_1{
   font-size: 15px;
@@ -5438,3 +5437,34 @@ BLOG CONTAINER
   color: #3ac568 !important;
 }
 /* blog-sections-ended */
+.instructor-iimg {
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+}
+.instructor-iimg img {
+  width: 100%;
+  border-radius: 50%;
+}
+.about-instructor-card {
+  background-color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
+    url(../image/about/globetwo.jpg);
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  background-size: cover;
+
+  padding: 40px 10px 40px 10px;
+}
+.about-view-butn {
+  width: 150px;
+  background: linear-gradient(#36a0ad, #91d0a3);
+  border: none;
+  border-radius: 50px;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: white;
+}
