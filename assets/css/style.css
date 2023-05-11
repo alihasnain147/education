@@ -3198,8 +3198,6 @@ a {
 
 /* ------ About Hero Section Start ------ */
 
-
-
 /* ------ About Top Nav Start ------ */
 
 .about-top-nav {
@@ -5390,3 +5388,34 @@ BLOG CONTAINER
   transition: 0.4s;
 }
 /* blog-sections-ended */
+.instructor-iimg {
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+}
+.instructor-iimg img {
+  width: 100%;
+  border-radius: 50%;
+}
+.about-instructor-card {
+  background-color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../image/about/globe.jpg);
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  background-size: cover;
+
+  padding: 40px 10px 40px 10px;
+}
+.about-view-butn {
+  width: 150px;
+  background: linear-gradient(#36a0ad, #91d0a3);
+  border: none;
+  border-radius: 50px;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: white;
+}
