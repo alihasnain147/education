@@ -41,4 +41,25 @@
   .main-toolbar-icons-sec ul {
     padding: 3px 0px 0px 0px;
   }
+
+  .z-countdown ul{
+    display: block;
+  }
+
+  .z-countdown h6{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+    word-spacing: 5px;
+    line-height: 1;
+  }
+  
+  .z-countdown h1{
+    font-size: 40px;
+    font-family: Inter;
+  }
+
+  .z-countdown ul li{
+margin: 20px 20px 0px 0px;
+  }
 }
