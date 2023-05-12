@@ -468,27 +468,182 @@
                 </p>
             </div>
             <div class="col-lg-6">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3 upcoming-event-card-1">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+                            <img src="assets/image/homepage/upcoming-event-img-1.jpg" class="img-fluid" alt="..."
+                                style="width: 100%;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <div class="text-center d-flex">
+                                    <h3>
+                                        23 <br> <span>June</span>
+                                    </h3>
+                                    <p>
+                                        <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
+                                        <br>
+                                        <i class="bi bi-geo-alt"></i> Sityana Road
+                                    </p>
+                                </div>
+                                <div class="upcoming-event-card-1-about">
+                                    <h4>
+                                        College Eucharistal (John of Rome) at Bartlemas Chapel.
+                                    </h4>
+                                    <a href="#">
+                                        <button>
+                                            View Details
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <div class="card mb-3 upcoming-event-card-2">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/image/homepage/upcoming-event-img-2.jpg" class="img-fluid" alt="..."
+                                style="width: 100%;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="text-center d-flex">
+                                    <h3>
+                                        23 <br> <span>June</span>
+                                    </h3>
+                                    <p>
+                                        <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
+                                        <br>
+                                        <i class="bi bi-geo-alt"></i> Sityana Road
+                                    </p>
+                                </div>
+                                <div class="upcoming-event-card-2-about">
+                                    <h4>
+                                        Joined Roman Catholic Mass at Corpuse Christal College Chapel.
+                                    </h4>
+                                    <a href="#">
+                                        <button>
+                                            View Details
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- ------- Upcoming Events End ------- -->
+
+    <!-- ------- Testimonial Start ------- -->
+
+    <section class="z-testimonial mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>
+                        TESTIMONIAL
+                    </h2>
+                    <p>
+                        How people said about Education
+                    </p>
+                </div>
+                <div class="testimonial-carousel row mt-4">
+                    <div class="testimonial col-lg-4">
+                        <figure class="snip1390">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg"
+                                alt="profile-sample3" class="profile" />
+                            <figcaption>
+                                <h2>Samira</h2>
+                                <h4>UX Design</h4>
+                                <blockquote>
+                                    I am absolutely thrilled with the UX design that was created for my website.
+                                </blockquote>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="testimonial col-lg-4">
+                        <figure class="snip1390 hover"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg"
+                                alt="profile-sample5" class="profile" />
+                            <figcaption>
+                                <h2>Shane Warne</h2>
+                                <h4>Accountant</h4>
+                                <blockquote>
+                                    An accountant is not just a number cruncher, but a valuable partner in the success of any business. 
+                                </blockquote>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="testimonial col-lg-4">
+                        <figure class="snip1390"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg"
+                                alt="profile-sample6" class="profile" />
+                            <figcaption>
+                                <h2>Avelina Smith</h2>
+                                <h4>Biology</h4>
+                                <blockquote>
+                                    The professors at Alliance University possess great subject knowledge and research.
+                                </blockquote>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const testimonials = document.querySelectorAll(".testimonial");
+        const carousel = document.querySelector(".testimonial-carousel");
+
+        let currentIndex = 0;
+
+        function showTestimonial(index) {
+            testimonials.forEach((testimonial) => testimonial.classList.remove("active"));
+            testimonials[index].classList.add("active");
+        }
+
+        function nextTestimonial() {
+            currentIndex++;
+            if (currentIndex >= testimonials.length) {
+                currentIndex = 0;
+            }
+            showTestimonial(currentIndex);
+        }
+
+        setInterval(nextTestimonial, 3000);
+
+        showTestimonial(currentIndex);
+
+    </script>
+
+    <!-- ------- Testimonial End ------- -->
+
+    <!-- ------- Our Blog Start ------- -->
+
+    <section>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-12 text-center">
+                    <h2>
+                        OUR BLOGS
+                    </h2>
+                    <p>
+                        Education news all over the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------- Our Blog End ------- -->
 
     <!-- ---------------==============background-imge1-Start=============--------------- -->
     <div class="container-fluid background-img1 p-5" data-animated="speedIn">
