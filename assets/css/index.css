@@ -351,6 +351,20 @@ li span {
 
 /* Countdown End */
 
+/* Upcoming Event Start */
+
+.z-up-event h2{
+  text-transform: uppercase;
+}
+
+.z-up-event-heading p{
+  font-size: 15px;
+  font-weight: 100;
+  color: gray;
+}
+
+/* Upcoming Event End */
+
 .background-img1 {
     background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.596)),
       url(../image/homepage1/homepage-1-our-goal-background-image.jpg);
