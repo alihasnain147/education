@@ -4739,3 +4739,119 @@ a {
   text-align: center !important;
   color: white;
 }
+/* blog-mian-2-section-staretd */
+.blg_main_2_card_img{
+  width: 10%;
+}
+.blog_sec_2_text_1{
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 17px;
+  color: #222222b9;
+}
+.blog_sec_2_text_2{
+  font-size: 31px;
+}
+.blog_sec_2_text_2:hover{
+  color: #3ac568;
+  transition: .4s;
+}
+.blog_sec_2_text_3{
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 15px;
+}
+.blog_sec_2_btn_1{
+  background-color: #3ac568;
+  color: white;
+  border: 2px solid #3ac568;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 15px;
+}
+.blog_sec_2_bg_2{
+  background-color: #3ac560 !important;
+}
+.blog_sec_2_text_5{
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.blog_sec_2_icons_2{
+  font-size: 25px;
+}
+.blog_sec_2_bg_1{
+  background-color: #3ac5689c;
+  padding: 9%;
+}
+.blog_sec_2_text_4{
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 22.7px;
+}
+/* Month header */
+
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 8px 0;
+  background-color:#dddddd4b;
+  font-size: 27px;
+}
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: transparent;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 15.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:19px;
+  color: rgba(128, 128, 128, 0.541);
+}
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+.calender_bttn{
+  width: 17%;
+  font-size: 13px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  margin-top: -15px;
+  margin-left: 17%;
+}
+.blog_sec_2_bttn_3{
+  background-color: #3ac55fa2;
+}
+.last_blogg_g{
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+/* blog-mian-2-section-ended */
