@@ -54,6 +54,57 @@
       referrerpolicy="no-referrer"
     />
     <!-- ------ Carousel Link End ------ -->
+    <!-- ======font-family-links======== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ======font-family-links======== -->
+
+    <!-- ------ FontAwesome Link Start ------ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ------ FontAwesome Link End ------ -->
+
+    <!-- -------================= Header Image Slider link ===============------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ------- Header Image Slider link ------- -->
+
+    <!--animation link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--animation link-->
+
+    <!-- ----------========java-counter-link-start===========----------------- -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1000,
+        });
+      });
+    </script>
+    <!-- ----------========java-counter-link-end===========----------------- -->
 
     <!-- ------- calendar link Start ------- -->
     <link rel="stylesheet" href="assets/calendar/dycalendar.css" />
@@ -262,9 +313,51 @@
         </div>
       </div>
     </div>
+    <!-- ======================================================== -->
 
     <!-- ============================================================ -->
+    <section class="z-countdown-bg mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 z-countdown">
+            <h6 id="headline">Get 100S of online courses for free</h6>
+            <h1>REGISTER NOW</h1>
+            <div id="countdown">
+              <ul>
+                <li>
+                  <span id="days"></span> <br />
+                  days
+                </li>
+                <li>
+                  <span id="hours"></span> <br />
+                  Hours
+                </li>
+                <li>
+                  <span id="minutes"></span> <br />
+                  Minutes
+                </li>
+                <li>
+                  <span id="seconds"></span> <br />
+                  Seconds
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 z-account-form">
+            <h3>Create Your Account Now</h3>
+            <form>
+              <input type="name" placeholder="Your Name*" />
+              <input type="email" placeholder="Email*" />
+              <input type="phone" placeholder="Phone*" />
+              <button>GET IT NOW</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================================== -->
 
+    <!-- ============================================================ -->
     <!-- ------ Nav Button Link Start ------ -->
     <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
     <!-- ------ Nav Button Link End ------ -->
@@ -286,20 +379,18 @@
     <script type="text/javascript">
       $(".owl-carousel").owlCarousel({
         loop: true,
-        margin: 10,
-        dots: true,
-        nav: false,
-        // autoplay: true,
-        // autoplayTimeout: 2000,
+        autoplay: true,
+        margin: 0,
+        nav: true,
         responsive: {
           0: {
             items: 1,
           },
           600: {
-            items: 1,
+            items: 3,
           },
           1000: {
-            items: 1,
+            items: 3,
           },
         },
       });
@@ -332,5 +423,134 @@
       });
     </script>
     <!-- -----=======animated-script-link====----- -->
+    <!-- ------------==================jQuery-link===============----------------- -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="assets/JavaScript/jquery.counterup.min.js"></script>
+    <!-- ------------==================jQuery-link===============----------------- -->
+
+    <script>
+      // Set the time interval for the auto slider
+      let sliderInterval = setInterval(() => {
+        $("#carouselExampleControls").carousel("next");
+      }, 4000);
+
+      // Pause the auto slider when the user interacts with the carousel
+      $(".carousel").on("slide.bs.carousel", () => {
+        clearInterval(sliderInterval);
+      });
+
+      // Resume the auto slider when the user stops interacting with the carousel
+      $(".carousel").on("slid.bs.carousel", () => {
+        sliderInterval = setInterval(() => {
+          $("#carouselExampleControls").carousel("next");
+        }, 4000);
+      });
+    </script>
+
+    <!-- ---------- Header Image Slider Link Start  ---------- -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        autoplay: false,
+        mouseDrag: true,
+        // autoplayHoverPause: true,
+        // autoplayTimeout: 2000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3.5,
+          },
+        },
+      });
+    </script>
+    <!-- -----=======animated-script-link====----- -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 20,
+        duration: 800,
+      });
+    </script>
+    <!-- -----=======animated-script-link====----- -->
+
+    <!-- ------ Nav Button Link Start ------ -->
+    <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+
+    <!-- ------ Nav Button Link End ------ -->
+
+    <script>
+      (function () {
+        const second = 1000,
+          minute = second * 60,
+          hour = minute * 60,
+          day = hour * 24;
+
+        //I'm adding this section so I don't have to keep updating this pen every year :-)
+        //remove this if you don't need it
+        let today = new Date(),
+          dd = String(today.getDate()).padStart(2, "0"),
+          mm = String(today.getMonth() + 1).padStart(2, "0"),
+          yyyy = today.getFullYear(),
+          nextYear = yyyy + 1,
+          dayMonth = "09/30/",
+          birthday = dayMonth + yyyy;
+
+        today = mm + "/" + dd + "/" + yyyy;
+        if (today > birthday) {
+          birthday = dayMonth + nextYear;
+        }
+        //end
+
+        const countDown = new Date(birthday).getTime(),
+          x = setInterval(function () {
+            const now = new Date().getTime(),
+              distance = countDown - now;
+
+            (document.getElementById("days").innerText = Math.floor(
+              distance / day
+            )),
+              (document.getElementById("hours").innerText = Math.floor(
+                (distance % day) / hour
+              )),
+              (document.getElementById("minutes").innerText = Math.floor(
+                (distance % hour) / minute
+              )),
+              (document.getElementById("seconds").innerText = Math.floor(
+                (distance % minute) / second
+              ));
+
+            //do something later when date is reached
+            if (distance < 0) {
+              document.getElementById("headline").innerText =
+                "It's my birthday!";
+              document.getElementById("countdown").style.display = "none";
+              document.getElementById("content").style.display = "block";
+              clearInterval(x);
+            }
+            //seconds
+          }, 0);
+      })();
+    </script>
   </body>
 </html>
