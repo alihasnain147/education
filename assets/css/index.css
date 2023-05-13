@@ -168,10 +168,12 @@ body {
 .z-popular-courses-teacher span {
   float: right;
   margin-top: 8px;
+  font-size: 15px;
 }
 
 .z-popular-courses-teacher span i {
-  color: #3ac569;
+  color: black;
+  font-size: 19px;
 }
 
 .card-img-top,
@@ -424,13 +426,6 @@ li span {
   text-align: left;
 }
 
-.upcoming-event-card-1-about h4
-
-,
-.upcoming-event-card-2-about h4 {
-  font-size: 20px;
-}
-
 .upcoming-event-card-1-about a,
 .upcoming-event-card-2-about a {
   text-decoration: none;
@@ -444,6 +439,9 @@ li span {
   padding: 8px 16px;
   border-radius: 8px;
   margin-top: 10px;
+  font-size: 15px;
+  font-family: sans-serif !important;
+  letter-spacing: 1px;
 }
 
 /* Upcoming Event End */
@@ -484,7 +482,7 @@ figure.snip1390 {
   color: #000000;
   text-align: center;
   font-size: 16px;
-  background-color: #2C3447;
+  background-color: #3ac5;
   padding: 30px;
   background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
   -webkit-box-sizing: border-box;
@@ -521,20 +519,22 @@ figure.snip1390 h2 {
 
 figure.snip1390 h4 {
   color: #a6a6a6;
+  font-size: 1em;
 }
 
 figure.snip1390 blockquote {
-  font-size: 1em;
-  padding: 45px 20px 40px 50px;
+  font-size: 15px;
+  padding: 20px 20px 20px 20px;
   margin-top: 30px;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
-  text-align: left;
+  text-align: justify;
   position: relative;
+  font-family: sans-serif !important;
 }
 
-figure.snip1390 blockquote:before {
+/* figure.snip1390 blockquote:before {
   font-family: 'FontAwesome';
   content: "\201C";
   position: absolute;
@@ -543,7 +543,7 @@ figure.snip1390 blockquote:before {
   font-style: normal;
   top: 0px;
   left: 20px;
-}
+} */
 
 figure.snip1390 .profile {
   width: 100px;
@@ -554,388 +554,92 @@ figure.snip1390 .profile {
   border: solid 5px #A6A57A;
 }
 
-
-
 /* Testimonial End */
 
-.background-img1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.596)),
-    url(../image/homepage1/homepage-1-our-goal-background-image.jpg);
-  background-size: cover;
-  width: 100%;
-  height: auto;
-}
+/* Blog Start */
 
-.background-text-1 {
-  font-size: 3rem;
-  font-weight: 400;
-  color: rgb(214, 206, 206);
-}
-
-.background-text-2 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: rgb(4, 214, 74);
-}
-
-.counter {
-  font-size: 4rem;
-  color: white;
-  font-weight: 500;
-}
-
-.working-hours {
-  font-size: xx-large;
-  font-weight: 600;
-  color: #fff;
-}
-
-.working-hours-span-1 {
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 400;
-  /* margin-left: 20px; */
-}
-
-.working-hours-span-2 {
-  background-color: rgb(4, 214, 74);
-  /* margin-left: 20px; */
-}
-
-.hr {
-  color: #fff;
-  width: 80%;
-}
-
-.choose-us {
-  font-size: xx-large;
-  font-weight: 600;
-  color: #fff;
-}
-
-.choose-p {
-  color: rgba(255, 255, 255, 0.651);
-  font-size: 1rem;
-}
-
-/* ----------===================Enquiry-Form-style=======================------------ */
-.enquiry-form {
-  color: #fff;
-}
-
-.subscribe-form-btn {
-  border: none;
-  border-radius: 50px;
-  background-color: rgb(4, 214, 74);
-  color: white;
-  width: 100%;
-  padding: 7px;
-  font-size: 20px;
-}
-
-.subscribe-form-btn:hover {
-  background-color: white;
-  color: rgb(4, 214, 74);
-}
-
-/* --------------Homepage-1-Testimonial starts */
-
-/* .testimonial {
-  background-color: white;
-  text-align: center;
-  padding: 30px 30px 230px;
-  position: relative;
-}
-
-.testimonial::before,
-.testimonial::after {
-  content: "";
-  border-top: 40px solid white;
-  border-right: 125px solid transparent;
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-}
-
-.testimonial::after {
-  border-right: none;
-  border-left: 125px solid transparent;
-  left: auto;
-  right: 0;
-}
-
-.testimonial .icon {
-  display: inline-block;
-  font-size: 80px;
-  color: rgb(4, 214, 74);
-  margin-bottom: 20px;
-  opacity: 0.6;
-}
-
-.testimonial .description {
-  font-size: 14px;
-  color: #000;
-  text-align: justify;
-  margin-bottom: 30px;
-  opacity: 0.9;
-}
-
-.testimonial .testimonial-content {
-  width: 100%;
-  left: 0;
-  position: absolute;
-}
-
-.testimonial .pic {
-  display: inline-block;
-  border: 4px solid white;
-  border-radius: 50%;
-  box-shadow: 0 0 0px 2px rgb(4, 214, 74);
+.z-blog-card-1{
   overflow: hidden;
-  z-index: 1;
-  position: relative;
+  border-radius: 10px;
 }
 
-.testimonial .pic img {
-  width: 100%;
-  height: auto;
+.z-blog-card-1 h5,
+.z-blog-card-2 h5,
+.z-blog-card-3 h5{
+  font-size: 19px;
 }
 
-.testimonial .name {
+.z-blog-card-1 p,
+.z-blog-card-2 p,
+.z-blog-card-3 p{
   font-size: 15px;
-  font-weight: bold;
+  margin-top: 10px;
+}
+
+.z-blog-card-1 a,
+.z-blog-card-2 a,
+.z-blog-card-3 a{
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.z-blog-card-1 span{
+  position: relative;
+}
+
+.card-img-top{
+  transition: 0.5s ease-in-out;
+}
+
+.z-blog-card-1:hover .card-img-top{
+  transform: scale(1.05);
+}
+
+.z-blog-card-1-date button{
+  background-color: #3ac569;
+  border: 1px solid #3ac569;
   color: white;
-  text-transform: capitalize;
-  margin: 10px 0 5px 0;
-} */
+  padding: 5px 10px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -20px;
+  left: 4%;
+}
 
-/* 
-  .designing :hover {
-      transition: all 0.2s ease-in-out;
-      transform: scale(1.005);
-  } */
+/* Blog End */
 
-/* --------------Homepage-1-testimonial end---------------- */
+/* Information Section Start */
 
-/* ------ Homepage-2 Body New Events And Blogs Start ------ */
-
-.homepage-2-new-event-and-blog {
-  background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.74)),
-    url(../image/homepage-2/homepage-2-new-event-and-blog-background-image.jpg);
-  background-size: cover;
+.z-information{
+  background: url(../image/homepage/information-bg-image.jpg);
   background-repeat: no-repeat;
-  padding-left: 49px;
-  padding-right: 66px;
-}
-
-.homepage-2-new-event h4,
-.homepage-2-new-event h1 {
-  color: white;
-}
-
-.homepage-2-new-event-1 {
-  background-color: transparent;
-  border: none;
-}
-
-.homepage-2-new-event-date {
-  border: 1px solid rgb(4, 214, 74);
-  text-align: center;
-  padding: 10px;
-  border-radius: 15px;
-}
-
-.custom:hover .homepage-2-new-event-date {
-  background: rgb(4, 201, 70);
-}
-
-.homepage-2-new-event-text {
-  background-color: transparent;
-  border: none;
-  align-items: center;
-  justify-content: center;
-}
-
-.homepage-2-new-event-text p {
-  color: white;
-  font-size: 18px;
-}
-
-.homepage-2-blogs {
-  padding-left: 40px;
-}
-
-.homepage-2-blogs h1 {
-  color: white;
-  padding-left: 18px;
-}
-
-.homepage-2-blog-1 p {
-  color: white;
-  font-size: 23px;
-  padding-left: 20px;
-}
-
-.homepage-2-blog-1 p span {
-  border: none;
-  font-size: 20px;
-}
-
-.homepage-2-blog-1 p span i {
-  color: rgb(4, 214, 74);
-}
-
-/* ------ Homepage-2 Body New Events And Blogs End ------ */
-
-/* ------ Homepage-2 Body Gallery Start ------ */
-
-.homepage-2-gallery-styling {
-  padding-left: 50px;
-  padding-right: 57px;
-}
-
-.home-gallery-text {
-  font-size: 1.7rem;
-  color: #444;
-}
-
-.home-gallery-text1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  /* margin-top: -15px; */
-}
-
-.home-gallery-24 {
-  font-size: 4.5rem;
-  font-weight: 500;
-}
-
-.home-gallery-hours {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-top: -5px;
-  text-align: center;
-  color: rgb(95, 93, 93);
-}
-
-.home-gallery-text-2 {
-  /* margin-left: 50px; */
-  /* line-height: 25px; */
-  /* letter-spacing: 2px; */
-  font-weight: 500;
-  color: rgb(107, 107, 107);
-}
-
-/* -----------================gallery-imge-start================---------------- */
-#gallery {
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  column-count: 4;
-
-  -webkit-column-gap: 20px;
-  -moz-column-gap: 20px;
-  column-gap: 20px;
-}
-
-@media (max-width: 1200px) {
-  #gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-
-    -webkit-column-gap: 20px;
-    -moz-column-gap: 20px;
-    column-gap: 20px;
-  }
-}
-
-@media (max-width: 800px) {
-  #gallery {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-
-    -webkit-column-gap: 20px;
-    -moz-column-gap: 20px;
-    column-gap: 20px;
-  }
-}
-
-@media (max-width: 600px) {
-  #gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
-}
-
-#gallery img,
-#gallery video {
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: auto;
-  margin: 4% auto;
-  /* box-shadow: -3px 5px 15px #000; */
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  padding: 100px 0px;
 }
 
-.home-gallery {
-  /* border: .5px solid rgb(109, 108, 108); */
-  /* box-shadow: 2px 2px 9px rgb(29, 28, 28); */
-  /* border-radius: 15px; */
+.z-information form{
   position: relative;
 }
 
-.home-gallery:hover .overlay {
-  height: auto;
-}
-
-.home-gallery img {
+.z-information form input{
   width: 100%;
-  /* height: 27vh; */
-  /* border-radius: 15px 15px 0px 0px; */
+  padding: 14px 14px;
+  border-radius: 8px;
+  border: 1px solid gray;
 }
 
-.overlay {
+.z-information form button{
+  background-color: #3ac569;
+  color: white;
+  border: 1px solid #3ac569;
+  border-radius: 0px 8px 8px 0px;
+  padding: 14px 28px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 0;
   right: 0;
-  /* background: linear-gradient(rgba(20, 20, 20, 0.521), rgba(0, 0, 0, 0.3)); */
-  color: #fff;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: 0.5s ease;
-  /* border-radius: 10px; */
 }
 
-.home-gallery-image-1 {
-  position: relative;
-}
-
-.home-gallery-overlay {
-  position: absolute;
-  bottom: 11px;
-  left: 0;
-  right: 0;
-  /* margin: 12px; */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.329));
-  color: #fff;
-  padding-left: 0px;
-  padding-right: 0px;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  top: 13px;
-}
-
-.home-gallery-image-1:hover .home-gallery-overlay {
-  width: auto;
-  height: auto;
-}
-
-/* ------ Homepage-2 Body Gallery End ------ */
-
-/* Body End */
+/* Information Section End */

@@ -137,11 +137,30 @@
         </button> -->
     </div>
 
+    <script>
+        // Set the time interval for the auto slider
+        let sliderInterval = setInterval(() => {
+            $('#carouselExampleControls').carousel('next');
+        }, 4000);
+
+        // Pause the auto slider when the user interacts with the carousel
+        $('.carousel').on('slide.bs.carousel', () => {
+            clearInterval(sliderInterval);
+        });
+
+        // Resume the auto slider when the user stops interacting with the carousel
+        $('.carousel').on('slid.bs.carousel', () => {
+            sliderInterval = setInterval(() => {
+                $('#carouselExampleControls').carousel('next');
+            }, 4000);
+        });
+    </script>
+
     <!-- ------ Header End ------ -->
 
     <!-- ------- Why Choose Us Section Start ------- -->
 
-    <div class="container">
+    <div class="container pt-lg-1">
         <div class="row" data-animated="SpeedIn">
             <div class="col-lg-6 mt-4 mt-md-5 z-why-sec" data-aos="slide-up">
                 <div>
@@ -150,18 +169,22 @@
                         <h2 class="mb-2">WHY CHOOSE US</h2>
                     </div>
                     <h5>About <span style="font-weight: bold;">IVY Institute</span></h5>
-                    <p>
+                    <p class="text-muted mt-3" style="font-weight: 400;">
                         Choose our home education program for a personalized and holistic learning experience that
                         develops both knowledge and character. Join us in cultivating curiosity, critical thinking, and
                         creativity.
                         <br><br>
-                        > &nbsp Flexible scheduling options to accommodate busy lifestyles.
+                        <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                        &nbsp Flexible scheduling options to accommodate busy lifestyles.
                         <br>
-                        > &nbsp Focus on curiosity, critical thinking, and creativity
+                        <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                        &nbsp Focus on curiosity, critical thinking, and creativity
                         <br>
-                        > &nbsp Personalized learning experience
+                        <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                        &nbsp Personalized learning experience
                         <br>
-                        > &nbsp Personalized learning experience
+                        <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                        &nbsp Personalized learning experience
                     </p>
                     <a href="#">
                         <button class="homepage-1-read-more-button btn" type="submit">Read More</button>
@@ -179,36 +202,38 @@
 
     <!-- ------- Counter Section Start ------- -->
 
-    <section class="z-counter mt-md-5 mt-4">
+    <section class="z-counter mt-md-5 mt-4 pt-lg-2">
         <div class="container">
             <div class="row text-center mb-4">
                 <div class="col-lg-3 col-md-3">
-                    <span style="color: white; font-size: 30px;"><i class="bi bi-mortarboard-fill"></i></span>
+                    <span style="color: white; font-size: 50px;"><i class="bi bi-mortarboard-fill"></i></span>
                     <br>
                     <span class=" counter "
-                        style="display: inline-block; font-size: 45px; font-weight: 100;">98</span><span
+                        style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">98</span><span
                         style="color: white;font-size: 2rem;">%</span>
                     <h6 class="" style="color: white;">Graduates</h6>
                 </div>
                 <div class="col-lg-3 col-md-3">
-                    <span style="color: white; font-size: 30px;"><i class="bi bi-patch-check-fill"></i></span>
+                    <span style="color: white; font-size: 50px;"><i class="bi bi-patch-check-fill"></i></span>
                     <br>
                     <span class=" counter"
-                        style="display: inline-block; font-size: 45px; font-weight: 100;">30</span><span
+                        style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">30</span><span
                         style="color: white;font-size: 2rem;">+</span>
                     <h6 style="color: white;">Certified Teachers</h6>
                 </div>
                 <div class="col-lg-3 col-md-3">
-                    <span style="color: white; font-size: 30px;"><i class="bi bi-bar-chart-line-fill"></i></span>
+                    <span style="color: white; font-size: 50px;"><i class="bi bi-bar-chart-line-fill"></i></span>
                     <br>
-                    <span class=" counter" style="display: inline-block; font-size: 45px; font-weight: 100;">8</span>
+                    <span class=" counter"
+                        style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">8</span>
                     <h6 style="color: white;">Student Campuses</h6>
 
                 </div>
                 <div class="col-lg-3 col-md-3">
-                    <span style="color: white; font-size: 30px;"><i class="bi bi-person-fill"></i></span>
+                    <span style="color: white; font-size: 50px;"><i class="bi bi-person-fill"></i></span>
                     <br>
-                    <span class=" counter" style="display: inline-block; font-size: 45px; font-weight: 100;">6123</span>
+                    <span class=" counter"
+                        style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">6123</span>
                     <h6 style="color: white;">Students </h6>
                 </div>
             </div>
@@ -219,9 +244,9 @@
 
     <!-- ------ Popular Courses Section Start ------ -->
 
-    <div class="container">
+    <div class="container mt-4 mt-md-5">
         <div class="row">
-            <div class="col-lg-12 text-center mt-4">
+            <div class="col-lg-12 text-center">
                 <h2>
                     Popular Courses
                 </h2>
@@ -231,8 +256,8 @@
                     <div class="item">
                         <div class="card z-popular-courses">
                             <img src="assets/image/homepage/popular-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <div class="z-popular-courses-type">
+                            <div class="card-body pt-3" style="margin-left: -15px;">
+                                <div class="z-popular-courses-type ms-3">
                                     <h6>
                                         Business
                                     </h6>
@@ -240,17 +265,17 @@
                                 <h5>
                                     Become a Business Strategy & Planning
                                 </h5>
-                                <p>
+                                <p class="text-muted" style="font-family: sans-serif !important;">
                                     Good business leaders create a vision, articulate and passionately the vision.
                                 </p>
                                 <hr style="color: gray;">
                                 <div class="z-popular-courses-teacher">
-                                    <span>
-                                        <i class="bi bi-person-fill"></i> 6 &nbsp
-                                        <i class="bi bi-book-fill"></i> 12 &nbsp
+                                    <span class="text-muted">
+                                        <i class="bi bi-person"></i> 6 &nbsp
+                                        <i class="bi bi-book"></i> 12 &nbsp
                                         <i class="bi bi-question-circle"></i> 2
                                     </span>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-muted" style="font-family: sans-serif !important; font-size: 14px;">
                                         <img src="assets/image/homepage/popular-1(1).jpg" alt=""
                                             style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Mark Alen
                                     </div>
@@ -261,8 +286,8 @@
                     <div class="item">
                         <div class="card z-popular-courses-1">
                             <img src="assets/image/homepage/popular-2(2).jpg" class="card-img-top-1" alt="...">
-                            <div class="card-body">
-                                <div class="z-popular-courses-type">
+                            <div class="card-body" style="margin-left: -15px;">
+                                <div class="z-popular-courses-type ms-3">
                                     <h6>
                                         Chemistry
                                     </h6>
@@ -270,17 +295,17 @@
                                 <h5>
                                     Become a Chemist & Chemical Processes
                                 </h5>
-                                <p>
+                                <p class="text-muted" style="font-family: sans-serif !important;">
                                     Chemistry is the study of matter and its properties.
                                 </p>
                                 <hr style="color: gray;">
                                 <div class="z-popular-courses-teacher">
-                                    <span>
-                                        <i class="bi bi-person-fill"></i> 6 &nbsp
-                                        <i class="bi bi-book-fill"></i> 12 &nbsp
+                                    <span class="text-muted">
+                                        <i class="bi bi-person"></i> 6 &nbsp
+                                        <i class="bi bi-book"></i> 12 &nbsp
                                         <i class="bi bi-question-circle"></i> 2
                                     </span>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-muted"  style="font-family: sans-serif !important; font-size: 14px;">
                                         <img src="assets/image/homepage/popular-3(3).jpg" alt=""
                                             style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Philton
                                     </div>
@@ -291,8 +316,8 @@
                     <div class="item">
                         <div class="card z-popular-courses-2">
                             <img src="assets/image/homepage/popular-3.jpg" class="card-img-top-2" alt="...">
-                            <div class="card-body">
-                                <div class="z-popular-courses-type">
+                            <div class="card-body" style="margin-left: -15px;">
+                                <div class="z-popular-courses-type ms-3">
                                     <h6>
                                         Accounts
                                     </h6>
@@ -300,17 +325,17 @@
                                 <h5>
                                     Become a Business Strategy & Planning
                                 </h5>
-                                <p>
+                                <p class="text-muted" style="font-family: sans-serif !important;">
                                     Good business leaders create a vision, articulate and passionately the vision.
                                 </p>
                                 <hr style="color: gray;">
                                 <div class="z-popular-courses-teacher">
-                                    <span>
-                                        <i class="bi bi-person-fill"></i> 6 &nbsp
-                                        <i class="bi bi-book-fill"></i> 12 &nbsp
+                                    <span class="text-muted">
+                                        <i class="bi bi-person"></i> 6 &nbsp
+                                        <i class="bi bi-book"></i> 12 &nbsp
                                         <i class="bi bi-question-circle"></i> 2
                                     </span>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-muted"  style="font-family: sans-serif !important; font-size: 14px;">
                                         <img src="assets/image/homepage/popular-4(4).jpg" alt=""
                                             style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Alieen
                                     </div>
@@ -321,8 +346,8 @@
                     <div class="item">
                         <div class="card z-popular-courses-3">
                             <img src="assets/image/homepage/popular-4.jpg" class="card-img-top-3" alt="...">
-                            <div class="card-body">
-                                <div class="z-popular-courses-type">
+                            <div class="card-body" style="margin-left: -15px;">
+                                <div class="z-popular-courses-type ms-3">
                                     <h6>
                                         Business
                                     </h6>
@@ -330,17 +355,17 @@
                                 <h5>
                                     Become a Business Strategy & Planning
                                 </h5>
-                                <p>
+                                <p class="text-muted" style="font-family: sans-serif !important;">
                                     Good business leaders create a vision, articulate and passionately the vision.
                                 </p>
                                 <hr style="color: gray;">
                                 <div class="z-popular-courses-teacher">
-                                    <span>
-                                        <i class="bi bi-person-fill"></i> 6 &nbsp
-                                        <i class="bi bi-book-fill"></i> 12 &nbsp
+                                    <span class="text-muted">
+                                        <i class="bi bi-person"></i> 6 &nbsp
+                                        <i class="bi bi-book"></i> 12 &nbsp
                                         <i class="bi bi-question-circle"></i> 2
                                     </span>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-muted"  style="font-family: sans-serif !important; font-size: 14px;">
                                         <img src="assets/image/homepage/popular-5(5).jpg" alt=""
                                             style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Mark Alen
                                     </div>
@@ -351,8 +376,8 @@
                     <div class="item">
                         <div class="card z-popular-courses-4">
                             <img src="assets/image/homepage/popular-5.jpg" class="card-img-top-4" alt="...">
-                            <div class="card-body">
-                                <div class="z-popular-courses-type">
+                            <div class="card-body" style="margin-left: -15px;">
+                                <div class="z-popular-courses-type ms-3">
                                     <h6>
                                         Business
                                     </h6>
@@ -360,17 +385,17 @@
                                 <h5>
                                     Become a Business Strategy & Planning
                                 </h5>
-                                <p>
+                                <p class="text-muted" style="font-family: sans-serif !important;">
                                     Good business leaders create a vision, articulate and passionately the vision.
                                 </p>
                                 <hr style="color: gray;">
                                 <div class="z-popular-courses-teacher">
-                                    <span>
-                                        <i class="bi bi-person-fill"></i> 6 &nbsp
-                                        <i class="bi bi-book-fill"></i> 12 &nbsp
+                                    <span class="text-muted">
+                                        <i class="bi bi-person"></i> 6 &nbsp
+                                        <i class="bi bi-book"></i> 12 &nbsp
                                         <i class="bi bi-question-circle"></i> 2
                                     </span>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-muted"  style="font-family: sans-serif !important; font-size: 14px;">
                                         <img src="assets/image/homepage/popular6(6).jpg" alt=""
                                             style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Alexende
                                     </div>
@@ -381,8 +406,8 @@
                     <div class="item">
                         <div class="card z-popular-courses-5">
                             <img src="assets/image/homepage/popular-6.jpg" class="card-img-top-5" alt="...">
-                            <div class="card-body">
-                                <div class="z-popular-courses-type">
+                            <div class="card-body" style="margin-left: -15px;">
+                                <div class="z-popular-courses-type ms-3">
                                     <h6>
                                         Business
                                     </h6>
@@ -390,17 +415,17 @@
                                 <h5>
                                     Become a Business Strategy & Planning
                                 </h5>
-                                <p>
+                                <p class="text-muted" style="font-family: sans-serif !important;">
                                     Good business leaders create a vision, articulate and passionately the vision.
                                 </p>
                                 <hr style="color: gray;">
                                 <div class="z-popular-courses-teacher">
-                                    <span>
-                                        <i class="bi bi-person-fill"></i> 6 &nbsp
-                                        <i class="bi bi-book-fill"></i> 12 &nbsp
+                                    <span class="text-muted">
+                                        <i class="bi bi-person"></i> 6 &nbsp
+                                        <i class="bi bi-book"></i> 12 &nbsp
                                         <i class="bi bi-question-circle"></i> 2
                                     </span>
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center text-muted"  style="font-family: sans-serif !important; font-size: 14px;">
                                         <img src="assets/image/homepage/popular8(8).jpg" alt=""
                                             style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Mark Alen
                                     </div>
@@ -413,11 +438,41 @@
         </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            mouseDrag: true,
+            autoplayHoverPause: true,
+            autoplayTimeout: 2000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3.5
+                }
+            }
+        })
+    </script>
+
     <!-- ------ Popular Courses Section End ------ -->
 
     <!-- ------- Count Down Section Start ------- -->
-
-    <section class="z-countdown-bg mt-4">
+    <!-- 
+    <section class="z-countdown-bg mt-4 mt-md-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 z-countdown">
@@ -451,14 +506,60 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <script>
+            (function () {
+                const second = 1000,
+                    minute = second * 60,
+                    hour = minute * 60,
+                    day = hour * 24;
+
+                //I'm adding this section so I don't have to keep updating this pen every year :-)
+                //remove this if you don't need it
+                let today = new Date(),
+                    dd = String(today.getDate()).padStart(2, "0"),
+                    mm = String(today.getMonth() + 1).padStart(2, "0"),
+                    yyyy = today.getFullYear(),
+                    nextYear = yyyy + 1,
+                    dayMonth = "09/30/",
+                    birthday = dayMonth + yyyy;
+
+                today = mm + "/" + dd + "/" + yyyy;
+                if (today > birthday) {
+                    birthday = dayMonth + nextYear;
+                }
+                //end
+
+                const countDown = new Date(birthday).getTime(),
+                    x = setInterval(function () {
+
+                        const now = new Date().getTime(),
+                            distance = countDown - now;
+
+                        document.getElementById("days").innerText = Math.floor(distance / (day)),
+                            document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                            document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                        //do something later when date is reached
+                        if (distance < 0) {
+                            document.getElementById("headline").innerText = "It's my birthday!";
+                            document.getElementById("countdown").style.display = "none";
+                            document.getElementById("content").style.display = "block";
+                            clearInterval(x);
+                        }
+                        //seconds
+                    }, 0)
+            }());
+    </script>
 
     <!-- ------- Count Down Section End ------- -->
 
     <!-- ------- Upcoming Events Start ------- -->
 
     <div class="container">
-        <div class="row z-up-event mt-4">
+        <div class="row z-up-event mt-4 mt-md-5">
             <div class="col-lg-12 text-center z-up-event-heading">
                 <h2>
                     upcoming events
@@ -467,7 +568,7 @@
                     Upcoming Educational Events for your future career.
                 </p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-lg-4 mt-3">
                 <div class="card mb-3 upcoming-event-card-1">
                     <div class="row g-0">
                         <div class="col-md-4">
@@ -487,9 +588,9 @@
                                     </p>
                                 </div>
                                 <div class="upcoming-event-card-1-about">
-                                    <h4>
+                                    <h5 style="font-family: sans-serif !important;">
                                         College Eucharistal (John of Rome) at Bartlemas Chapel.
-                                    </h4>
+                                    </h5>
                                     <a href="#">
                                         <button>
                                             View Details
@@ -501,7 +602,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-lg-4 mt-3">
                 <div class="card mb-3 upcoming-event-card-2">
                     <div class="row g-0">
                         <div class="col-md-4">
@@ -521,9 +622,9 @@
                                     </p>
                                 </div>
                                 <div class="upcoming-event-card-2-about">
-                                    <h4>
+                                    <h5 style="font-family: sans-serif !important;">
                                         Joined Roman Catholic Mass at Corpuse Christal College Chapel.
-                                    </h4>
+                                    </h5>
                                     <a href="#">
                                         <button>
                                             View Details
@@ -542,14 +643,14 @@
 
     <!-- ------- Testimonial Start ------- -->
 
-    <section class="z-testimonial mt-4">
+    <section class="z-testimonial mt-4 mt-md-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>
+                    <h2 style="font-size: 1.9rem; margin-bottom: 0px;">
                         TESTIMONIAL
                     </h2>
-                    <p>
+                    <p class="fs-5 ps-3" style="font-family: sans-serif !important;">
                         How people said about Education
                     </p>
                 </div>
@@ -561,8 +662,8 @@
                             <figcaption>
                                 <h2>Samira</h2>
                                 <h4>UX Design</h4>
-                                <blockquote>
-                                    I am absolutely thrilled with the UX design that was created for my website.
+                                <blockquote class="text-muted">
+                                    " I am absolutely thrilled with the UX design that was created for my website "
                                 </blockquote>
                             </figcaption>
                         </figure>
@@ -572,10 +673,10 @@
                                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg"
                                 alt="profile-sample5" class="profile" />
                             <figcaption>
-                                <h2>Shane Warne</h2>
+                                <h2>Olivers</h2>
                                 <h4>Accountant</h4>
-                                <blockquote>
-                                    An accountant is not just a number cruncher, but a valuable partner in the success of any business. 
+                                <blockquote class="text-muted">
+                                    " An accountant is not just a number cruncher, but a valuable partner ibusiness "
                                 </blockquote>
                             </figcaption>
                         </figure>
@@ -585,10 +686,10 @@
                                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg"
                                 alt="profile-sample6" class="profile" />
                             <figcaption>
-                                <h2>Avelina Smith</h2>
+                                <h2>Avelina</h2>
                                 <h4>Biology</h4>
-                                <blockquote>
-                                    The professors at Alliance University possess great subject knowledge and research.
+                                <blockquote class="text-muted">
+                                   " The professors at Alliance great University  there subject knowledge and research "
                                 </blockquote>
                             </figcaption>
                         </figure>
@@ -639,655 +740,94 @@
                         Education news all over the world.
                     </p>
                 </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="card z-blog-card-1">
+                        <span>
+                            <img src="assets/image/homepage/blog-1.jpg" class="card-img-top" alt="...">
+                            <div class="z-blog-card-1-date">
+                                <button>July 10, 2023</button>
+                            </div>
+                        </span>
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Empowering Minds and Transforming Lives</h5>
+                            <p class="card-text">
+                                Education is the most powerful weapon which you can use to change the world.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="card z-blog-card-1">
+                        <span>
+                            <img src="assets/image/homepage/blog-2.jpg" class="card-img-top" alt="...">
+                            <div class="z-blog-card-1-date">
+                                <button>July 10, 2023</button>
+                            </div>
+                        </span>
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Empowering Minds and Transforming Lives</h5>
+                            <p class="card-text">
+                                Education is the most powerful weapon which you can use to change the world.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="card z-blog-card-1">
+                        <span>
+                            <img src="assets/image/homepage/blog-3.jpg" class="card-img-top" alt="...">
+                            <div class="z-blog-card-1-date">
+                                <button>July 10, 2023</button>
+                            </div>
+                        </span>
+                        <div class="card-body mt-3">
+                            <h5 class="card-title">Empowering Minds and Transforming Lives</h5>
+                            <p class="card-text">
+                                Education is the most powerful weapon which you can use to change the world.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ------- Our Blog End ------- -->
 
-    <!-- ---------------==============background-imge1-Start=============--------------- -->
-    <div class="container-fluid background-img1 p-5" data-animated="speedIn">
-        <div class="text-center">
-            <p class="background-text-1 mb-4" data-aos="fade-down" style="font-weight: 500; font-size: 2.5rem;">Our
-                Goals To</p>
-            <p class="background-text-2" data-aos="fade-right">Educate The
-                Leaders Of Enterprises</p>
-        </div>
+    <!-- ------- More Information Section Start ------- -->
 
-        <div class="container-fluid pt-5" style="background-color: rgb(0, 0, 51); border-radius: 15px;"
-            data-aos="zoom-in">
-            <div class="container">
-                <div class="row">
-                    <!-- ----------========Working-Hours-start============------------- -->
-                    <div class="col-lg-6">
-                        <div style="float: left;" class="vertical-line"></div>
-                        <div class="homepage-1-content">
-                            <h5 class="mb-3" style="color: white;">WHY<span style="font-weight: bold;"> CHOOSE US</span>
-                            </h5>
-                        </div>
-                        <h5 style="color: white;">About <span style="font-weight: bold;">IVY Institute</span></h5>
-                        <p class="mb-5" style=" color: white;">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit.
-                            Doloribus amet
-                            molestiae, voluptates alias
-                            doloremque omnis! Sequi, doloremque fuga. Suscipit porro enim dicta vel dolorum eaque
-                            magnam.
-                            Fugiat
-                            nesciunt aspernatur dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. At odio
-                            commodi
-                            aut eligendi porro voluptatem ratione inventore eum in molestiae. Distinctio quas laudantium
-                            ab
-                            nemo
-                            blanditiis hic tenetur impedit cupiditate?Lorem ipsum dolor sit, amet consectetur
-                            adipisicing
-                            elit.
-                            Praesentium non hic consequuntur esse nisi officia, ratione totam dolore eaque earum sint id
-                            iure
-                            at. Quasi quis voluptatem quod cupiditate asperiores?
-                        </p>
-                    </div>
-                    <!-- ----------========Working-Hours-end============------------- -->
-
-                    <!-- ----------========Why-Choose-us-start============------------- -->
-                    <!-- ----------========Why-Choose-us-end============------------- -->
-
-                    <!-- ----------========Enquiry-Form-start============------------- -->
-                    <div class="col-lg-6">
-                        <div style="float: left;" class="vertical-line"></div>
-                        <div class="homepage-1-content mb-2">
-                            <h5 class="enquiry-form text-start">ENQUIRY FORM</h5>
-                        </div>
-                        <form>
-                            <div class="row">
-                                <div class="col-lg-6 mt-4 mb-3">
-
-                                    <input type="text" class="form-control" placeholder="Enter email" name="email"
-                                        style="border-radius: 5px;">
-                                </div>
-                                <div class="col-lg-6 mt-4 mb-3">
-                                    <input type="password" class="form-control" placeholder="Enter password" name="pswd"
-                                        style="border-radius: 5px;">
-                                </div>
-                                <div class="col-lg-6 mt-4 mb-3">
-                                    <input type="text" class="form-control" placeholder="Enter email" name="email"
-                                        style="border-radius: 5px;">
-                                </div>
-                                <div class="col-lg-6 mt-4 pb-5">
-                                    <input type="password" class="form-control" placeholder="Enter password" name="pswd"
-                                        style="border-radius: 5px;">
-                                </div>
-                            </div>
-                        </form>
-                        <div class="text-start">
-                            <button class="homepage-1-visit-campus-button mb-3">
-                                SUBMIT
-                            </button>
-                            &nbsp
-                            <button class="homepage-1-schedule-button mb-3">
-                                </span>
-                                CANCEL
-                            </button>
-                        </div>
-                    </div>
-                    <!-- ----------========Enquiry-Form-End============------------- -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ---------------==============background-imge1-end=============--------------- -->
-
-
-    <!-- ----------====================Homepage-1 Testimonial section start===================== -->
-
-
-    <h2 class="text-center pt-5" style="font-weight: bold;" data-aos="fade-in">OUR TESTIMONIAL </h2>
-    <div class="wrapper p-5 mb-4">
-        <div class="owl-carousel owl-theme ">
-            <div class="designing ">
-                <div class="testimonial" style="border: 1px solid lightgray;border-radius: 15px;">
-                    <span class="icon fa fa-quote-left"></span>
-                    <p class="description">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry's standard dummy text ever since the 1500s.
-                    </p>
-                    <div class="testimonial-content ">
-                        <div class="pic">
-                            <img src="https://picsum.photos/130/130?image=1027" alt="">
-                        </div><br>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <h3 class="name" style="color: #000;">Michele Miller</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="designing">
-                <div class="testimonial" style="border: 1px solid lightgray;border-radius: 15px;">
-                    <span class="icon fa fa-quote-left"></span><br>
-                    <p class="description">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry's standard dummy text ever since the 1500s.
-                    </p>
-                    <div class="testimonial-content">
-                        <div class="pic">
-                            <img src="https://picsum.photos/130/130?image=839" alt="">
-                        </div><br>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star-half-stroke" aria-hidden="true" style="color: orange;"></i>
-                        <h3 class="name" style="color: #000;">Patricia Knott</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="designing">
-                <div class="testimonial" style="border: 1px solid lightgray;border-radius: 15px;">
-                    <span class="icon fa fa-quote-left"></span>
-                    <p class="description">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry's standard dummy text ever since the 1500s.
-                    </p>
-                    <div class="testimonial-content">
-                        <div class="pic">
-                            <img src="https://picsum.photos/130/130?image=856" alt="">
-                        </div><br>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star-half-stroke" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa-regular fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <h3 class="name" style="color: #000;">Mary Huntley</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="designing">
-                <div class="testimonial" style="border: 1px solid lightgray;border-radius: 15px;">
-                    <span class="icon fa fa-quote-left"></span>
-                    <p class="description">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has
-                        been the industry's standard dummy text ever since the 1500s.
-                    </p>
-                    <div class="testimonial-content">
-                        <div class="pic">
-                            <img src="https://picsum.photos/130/130?image=883" alt="">
-                        </div><br>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa-regular fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <i class="fa-regular fa-star" aria-hidden="true" style="color: orange;"></i>
-                        <h3 class="name" style="color: #000;">Aaron Newell</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!-- ----------====================Homepage-1 Testimonial section end===================== -->
-
-
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- ------ Homepage-2 Body New Events And Blogs Start ------ -->
-
-    <div class="container-fluid">
-        <div class="row homepage-2-new-event-and-blog p-5">
-            <div class="col-lg-6 homepage-2-new-event pt-5 pb-5" data-aos="fade-up">
-                <h1>
-                    New Events
-                </h1>
-
-                <div class="card homepage-2-new-event-1 custom mt-4 ">
-                    <div class="row g-0">
-                        <div class="col-md-4 homepage-2-new-event-date">
-                            <h1>
-                                02
-                            </h1>
-                            <h4>
-                                Feb 2023
-                            </h4>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body homepage-2-new-event-text">
-                                <div class="homepage-2-new-event-text-1">
-                                    <p>
-                                        Presentation: The Geographics of
-                                        a care based economy year 2020
-                                        <br>
-                                        <span>
-                                            <i class="fa-regular fa-clock" style="color: rgb(4, 214, 74);"></i> &nbsp
-                                            8:00 PM
-                                        </span>
-                                        <span>
-                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                            <i class="fa-solid fa-location-dot" style="color: rgb(4, 214, 74);"></i>
-                                            &nbsp Millat Chock, London
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card homepage-2-new-event-1 custom mt-4 ">
-                    <div class="row g-0">
-                        <div class="col-md-4 homepage-2-new-event-date">
-                            <h1>
-                                02
-                            </h1>
-                            <h4>
-                                Feb 2023
-                            </h4>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body homepage-2-new-event-text">
-                                <div class="homepage-2-new-event-text-1">
-                                    <p>
-                                        Presentation: The Geographics of
-                                        a care based economy year 2020
-                                        <br>
-                                        <span>
-                                            <i class="fa-regular fa-clock" style="color: rgb(4, 214, 74);"></i> &nbsp
-                                            8:00 PM
-                                        </span>
-                                        <span>
-                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                            <i class="fa-solid fa-location-dot" style="color: rgb(4, 214, 74);"></i>
-                                            &nbsp Millat Chock, London
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card homepage-2-new-event-1 custom mt-4 ">
-                    <div class="row g-0">
-                        <div class="col-md-4 homepage-2-new-event-date">
-                            <h1>
-                                02
-                            </h1>
-                            <h4>
-                                Feb 2023
-                            </h4>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body homepage-2-new-event-text">
-                                <div class="homepage-2-new-event-text-1">
-                                    <p>
-                                        Presentation: The Geographics of
-                                        a care based economy year 2020
-                                        <br>
-                                        <span>
-                                            <i class="fa-regular fa-clock" style="color: rgb(4, 214, 74);"></i> &nbsp
-                                            8:00 PM
-                                        </span>
-                                        <span>
-                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                            <i class="fa-solid fa-location-dot" style="color: rgb(4, 214, 74);"></i>
-                                            &nbsp Millat Chock, London
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-lg-6 homepage-2-blogs pt-5" data-aos="fade-right">
-                <h1>
-                    Blogs
-                </h1>
-                <div class="mt-4 d-flex">
-                    <div class="homepage-2-blog-1">
-                        <p>
-                            IP Serveillence System & Lorem, ipsum dolor. <br>
-                            Its Benifits
+    <section class="z-information">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <span class="text-center">
+                        <h5>
+                            You want to know more information?
                             <br>
-                            <span>
-                                <i class="fa-regular fa-clock"></i> &nbsp 23 days Ago
-                            </span>
-                            <hr style="color: white; margin-left: 20px;">
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-4 d-flex">
-                    <div class="homepage-2-blog-1">
-                        <p>
-                            How Graphics Designing Lorem, ipsum dolor. <br>
-                            is Evolving?
-                            <br>
-                            <span>
-                                <i class="fa-regular fa-clock"></i> &nbsp 23 days Ago
-                            </span>
-                            <hr style="color: white; margin-left: 20px;">
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-4 d-flex">
-                    <div class="homepage-2-blog-1">
-                        <p>
-                            The latest trend: Digital Lorem, ipsum dolor. <br>
-                            Media Marketing
-                            <br>
-                            <span>
-                                <i class="fa-regular fa-clock"></i> &nbsp 23 days Ago
-                            </span>
-                            <hr style="color: white; margin-left: 20px;">
-                        </p>
-                    </div>
+                            Send us a mail!
+                        </h5>
+                    </span>
+                    <form>
+                        <input type="search" placeholder="Enter your email...">
+                        <button>
+                            <i class="bi bi-send-fill"></i> Send
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- ------ Homepage-2 Body New Events And Blogs End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-
-    <!-- ---------------===============homepage-1-gallery-image-start============--------------- -->
-    <h1 class="text-center pt-5" style="font-weight: bold;" data-aos="fade-in">GALLERY</h1>
-    <div id="gallery" class="container-fluid  homepage-2-gallery-styling p-5" data-aos="fade-up">
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-image-1.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-image-2.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-7.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-5.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-6.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-image-1.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-7.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-5.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-    </div>
-
-
-
-    <!-- /* ----------===============================homepage-1-gallery-image-start======================================-------------- */ -->
-
-
-
-
-    <!-- =======================================Latest News section start======================================= -->
-
-    <h1 class="text-center pt-2" style="font-weight: bold;" data-aos="fade-in">LATEST NEWS</h1>
-    <div class="wrapper p-5 mb-4">
-        <div class="owl-carousel owl-theme ">
-            <div>
-                <div class="card homepage-card">
-                    <div class="card-body" style="border-radius: 15px;">
-                        <h4 class="card-title">
-                            <img src="assets/image/homepage1/homepage-1-card1" class="image-border"
-                                style="width: 100%; ">
-                            <h4 class="text-start">The World's Best University</h4>
-                        </h4>
-                        <div class="card-text mb-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry Lorem Ipsum has been the industry's standard.
-                        </div>
-                        <a href="#" style="text-decoration: none;"><button type="submit"
-                                class="btn btn-primary homepage-1-card-viewmore-btn float-end"> Read
-                                More</button></a>
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card homepage-card">
-                    <div class="card-body" style="border-radius: 15px;">
-                        <h4 class="card-title">
-                            <img src="assets/image/homepage1/homepage-1-card2" class="image-border"
-                                style="width: 100%;">
-                            <h4 class="text-start">The World's Best University</h4>
-                        </h4>
-                        <div class="card-text mb-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry Lorem Ipsum has been the industry's standard.
-                        </div>
-                        <a href="#" style="text-decoration: none;"><button type="submit"
-                                class="btn btn-primary homepage-1-card-viewmore-btn float-end"> Read More
-                            </button></a>
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card homepage-card">
-                    <div class="card-body" style="border-radius: 15px;">
-                        <h4 class="card-title">
-                            <img src="assets/image/homepage1/homepage-1-card3" class="image-border"
-                                style="width: 100%;">
-                            <h4 class="text-start">The World's Best University</h4>
-                        </h4>
-                        <div class="card-text mb-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry Lorem Ipsum has been the industry's standard.
-                        </div>
-                        <a href="#" style="text-decoration: none;"><button type="submit"
-                                class="btn btn-primary homepage-1-card-viewmore-btn float-end"> Read More
-                            </button></a>
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card homepage-card">
-                    <div class="card-body" style="border-radius: 15px;">
-                        <h4 class="card-title">
-                            <img src="assets/image/homepage1/homepage-1-card4" class="image-border"
-                                style="width: 100%;">
-                            <h4 class="text-start">The World's Best University</h4>
-                        </h4>
-                        <div class="card-text mb-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry Lorem Ipsum has been the industry's standard.
-                        </div>
-                        <a href="#" style="text-decoration: none;"><button type="submit"
-                                class="btn btn-primary homepage-1-card-viewmore-btn float-end"> Read More
-                            </button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ===============================Latest news section end============================= -->
-
-    <!-- ---------------======================================================================================--------------- -->
+    <!-- ------- More Information Section End ------- -->
 
     <!-- ------------==================jQuery-link===============----------------- -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="assets/JavaScript/jquery.counterup.min.js"></script>
     <!-- ------------==================jQuery-link===============----------------- -->
 
-    <script>
-        // Set the time interval for the auto slider
-        let sliderInterval = setInterval(() => {
-            $('#carouselExampleControls').carousel('next');
-        }, 4000);
-
-        // Pause the auto slider when the user interacts with the carousel
-        $('.carousel').on('slide.bs.carousel', () => {
-            clearInterval(sliderInterval);
-        });
-
-        // Resume the auto slider when the user stops interacting with the carousel
-        $('.carousel').on('slid.bs.carousel', () => {
-            sliderInterval = setInterval(() => {
-                $('#carouselExampleControls').carousel('next');
-            }, 4000);
-        });
-    </script>
-
-    <!-- ---------- Header Image Slider Link Start  ---------- -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"> </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: false,
-            dots: false,
-            autoplay: false,
-            mouseDrag: true,
-            // autoplayHoverPause: true,
-            // autoplayTimeout: 2000,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 3.5
-                }
-            }
-        })
-    </script>
     <!-- -----=======animated-script-link====----- -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -1302,55 +842,9 @@
 
     <!-- ------ Nav Button Link Start ------ -->
     <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
-
-
     <!-- ------ Nav Button Link End ------ -->
 
-    <script>
-        (function () {
-            const second = 1000,
-                minute = second * 60,
-                hour = minute * 60,
-                day = hour * 24;
 
-            //I'm adding this section so I don't have to keep updating this pen every year :-)
-            //remove this if you don't need it
-            let today = new Date(),
-                dd = String(today.getDate()).padStart(2, "0"),
-                mm = String(today.getMonth() + 1).padStart(2, "0"),
-                yyyy = today.getFullYear(),
-                nextYear = yyyy + 1,
-                dayMonth = "09/30/",
-                birthday = dayMonth + yyyy;
-
-            today = mm + "/" + dd + "/" + yyyy;
-            if (today > birthday) {
-                birthday = dayMonth + nextYear;
-            }
-            //end
-
-            const countDown = new Date(birthday).getTime(),
-                x = setInterval(function () {
-
-                    const now = new Date().getTime(),
-                        distance = countDown - now;
-
-                    document.getElementById("days").innerText = Math.floor(distance / (day)),
-                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-                    //do something later when date is reached
-                    if (distance < 0) {
-                        document.getElementById("headline").innerText = "It's my birthday!";
-                        document.getElementById("countdown").style.display = "none";
-                        document.getElementById("content").style.display = "block";
-                        clearInterval(x);
-                    }
-                    //seconds
-                }, 0)
-        }());
-    </script>
 
 </body>
 
