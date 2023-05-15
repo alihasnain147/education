@@ -14,29 +14,6 @@
   }
 }
 
-@media only screen and (max-width: 760px) {
-  .small-screen {
-    display: block;
-  }
-
-  .strtting-business {
-    text-align: center !important;
-  }
-
-  .beamember {
-    text-align: center !important;
-    margin-top: 15px;
-  }
-
-  .about-why-choose-sect {
-    text-align: center !important;
-  }
-
-  .main-about-page-sectt {
-    text-align: center !important;
-  }
-}
-
 @media only screen and (max-width: 767px) {
   .z-countdown ul {
     display: block;
@@ -58,33 +35,56 @@
   .z-countdown ul li {
     margin: 20px 20px 0px 0px;
   }
-  
-  .upcoming-event-card-1 img{
+
+  .upcoming-event-card-1 img {
     display: block;
   }
 
   .upcoming-event-card-1 .card-body,
-.upcoming-event-card-2 .card-body{
-  border-radius: 0px 0px 10px 10px;
-}
+  .upcoming-event-card-2 .card-body {
+    border-radius: 0px 0px 10px 10px;
+  }
 
-  .upcoming-event-card-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10));
+  .upcoming-event-card-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10));
   }
 
   .upcoming-event-card-1 .card-body p::before {
     display: none;
   }
 
-  .upcoming-event-card-2 img{
+  .upcoming-event-card-2 img {
     display: block;
   }
 
-  .upcoming-event-card-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10));
+  .upcoming-event-card-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10));
   }
 
   .upcoming-event-card-2 .card-body p::before {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .small-screen {
+    display: block;
+  }
+
+  .strtting-business {
+    text-align: center !important;
+  }
+
+  .beamember {
+    text-align: center !important;
+    margin-top: 15px;
+  }
+
+  .about-why-choose-sect {
+    text-align: center !important;
+  }
+
+  .main-about-page-sectt {
+    text-align: center !important;
   }
 }

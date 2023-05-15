@@ -611,13 +611,13 @@ figure.snip1390 .profile {
 
 /* Information Section Start */
 
-.z-information{
+/* .z-information{
   background: url(../image/homepage/information-bg-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-  padding: 100px 0px;
+  padding: 105px 0px 150px;
 }
 
 .z-information form{
@@ -625,10 +625,16 @@ figure.snip1390 .profile {
 }
 
 .z-information form input{
-  width: 100%;
+  width: 81%;
   padding: 14px 14px;
   border-radius: 8px;
   border: 1px solid gray;
+  margin: 20px 0px 0px 50px;
+}
+
+.z-information form input:focus{
+  outline: none;
+  color: gray;
 }
 
 .z-information form button{
@@ -636,10 +642,59 @@ figure.snip1390 .profile {
   color: white;
   border: 1px solid #3ac569;
   border-radius: 0px 8px 8px 0px;
-  padding: 14px 28px;
+  padding: 13px 28px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 28%;
+  right: 12%;
+}
+
+.z-information-form{
+  margin: 180px auto 0px auto;
+} */
+
+.z-info-home{
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../image/homepage/z-form-bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0px 80px;
+}
+
+.z-info-home h2{
+font-family: sans-serif !important;
+color: white;
+}
+
+.z-info-home form{
+  position: relative;
+}
+
+.z-info-home form input{
+  width: 81%;
+  padding: 14px 14px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  margin: 20px 0px 0px 50px;
+}
+
+.z-info-home form input:focus{
+  outline: none;
+  color: gray;
+}
+
+.z-info-home form button{
+  background-color: #3ac569;
+  color: white;
+  border: 1px solid #3ac569;
+  border-radius: 0px 8px 8px 0px;
+  padding: 13px 28px;
+  position: absolute;
+  top: 28%;
+  right: 10%;
+}
+
+.z-info-home-form{
+  margin: 180px auto 0px auto;
 }
 
 /* Information Section End */
