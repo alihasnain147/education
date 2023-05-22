@@ -1,336 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IVY School-About</title>
 
     <!-- ------ Bootstrap Link Start ------ -->
-    <link rel="stylesheet" href="assets/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap-5.2.2-dist/css/bootstrap.min.css"
+    />
     <!-- ------ Bootstrap Link End ------ -->
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- ------ CSS Link Start ------ -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- ------ CSS Link End ------ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Bootstrap 5 Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <!--animation link-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--animation link-->
     <!-- -------header-counter-link-start ------- -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-        jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
+      jQuery(document).ready(function ($) {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1000,
         });
+      });
     </script>
     <style>
-        .about-hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
-                url(./assets/image/about/hero.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding: 200px 0px 50px 0px;
-            background-position: bottom;
-        }
+      .about-hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)),
+          url(/assets/image/about/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 0px 50px 0px;
+        background-position: bottom;
+      }
 
-        .three-in-one-sect {
-            background: linear-gradient(rgba(40, 58, 93, 0.800), rgba(40, 58, 93, 0.800)),
-                url(./assets/image/about/three-in-one.jpg) !important;
-            padding: 100px 0px 80px 0px;
-            color: white;
-            background-repeat: no-repeat !important;
-        }
+      .three-in-one-sect {
+        background: linear-gradient(
+            rgba(40, 58, 93, 0.8),
+            rgba(40, 58, 93, 0.8)
+          ),
+          url(./assets/image/about/three-in-one.jpg) !important;
+        padding: 100px 0px 80px 0px;
+        color: white;
+        background-repeat: no-repeat !important;
+      }
 
-        .about-counter-sect {
-            background: linear-gradient(rgba(40, 58, 93, 0.699), rgba(40, 58, 93, 0.699)),
-                url(./assets/image/about/gucci.jpg) !important;
-            padding: 100px 0px 80px 0px;
-            color: white;
-            height: 100%;
-            background-repeat: no-repeat !important;
-            text-align: bottom;
-        }
+      .about-counter-sect {
+        background: linear-gradient(
+            rgba(40, 58, 93, 0.699),
+            rgba(40, 58, 93, 0.699)
+          ),
+          url(./assets/image/about/gucci.jpg) !important;
+        padding: 100px 0px 80px 0px;
+        color: white;
+        height: 100%;
+        background-repeat: no-repeat !important;
+        text-align: bottom;
+      }
 
         .about-stsrting-businnes-sec {
+            background-color: #E6E6E6;
             padding: 100px 0px 80px 0px;
         }
     </style>
     <!-- -------header-counter-link-end ------- -->
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="wraper">
+      <!-- ------ About Hero Section Start ------ -->
 
-        <!-- ------ About Hero Section Start ------ -->
-
-        <div class="container-fluid about-hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 style="font-size: 50px;color: #36a0ad;" class="fw-bold">About Us</h1>
-                    </div>
-                </div>
+      <div class="container-fluid about-hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 style="font-size: 50px; color: #36a0ad" class="fw-bold">
+                About Us
+              </h1>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- ------ About Hero Section End ------ -->
-        <div class="container-fluid" style="background-color: #E6E6E6;">
-            <div class="container pt-5 pb-5">
-                <div class="row about-why-choose-sect">
-                    <div class="col-lg-6 col-md-6  mt-lg-5 pt-lg-4">
-                        <span>Why Choose Me</span>
-                        <h1 class="pt-lg-1">Tools For Teachers And Learners</h1>
-                        <p class="pt-lg-2" style="text-align: justify !important;">Oxford chimney pot Eaton faff about
-                            blower
-                            blatant brilliant, bubble and squeak he
-                            legged it Charles
-                            bonnet arse at public school bamboozled. </p>
-                        <button class="p-2 about-page-join-btn ">Join for free</button>
-                    </div>
-                    <div class="col-lg-6  col-md-6 mt-4 mt-lg-0">
-                        <center><img src="./assets/image/about/scholar-student.png" alt="" width="70%"></center>
-                    </div>
-                </div>
+      <!-- ------ About Hero Section End ------ -->
+      <div class="container-fluid" style="background-color: #e6e6e6">
+        <div class="container pt-5 pb-5">
+          <div class="row about-why-choose-sect">
+            <div class="col-lg-6 col-md-6 mt-lg-5 pt-lg-4">
+              <span>Why Choose Me</span>
+              <h1 class="pt-lg-1">Tools For Teachers And Learners</h1>
+              <p class="pt-lg-2" style="text-align: justify !important">
+                Oxford chimney pot Eaton faff about blower blatant brilliant,
+                bubble and squeak he legged it Charles bonnet arse at public
+                school bamboozled.
+              </p>
+              <button class="p-2 about-page-join-btn">Join for free</button>
             </div>
-        </div>
-        <!-- ------ About Counter Start ------ -->
-        <div class="container-fluid three-in-one-sect">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 mt-3 mt-lg-0">
-                        <center>
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                fill="#91d0a3" version="1.1" id="Capa_1" viewBox="0 0 60 60" xml:space="preserve"
-                                width="45px" class="mb-3">
-                                <g>
-                                    <g>
-                                        <path
-                                            d="M59,4h-3V2c0-0.6-0.4-1-1-1H30H5C4.4,1,4,1.4,4,2v2H1C0.4,4,0,4.4,0,5v37c0,0.6,0.4,1,1,1h43v-2H2V6h2v32c0,0.6,0.4,1,1,1    h25h14v-2H31V3h1.9v25.9c0,1.4,0.6,2.1,1,2.5c0.8,0.7,1.8,0.6,2.1,0.6h9.5c0.8,0,1,0.3,1.1,0.4c0.4,0.4,0.4,1.2,0.4,1.5V34v15    c0,0.4,0,0.7-0.2,0.8C46.5,50,46.1,50,46,50H35v2h10.9c0,0,0.1,0,0.2,0c0.4,0,1.3-0.1,1.9-0.7c0.4-0.4,0.9-1.1,0.9-2.3V34.1    c0.1-0.4,0.2-1.9-0.8-3c-0.5-0.5-1.2-1.1-2.6-1.1h-9.6h-0.1c0,0-0.4,0-0.6-0.2c-0.3-0.2-0.3-0.6-0.3-0.9V3H54v2v32h-2v2h3    c0.6,0,1-0.4,1-1V6h2v35h-6v2h7c0.6,0,1-0.4,1-1V5C60,4.4,59.6,4,59,4z M6,37V5V3h23v34H6z" />
-                                        <path
-                                            d="M30.8,45H15.3c-1.8,0-3.3,1.6-3.3,3.5v6.9c0,2,1.5,3.6,3.3,3.6h15.4c1.6,0,3-1.4,3.3-3.1c0.1-0.1,0.1-0.3,0.1-0.5v-6.9    C34.1,46.6,32.6,45,30.8,45z M32.1,55C32,55.1,32,55.2,32,55.4c0,0.7-0.6,1.6-1.3,1.6H15.3c-0.7,0-1.3-0.7-1.3-1.6v-6.9    c0-0.8,0.6-1.5,1.3-1.5h15.5c0.6,0,1.3,0.8,1.3,1.5V55z" />
-                                        <rect x="27" y="50" width="3" height="2" />
-                                        <path d="M52,6c0-0.6-0.4-1-1-1H38v2h12v10H38v2h13c0.6,0,1-0.4,1-1V6z" />
-                                        <rect x="38" y="21" width="13" height="2" />
-                                        <rect x="38" y="25" width="13" height="2" />
-                                        <rect x="9" y="21" width="11" height="2" />
-                                        <rect x="9" y="25" width="16" height="2" />
-                                        <rect x="9" y="29" width="16" height="2" />
-                                        <path
-                                            d="M25,5H10C9.4,5,9,5.4,9,6v11c0,0.6,0.4,1,1,1h15c0.6,0,1-0.4,1-1V6C26,5.4,25.6,5,25,5z M24,16H11V7h13V16z" />
-                                    </g>
-                                </g>
-                            </svg>
-
-                            <h4 style="color: #91d0a3;">Our Philosophy</h4>
-
-                            <p style="font-size: 14px;">A wonderful serenity has taken possession of my entire soul,
-                                like
-                                these
-                                sweet mornings of spring
-                                which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
-                        </center>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3 mt-lg-0">
-                        <center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                fill="#91d0a3" height="45px" width="45px" version="1.1" id="Capa_1"
-                                viewBox="0 0 377.64 377.64" xml:space="preserve" class="mb-3">
-                                <path
-                                    d="M369.64,347.132H8c-4.418,0-8-3.582-8-8s3.582-8,8-8h361.64c4.418,0,8,3.582,8,8S374.058,347.132,369.64,347.132z   M354.968,310.669c-4.418,0-8-3.582-8-8V125.884h-53.882c-4.418,0-8-3.582-8-8s3.582-8,8-8h61.884c4.418,0,8,3.582,8,8  c0,0.059,0,0.118-0.002,0.176v184.609C362.968,307.087,359.387,310.669,354.968,310.669z M285.566,310.669c-4.418,0-8-3.582-8-8  v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C293.566,307.087,289.984,310.669,285.566,310.669z M221.069,310.669  c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C229.069,307.087,225.487,310.669,221.069,310.669z   M156.572,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367  C164.572,307.087,160.99,310.669,156.572,310.669z M92.075,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8  v90.367C100.075,307.087,96.493,310.669,92.075,310.669z M22.673,310.669c-4.418,0-8-3.582-8-8V118.118  c-0.002-0.078-0.003-0.156-0.003-0.234c0-4.418,3.582-8,8-8h61.886c4.418,0,8,3.582,8,8s-3.582,8-8,8H30.673v176.785  C30.673,307.087,27.091,310.669,22.673,310.669z M321.05,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8  v15.555C329.05,232.276,325.468,235.857,321.05,235.857z M56.604,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8  s8,3.582,8,8v15.555C64.604,232.276,61.023,235.857,56.604,235.857z M321.05,187.071c-4.418,0-8-3.582-8-8v-15.555  c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C329.05,183.489,325.468,187.071,321.05,187.071z M56.604,187.071c-4.418,0-8-3.582-8-8  v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C64.604,183.489,61.023,187.071,56.604,187.071z M285.566,187.069H92.075  c-4.418,0-8-3.582-8-8s3.582-8,8-8h193.492c4.418,0,8,3.582,8,8S289.985,187.069,285.566,187.069z M285.562,159.805  c-1.193,0-2.404-0.268-3.546-0.833l-94.058-46.601l-92.28,46.575c-3.945,1.989-8.755,0.407-10.747-3.538  c-1.991-3.944-0.407-8.756,3.538-10.747l92.351-46.61V38.507c0-4.418,3.582-8,8-8h57.83c4.418,0,8,3.582,8,8v30.224  c0,4.418-3.582,8-8,8h-49.83v22.174l92.299,45.729c3.959,1.961,5.578,6.761,3.617,10.72  C291.34,158.172,288.506,159.805,285.562,159.805z M196.82,60.731h41.83V46.507h-41.83V60.731z" />
-                            </svg>
-                            <h4 style="color: #91d0a3;">Kingster's Principle</h4>
-
-                            <p style="font-size: 14px;">A wonderful serenity has taken possession of my entire soul,
-                                like
-                                these
-                                sweet mornings of spring
-                                which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
-                        </center>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3 mt-lg-0">
-                        <center><svg xmlns="http://www.w3.org/2000/svg" width="45px" height="45px" viewBox="0 0 24 24"
-                                id="Layer_1" class="mb-3" data-name="Layer 1">
-                                <defs>
-                                    <style>
-                                        .cls-1 {
-                                            fill: none;
-                                            stroke: #91d0a3;
-                                            stroke-miterlimit: 10;
-                                            stroke-width: 1.91px;
-                                        }
-                                    </style>
-                                </defs>
-                                <circle class="cls-1" cx="12" cy="8.18" r="6.68" />
-                                <ellipse class="cls-1" cx="12" cy="8.18" rx="2.86" ry="6.68"
-                                    transform="translate(-2.27 10.88) rotate(-45)" />
-                                <line class="cls-1" x1="7.28" y1="12.91" x2="16.72" y2="3.46" />
-                                <polygon class="cls-1" points="12 15.82 18.68 22.5 5.32 22.5 12 15.82" />
-                                <line class="cls-1" x1="12" y1="22.5" x2="12" y2="15.82" />
-                                <line class="cls-1" x1="0.55" y1="22.5" x2="23.45" y2="22.5" />
-                            </svg>
-                            <h4 style="color: #91d0a3;">Key Of Success</h4>
-
-                            <p style="font-size: 14px;">A wonderful serenity has taken possession of my entire soul,
-                                like
-                                these sweet mornings of spring
-                                which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
-                        </center>
-                    </div>
-                </div>
+            <div class="col-lg-6 col-md-6 mt-4 mt-lg-0">
+              <center>
+                <img
+                  src="./assets/image/about/scholar-student.png"
+                  alt=""
+                  width="70%"
+                />
+              </center>
             </div>
+          </div>
         </div>
-        <div class="container-fluid ps-0 pe-0 main-about-page-sectt">
+      </div>
+      <!-- ------ About Counter Start ------ -->
+      <div class="container-fluid three-in-one-sect">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 mt-3 mt-lg-0">
+              <center>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#91d0a3"
+                  version="1.1"
+                  id="Capa_1"
+                  viewBox="0 0 60 60"
+                  xml:space="preserve"
+                  width="45px"
+                  class="mb-3"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M59,4h-3V2c0-0.6-0.4-1-1-1H30H5C4.4,1,4,1.4,4,2v2H1C0.4,4,0,4.4,0,5v37c0,0.6,0.4,1,1,1h43v-2H2V6h2v32c0,0.6,0.4,1,1,1    h25h14v-2H31V3h1.9v25.9c0,1.4,0.6,2.1,1,2.5c0.8,0.7,1.8,0.6,2.1,0.6h9.5c0.8,0,1,0.3,1.1,0.4c0.4,0.4,0.4,1.2,0.4,1.5V34v15    c0,0.4,0,0.7-0.2,0.8C46.5,50,46.1,50,46,50H35v2h10.9c0,0,0.1,0,0.2,0c0.4,0,1.3-0.1,1.9-0.7c0.4-0.4,0.9-1.1,0.9-2.3V34.1    c0.1-0.4,0.2-1.9-0.8-3c-0.5-0.5-1.2-1.1-2.6-1.1h-9.6h-0.1c0,0-0.4,0-0.6-0.2c-0.3-0.2-0.3-0.6-0.3-0.9V3H54v2v32h-2v2h3    c0.6,0,1-0.4,1-1V6h2v35h-6v2h7c0.6,0,1-0.4,1-1V5C60,4.4,59.6,4,59,4z M6,37V5V3h23v34H6z"
+                      />
+                      <path
+                        d="M30.8,45H15.3c-1.8,0-3.3,1.6-3.3,3.5v6.9c0,2,1.5,3.6,3.3,3.6h15.4c1.6,0,3-1.4,3.3-3.1c0.1-0.1,0.1-0.3,0.1-0.5v-6.9    C34.1,46.6,32.6,45,30.8,45z M32.1,55C32,55.1,32,55.2,32,55.4c0,0.7-0.6,1.6-1.3,1.6H15.3c-0.7,0-1.3-0.7-1.3-1.6v-6.9    c0-0.8,0.6-1.5,1.3-1.5h15.5c0.6,0,1.3,0.8,1.3,1.5V55z"
+                      />
+                      <rect x="27" y="50" width="3" height="2" />
+                      <path
+                        d="M52,6c0-0.6-0.4-1-1-1H38v2h12v10H38v2h13c0.6,0,1-0.4,1-1V6z"
+                      />
+                      <rect x="38" y="21" width="13" height="2" />
+                      <rect x="38" y="25" width="13" height="2" />
+                      <rect x="9" y="21" width="11" height="2" />
+                      <rect x="9" y="25" width="16" height="2" />
+                      <rect x="9" y="29" width="16" height="2" />
+                      <path
+                        d="M25,5H10C9.4,5,9,5.4,9,6v11c0,0.6,0.4,1,1,1h15c0.6,0,1-0.4,1-1V6C26,5.4,25.6,5,25,5z M24,16H11V7h13V16z"
+                      />
+                    </g>
+                  </g>
+                </svg>
 
-            <div class="row">
-                <div class="col-lg-6 col-md-6 ps-lg-5  ps-md-5"
-                    style="justify-content: center !important;align-items: center !important;display: flex;">
-                    <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            fill="#000000" height="60px" width="60px" version="1.1" id="Capa_1"
-                            viewBox="0 0 377.64 377.64" xml:space="preserve" class="mb-2" class="mb-2">
-                            <path
-                                d="M369.64,347.132H8c-4.418,0-8-3.582-8-8s3.582-8,8-8h361.64c4.418,0,8,3.582,8,8S374.058,347.132,369.64,347.132z   M354.968,310.669c-4.418,0-8-3.582-8-8V125.884h-53.882c-4.418,0-8-3.582-8-8s3.582-8,8-8h61.884c4.418,0,8,3.582,8,8  c0,0.059,0,0.118-0.002,0.176v184.609C362.968,307.087,359.387,310.669,354.968,310.669z M285.566,310.669c-4.418,0-8-3.582-8-8  v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C293.566,307.087,289.984,310.669,285.566,310.669z M221.069,310.669  c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C229.069,307.087,225.487,310.669,221.069,310.669z   M156.572,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367  C164.572,307.087,160.99,310.669,156.572,310.669z M92.075,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8  v90.367C100.075,307.087,96.493,310.669,92.075,310.669z M22.673,310.669c-4.418,0-8-3.582-8-8V118.118  c-0.002-0.078-0.003-0.156-0.003-0.234c0-4.418,3.582-8,8-8h61.886c4.418,0,8,3.582,8,8s-3.582,8-8,8H30.673v176.785  C30.673,307.087,27.091,310.669,22.673,310.669z M321.05,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8  v15.555C329.05,232.276,325.468,235.857,321.05,235.857z M56.604,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8  s8,3.582,8,8v15.555C64.604,232.276,61.023,235.857,56.604,235.857z M321.05,187.071c-4.418,0-8-3.582-8-8v-15.555  c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C329.05,183.489,325.468,187.071,321.05,187.071z M56.604,187.071c-4.418,0-8-3.582-8-8  v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C64.604,183.489,61.023,187.071,56.604,187.071z M285.566,187.069H92.075  c-4.418,0-8-3.582-8-8s3.582-8,8-8h193.492c4.418,0,8,3.582,8,8S289.985,187.069,285.566,187.069z M285.562,159.805  c-1.193,0-2.404-0.268-3.546-0.833l-94.058-46.601l-92.28,46.575c-3.945,1.989-8.755,0.407-10.747-3.538  c-1.991-3.944-0.407-8.756,3.538-10.747l92.351-46.61V38.507c0-4.418,3.582-8,8-8h57.83c4.418,0,8,3.582,8,8v30.224  c0,4.418-3.582,8-8,8h-49.83v22.174l92.299,45.729c3.959,1.961,5.578,6.761,3.617,10.72  C291.34,158.172,288.506,159.805,285.562,159.805z M196.82,60.731h41.83V46.507h-41.83V60.731z" />
-                        </svg>
-                        <h3 style="color: #36a0ad;">Special Campus Tour</h3>
-                        <p>Campus on a tour designed for prospective graduate and professional students. You will see
-                            how
-                            our university like, facilities, studenst and life in this university. Meet our graduate
-                            admissions representative to learn more about our graduate programs and decide what it the
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 p-0 m-0">
-                    <img src="./assets/image/about/uni-chairs.jpg" alt="" class="w-100">
-                </div>
-                <div class="col-lg-6 col-md-6 p-0 m-0 ">
-                    <img src="./assets/image/about/graduation.jpg" alt="" class="w-100">
-                </div>
-                <div class="col-lg-6 col-md-6 ps-lg-5  ps-md-5"
-                    style="justify-content: center !important;align-items: center !important;display: flex;">
-                    <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="60px" height="60px"
-                            viewBox="0 0 256 256" id="Flat" class="mb-2">
-                            <path
-                                d="M249.88281,92.4707l-120-64a3.99913,3.99913,0,0,0-3.76562,0l-120,64a4.00022,4.00022,0,0,0,0,7.0586L32,113.3335v52.1206a12.03771,12.03771,0,0,0,2.3916,7.18994C42.03516,182.81494,71.37305,216,128,216c23.07129,0,41.61035-5.50977,56-12.72607V240a4,4,0,0,0,8,0V198.842a106.886,106.886,0,0,0,29.60742-26.197A12.0372,12.0372,0,0,0,224,165.4541V113.3335l25.88281-13.8042a4.00022,4.00022,0,0,0,0-7.0586ZM128,208c-52.91992,0-80.13281-30.74023-87.21289-40.1626A3.93282,3.93282,0,0,1,40,165.4541v-47.854l86.11719,45.9292a4.001,4.001,0,0,0,3.76562,0L184,134.66675v59.574C170.12451,201.86523,151.63281,208,128,208Zm88-42.5459a3.93235,3.93235,0,0,1-.78809,2.38428A97.06518,97.06518,0,0,1,192,189.37671V130.40015l24-12.8Zm-28-41.98755L129.88281,92.4707a4.00012,4.00012,0,0,0-3.76562,7.0586L179.5,128,128,155.4668,16.5,96,128,36.5332,239.5,96Z" />
-                        </svg>
-                        <h3 style="color: #36a0ad;">Graduation</h3>
-                        <p>Campus on a tour designed for prospective graduate and professional students. You will see
-                            how
-                            our university like, facilities, studenst and life in this university. Meet our graduate
-                            admissions representative to learn more about our graduate programs and decide what it the
-                            best
-                            for you.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 ps-md-5 pt-md-2 ps-lg-5"
-                    style="justify-content: center !important;align-items: center !important;display: flex;">
-                    <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            fill="#000000" height="60px" width="60px" version="1.1" id="Layer_1" viewBox="0 0 512 512"
-                            class="mb-2" xml:space="preserve">
-                            <g>
-                                <g>
-                                    <path
-                                        d="M254.857,118.857c-60.497,0-109.714,49.221-109.714,109.721v274.279c0,5.049,5.237,9.143,10.286,9.143h201.143    c5.049,0,8-4.094,8-9.143V228.578C364.571,168.078,315.354,118.857,254.857,118.857z M346.286,493.714H163.429V228.578    c0-50.417,41.014-91.435,91.429-91.435c50.414,0,91.429,41.018,91.429,91.435V493.714z" />
-                                </g>
-                            </g>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M256,64c-95.787,0-173.714,77.928-173.714,173.714c0,23.842,4.744,46.945,14.102,68.669    c1.49,3.459,4.861,5.528,8.402,5.528c1.206,0,2.434-0.24,3.613-0.748c4.637-1.998,6.778-7.377,4.78-12.015    c-8.368-19.425-12.611-40.095-12.611-61.434c0-85.703,69.726-155.429,155.429-155.429s155.429,69.726,155.429,155.429    c0,21.024-4.122,41.41-12.251,60.593c-1.97,4.648,0.202,10.014,4.852,11.985c4.646,1.968,10.016-0.201,11.985-4.851    c9.09-21.451,13.7-44.238,13.7-67.727C429.714,141.928,351.787,64,256,64z" />
-                                </g>
-                            </g>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M256,0C124.924,0,18.286,106.638,18.286,237.714c0,32.618,6.489,64.227,19.288,93.947    c1.999,4.638,7.377,6.782,12.013,4.781c4.638-1.997,6.778-7.376,4.781-12.014c-11.809-27.423-17.797-56.597-17.797-86.714    c0-120.993,98.435-219.429,219.429-219.429s219.429,98.435,219.429,219.429c0,33.661-7.417,65.954-22.047,95.982    c-2.212,4.539-0.325,10.012,4.214,12.223c1.289,0.628,2.654,0.926,3.998,0.926c3.387,0,6.643-1.891,8.227-5.141    c15.855-32.544,23.894-67.531,23.894-103.991C493.714,106.638,387.076,0,256,0z" />
-                                </g>
-                            </g>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M254.857,155.429c-40.331,0-73.143,32.791-73.143,73.097v73.189c0,5.049,5.237,9.143,10.286,9.143h128    c5.049,0,8-4.094,8-9.143v-73.189C328,188.22,295.189,155.429,254.857,155.429z M309.714,292.571H200v-64.046    c0-30.223,24.609-54.811,54.857-54.811c30.248,0,54.857,24.588,54.857,54.811V292.571z" />
-                                </g>
-                            </g>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M292.571,365.714h-73.143c-5.049,0-9.143,4.094-9.143,9.143s4.094,9.143,9.143,9.143h73.143    c5.049,0,9.143-4.094,9.143-9.143S297.621,365.714,292.571,365.714z" />
-                                </g>
-                            </g>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M292.571,402.286h-73.143c-5.049,0-9.143,4.094-9.143,9.143s4.094,9.143,9.143,9.143h73.143    c5.049,0,9.143-4.094,9.143-9.143S297.621,402.286,292.571,402.286z" />
-                                </g>
-                            </g>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M301.714,438.857h-91.429c-5.049,0-9.143,4.094-9.143,9.143s4.094,9.143,9.143,9.143h91.429    c5.049,0,9.143-4.094,9.143-9.143S306.763,438.857,301.714,438.857z" />
-                                </g>
-                            </g>
-                        </svg>
-                        <h3 style="color: #36a0ad;">Powerful Alumni</h3>
-                        <p>Campus on a tour designed for prospective graduate and professional students. You will see
-                            how
-                            our university like, facilities, studenst and life in this university. Meet our graduate
-                            admissions representative to learn more about our graduate programs and decide what it the
-                            best
-                            for you.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6  p-0 m-0 ">
-                    <img src="./assets/image/about/alumni.jpg" alt="" class="w-100">
-                </div>
-            </div>
+                <h4 style="color: #91d0a3">Our Philosophy</h4>
 
-        </div>
-        <div class="container-fluid about-counter-sect">
-            <div class="container">
-                <center>
-                    <h2>SCHOOL ACHIEVEMENTS</h2>
-                    <p style="font-size: 25px;">Here you can review statistics about our Education Center</p>
-                </center>
-                <div class="row pb-5 pt-5">
-                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
-                        <i class="bi bi-globe-americas" style="font-size: 55px;"></i><br>
-                        <span class="counter" style="display: inline-block;">94232</span>
-                        <br>
-                        <span style="font-size: 18px;">FOREIGN FOLLOWERS</span>
-                    </div>
-                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
-                        <i class="bi bi-bell" style="font-size: 55px;"></i><br>
-                        <span class="counter" style="display: inline-block;">12225</span>
-                        <br>
-                        <span style="font-size: 18px;">CLASSES COMPLETE</span>
-                    </div>
-                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
-                        <i class="bi bi-people" style="font-size: 55px;"></i><br>
-                        <span class="counter" style="display: inline-block;">282673</span>
-                        <br>
-                        <span style="font-size: 18px;">STUDENTS ENROLLED</span>
-                    </div>
-                    <div class="col-lg-3 text-center col-md-6 about-counter-number">
-                        <i class="bi bi-fingerprint" style="font-size: 55px;"></i><br>
-                        <span class="counter" style="display: inline-block;">37</span>
-                        <br>
-                        <span style="font-size: 18px;">CERTIFIED TEACHERS</span>
-                    </div>
-                </div>
+                <p style="font-size: 14px">
+                  A wonderful serenity has taken possession of my entire soul,
+                  like these sweet mornings of spring which I enjoy with my
+                  whole heart. I am alone, and feel the charm of existence.
+                </p>
+              </center>
             </div>
+            <div class="col-lg-4 col-md-4 mt-3 mt-lg-0">
+              <center>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#91d0a3"
+                  height="45px"
+                  width="45px"
+                  version="1.1"
+                  id="Capa_1"
+                  viewBox="0 0 377.64 377.64"
+                  xml:space="preserve"
+                  class="mb-3"
+                >
+                  <path
+                    d="M369.64,347.132H8c-4.418,0-8-3.582-8-8s3.582-8,8-8h361.64c4.418,0,8,3.582,8,8S374.058,347.132,369.64,347.132z   M354.968,310.669c-4.418,0-8-3.582-8-8V125.884h-53.882c-4.418,0-8-3.582-8-8s3.582-8,8-8h61.884c4.418,0,8,3.582,8,8  c0,0.059,0,0.118-0.002,0.176v184.609C362.968,307.087,359.387,310.669,354.968,310.669z M285.566,310.669c-4.418,0-8-3.582-8-8  v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C293.566,307.087,289.984,310.669,285.566,310.669z M221.069,310.669  c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C229.069,307.087,225.487,310.669,221.069,310.669z   M156.572,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367  C164.572,307.087,160.99,310.669,156.572,310.669z M92.075,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8  v90.367C100.075,307.087,96.493,310.669,92.075,310.669z M22.673,310.669c-4.418,0-8-3.582-8-8V118.118  c-0.002-0.078-0.003-0.156-0.003-0.234c0-4.418,3.582-8,8-8h61.886c4.418,0,8,3.582,8,8s-3.582,8-8,8H30.673v176.785  C30.673,307.087,27.091,310.669,22.673,310.669z M321.05,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8  v15.555C329.05,232.276,325.468,235.857,321.05,235.857z M56.604,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8  s8,3.582,8,8v15.555C64.604,232.276,61.023,235.857,56.604,235.857z M321.05,187.071c-4.418,0-8-3.582-8-8v-15.555  c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C329.05,183.489,325.468,187.071,321.05,187.071z M56.604,187.071c-4.418,0-8-3.582-8-8  v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C64.604,183.489,61.023,187.071,56.604,187.071z M285.566,187.069H92.075  c-4.418,0-8-3.582-8-8s3.582-8,8-8h193.492c4.418,0,8,3.582,8,8S289.985,187.069,285.566,187.069z M285.562,159.805  c-1.193,0-2.404-0.268-3.546-0.833l-94.058-46.601l-92.28,46.575c-3.945,1.989-8.755,0.407-10.747-3.538  c-1.991-3.944-0.407-8.756,3.538-10.747l92.351-46.61V38.507c0-4.418,3.582-8,8-8h57.83c4.418,0,8,3.582,8,8v30.224  c0,4.418-3.582,8-8,8h-49.83v22.174l92.299,45.729c3.959,1.961,5.578,6.761,3.617,10.72  C291.34,158.172,288.506,159.805,285.562,159.805z M196.82,60.731h41.83V46.507h-41.83V60.731z"
+                  />
+                </svg>
+                <h4 style="color: #91d0a3">Kingster's Principle</h4>
+
+                <p style="font-size: 14px">
+                  A wonderful serenity has taken possession of my entire soul,
+                  like these sweet mornings of spring which I enjoy with my
+                  whole heart. I am alone, and feel the charm of existence.
+                </p>
+              </center>
+            </div>
+            <div class="col-lg-4 col-md-4 mt-3 mt-lg-0">
+              <center>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45px"
+                  height="45px"
+                  viewBox="0 0 24 24"
+                  id="Layer_1"
+                  class="mb-3"
+                  data-name="Layer 1"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: none;
+                        stroke: #91d0a3;
+                        stroke-miterlimit: 10;
+                        stroke-width: 1.91px;
+                      }
+                    </style>
+                  </defs>
+                  <circle class="cls-1" cx="12" cy="8.18" r="6.68" />
+                  <ellipse
+                    class="cls-1"
+                    cx="12"
+                    cy="8.18"
+                    rx="2.86"
+                    ry="6.68"
+                    transform="translate(-2.27 10.88) rotate(-45)"
+                  />
+                  <line
+                    class="cls-1"
+                    x1="7.28"
+                    y1="12.91"
+                    x2="16.72"
+                    y2="3.46"
+                  />
+                  <polygon
+                    class="cls-1"
+                    points="12 15.82 18.68 22.5 5.32 22.5 12 15.82"
+                  />
+                  <line class="cls-1" x1="12" y1="22.5" x2="12" y2="15.82" />
+                  <line
+                    class="cls-1"
+                    x1="0.55"
+                    y1="22.5"
+                    x2="23.45"
+                    y2="22.5"
+                  />
+                </svg>
+                <h4 style="color: #91d0a3">Key Of Success</h4>
+
+                <p style="font-size: 14px">
+                  A wonderful serenity has taken possession of my entire soul,
+                  like these sweet mornings of spring which I enjoy with my
+                  whole heart. I am alone, and feel the charm of existence.
+                </p>
+              </center>
+            </div>
+          </div>
         </div>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-        <script src="assets/JavaScript/jquery.counterup.min.js"></script>
+      </div>
+      <div class="container-fluid ps-0 pe-0 main-about-page-sectt">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6 ps-lg-5 ps-md-5"
+            style="
+              justify-content: center !important;
+              align-items: center !important;
+              display: flex;
+            "
+          >
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#000000"
+                height="60px"
+                width="60px"
+                version="1.1"
+                id="Capa_1"
+                viewBox="0 0 377.64 377.64"
+                xml:space="preserve"
+                class="mb-2"
+                class="mb-2"
+              >
+                <path
+                  d="M369.64,347.132H8c-4.418,0-8-3.582-8-8s3.582-8,8-8h361.64c4.418,0,8,3.582,8,8S374.058,347.132,369.64,347.132z   M354.968,310.669c-4.418,0-8-3.582-8-8V125.884h-53.882c-4.418,0-8-3.582-8-8s3.582-8,8-8h61.884c4.418,0,8,3.582,8,8  c0,0.059,0,0.118-0.002,0.176v184.609C362.968,307.087,359.387,310.669,354.968,310.669z M285.566,310.669c-4.418,0-8-3.582-8-8  v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C293.566,307.087,289.984,310.669,285.566,310.669z M221.069,310.669  c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367C229.069,307.087,225.487,310.669,221.069,310.669z   M156.572,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8v90.367  C164.572,307.087,160.99,310.669,156.572,310.669z M92.075,310.669c-4.418,0-8-3.582-8-8v-90.367c0-4.418,3.582-8,8-8s8,3.582,8,8  v90.367C100.075,307.087,96.493,310.669,92.075,310.669z M22.673,310.669c-4.418,0-8-3.582-8-8V118.118  c-0.002-0.078-0.003-0.156-0.003-0.234c0-4.418,3.582-8,8-8h61.886c4.418,0,8,3.582,8,8s-3.582,8-8,8H30.673v176.785  C30.673,307.087,27.091,310.669,22.673,310.669z M321.05,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8  v15.555C329.05,232.276,325.468,235.857,321.05,235.857z M56.604,235.857c-4.418,0-8-3.582-8-8v-15.555c0-4.418,3.582-8,8-8  s8,3.582,8,8v15.555C64.604,232.276,61.023,235.857,56.604,235.857z M321.05,187.071c-4.418,0-8-3.582-8-8v-15.555  c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C329.05,183.489,325.468,187.071,321.05,187.071z M56.604,187.071c-4.418,0-8-3.582-8-8  v-15.555c0-4.418,3.582-8,8-8s8,3.582,8,8v15.555C64.604,183.489,61.023,187.071,56.604,187.071z M285.566,187.069H92.075  c-4.418,0-8-3.582-8-8s3.582-8,8-8h193.492c4.418,0,8,3.582,8,8S289.985,187.069,285.566,187.069z M285.562,159.805  c-1.193,0-2.404-0.268-3.546-0.833l-94.058-46.601l-92.28,46.575c-3.945,1.989-8.755,0.407-10.747-3.538  c-1.991-3.944-0.407-8.756,3.538-10.747l92.351-46.61V38.507c0-4.418,3.582-8,8-8h57.83c4.418,0,8,3.582,8,8v30.224  c0,4.418-3.582,8-8,8h-49.83v22.174l92.299,45.729c3.959,1.961,5.578,6.761,3.617,10.72  C291.34,158.172,288.506,159.805,285.562,159.805z M196.82,60.731h41.83V46.507h-41.83V60.731z"
+                />
+              </svg>
+              <h3 style="color: #36a0ad">Special Campus Tour</h3>
+              <p>
+                Campus on a tour designed for prospective graduate and
+                professional students. You will see how our university like,
+                facilities, studenst and life in this university. Meet our
+                graduate admissions representative to learn more about our
+                graduate programs and decide what it the
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 p-0 m-0">
+            <img
+              src="./assets/image/about/uni-chairs.jpg"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 p-0 m-0">
+            <img
+              src="./assets/image/about/graduation.jpg"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div
+            class="col-lg-6 col-md-6 ps-lg-5 ps-md-5"
+            style="
+              justify-content: center !important;
+              align-items: center !important;
+              display: flex;
+            "
+          >
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#000000"
+                width="60px"
+                height="60px"
+                viewBox="0 0 256 256"
+                id="Flat"
+                class="mb-2"
+              >
+                <path
+                  d="M249.88281,92.4707l-120-64a3.99913,3.99913,0,0,0-3.76562,0l-120,64a4.00022,4.00022,0,0,0,0,7.0586L32,113.3335v52.1206a12.03771,12.03771,0,0,0,2.3916,7.18994C42.03516,182.81494,71.37305,216,128,216c23.07129,0,41.61035-5.50977,56-12.72607V240a4,4,0,0,0,8,0V198.842a106.886,106.886,0,0,0,29.60742-26.197A12.0372,12.0372,0,0,0,224,165.4541V113.3335l25.88281-13.8042a4.00022,4.00022,0,0,0,0-7.0586ZM128,208c-52.91992,0-80.13281-30.74023-87.21289-40.1626A3.93282,3.93282,0,0,1,40,165.4541v-47.854l86.11719,45.9292a4.001,4.001,0,0,0,3.76562,0L184,134.66675v59.574C170.12451,201.86523,151.63281,208,128,208Zm88-42.5459a3.93235,3.93235,0,0,1-.78809,2.38428A97.06518,97.06518,0,0,1,192,189.37671V130.40015l24-12.8Zm-28-41.98755L129.88281,92.4707a4.00012,4.00012,0,0,0-3.76562,7.0586L179.5,128,128,155.4668,16.5,96,128,36.5332,239.5,96Z"
+                />
+              </svg>
+              <h3 style="color: #36a0ad">Graduation</h3>
+              <p>
+                Campus on a tour designed for prospective graduate and
+                professional students. You will see how our university like,
+                facilities, studenst and life in this university. Meet our
+                graduate admissions representative to learn more about our
+                graduate programs and decide what it the best for you.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 ps-md-5 pt-md-2 ps-lg-5"
+            style="
+              justify-content: center !important;
+              align-items: center !important;
+              display: flex;
+            "
+          >
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#000000"
+                height="60px"
+                width="60px"
+                version="1.1"
+                id="Layer_1"
+                viewBox="0 0 512 512"
+                class="mb-2"
+                xml:space="preserve"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M254.857,118.857c-60.497,0-109.714,49.221-109.714,109.721v274.279c0,5.049,5.237,9.143,10.286,9.143h201.143    c5.049,0,8-4.094,8-9.143V228.578C364.571,168.078,315.354,118.857,254.857,118.857z M346.286,493.714H163.429V228.578    c0-50.417,41.014-91.435,91.429-91.435c50.414,0,91.429,41.018,91.429,91.435V493.714z"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path
+                      d="M256,64c-95.787,0-173.714,77.928-173.714,173.714c0,23.842,4.744,46.945,14.102,68.669    c1.49,3.459,4.861,5.528,8.402,5.528c1.206,0,2.434-0.24,3.613-0.748c4.637-1.998,6.778-7.377,4.78-12.015    c-8.368-19.425-12.611-40.095-12.611-61.434c0-85.703,69.726-155.429,155.429-155.429s155.429,69.726,155.429,155.429    c0,21.024-4.122,41.41-12.251,60.593c-1.97,4.648,0.202,10.014,4.852,11.985c4.646,1.968,10.016-0.201,11.985-4.851    c9.09-21.451,13.7-44.238,13.7-67.727C429.714,141.928,351.787,64,256,64z"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path
+                      d="M256,0C124.924,0,18.286,106.638,18.286,237.714c0,32.618,6.489,64.227,19.288,93.947    c1.999,4.638,7.377,6.782,12.013,4.781c4.638-1.997,6.778-7.376,4.781-12.014c-11.809-27.423-17.797-56.597-17.797-86.714    c0-120.993,98.435-219.429,219.429-219.429s219.429,98.435,219.429,219.429c0,33.661-7.417,65.954-22.047,95.982    c-2.212,4.539-0.325,10.012,4.214,12.223c1.289,0.628,2.654,0.926,3.998,0.926c3.387,0,6.643-1.891,8.227-5.141    c15.855-32.544,23.894-67.531,23.894-103.991C493.714,106.638,387.076,0,256,0z"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path
+                      d="M254.857,155.429c-40.331,0-73.143,32.791-73.143,73.097v73.189c0,5.049,5.237,9.143,10.286,9.143h128    c5.049,0,8-4.094,8-9.143v-73.189C328,188.22,295.189,155.429,254.857,155.429z M309.714,292.571H200v-64.046    c0-30.223,24.609-54.811,54.857-54.811c30.248,0,54.857,24.588,54.857,54.811V292.571z"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path
+                      d="M292.571,365.714h-73.143c-5.049,0-9.143,4.094-9.143,9.143s4.094,9.143,9.143,9.143h73.143    c5.049,0,9.143-4.094,9.143-9.143S297.621,365.714,292.571,365.714z"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path
+                      d="M292.571,402.286h-73.143c-5.049,0-9.143,4.094-9.143,9.143s4.094,9.143,9.143,9.143h73.143    c5.049,0,9.143-4.094,9.143-9.143S297.621,402.286,292.571,402.286z"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path
+                      d="M301.714,438.857h-91.429c-5.049,0-9.143,4.094-9.143,9.143s4.094,9.143,9.143,9.143h91.429    c5.049,0,9.143-4.094,9.143-9.143S306.763,438.857,301.714,438.857z"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <h3 style="color: #36a0ad">Powerful Alumni</h3>
+              <p>
+                Campus on a tour designed for prospective graduate and
+                professional students. You will see how our university like,
+                facilities, studenst and life in this university. Meet our
+                graduate admissions representative to learn more about our
+                graduate programs and decide what it the best for you.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 p-0 m-0">
+            <img src="./assets/image/about/alumni.jpg" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid about-counter-sect">
+        <div class="container">
+          <center>
+            <h2>SCHOOL ACHIEVEMENTS</h2>
+            <p style="font-size: 25px">
+              Here you can review statistics about our Education Center
+            </p>
+          </center>
+          <div class="row pb-5 pt-5">
+            <div class="col-lg-3 text-center col-md-6 about-counter-number">
+              <i class="bi bi-globe-americas" style="font-size: 55px"></i><br />
+              <span class="counter" style="display: inline-block">94232</span>
+              <br />
+              <span style="font-size: 18px">FOREIGN FOLLOWERS</span>
+            </div>
+            <div class="col-lg-3 text-center col-md-6 about-counter-number">
+              <i class="bi bi-bell" style="font-size: 55px"></i><br />
+              <span class="counter" style="display: inline-block">12225</span>
+              <br />
+              <span style="font-size: 18px">CLASSES COMPLETE</span>
+            </div>
+            <div class="col-lg-3 text-center col-md-6 about-counter-number">
+              <i class="bi bi-people" style="font-size: 55px"></i><br />
+              <span class="counter" style="display: inline-block">282673</span>
+              <br />
+              <span style="font-size: 18px">STUDENTS ENROLLED</span>
+            </div>
+            <div class="col-lg-3 text-center col-md-6 about-counter-number">
+              <i class="bi bi-fingerprint" style="font-size: 55px"></i><br />
+              <span class="counter" style="display: inline-block">37</span>
+              <br />
+              <span style="font-size: 18px">CERTIFIED TEACHERS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="assets/JavaScript/jquery.counterup.min.js"></script>
 
         <!-- ------ About Counter End ------ -->
         <div class="container-fluid about-stsrting-businnes-sec">
@@ -415,28 +556,28 @@
                 </div>
                 <div class="col-lg-8 col-md-8">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-01.jpg" alt=""></center>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-02.jpg" alt=""></center>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-06.jpg" alt=""></center>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-04.jpg" alt=""></center>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-12.jpg" alt=""></center>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-10.jpg" alt=""></center>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-08.jpg" alt=""></center>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-6">
+                        <div class="col-lg-3 col-md-6">
                             <center><img src="./assets/image/about/client-logo-07.jpg" alt=""></center>
                         </div>
                     </div>
@@ -457,124 +598,120 @@
         </div>
         <!-- ------ Footer Start ------ -->
 
-        <footer class="footer-section">
-            <div class="container-fluid">
-                <div class="footer-content pt-4">
-                    <div class="row p-3">
-                        <div class="col-xl-4 col-lg-4 mb-50">
-                            <div class="footer-widget">
-                                <div class="footer-logo">
-                                    <h2 style="color: rgb(48, 206, 100);">
-                                        Logo Here
-                                    </h2>
-                                </div>
-                                <div class="footer-text">
-                                    <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum rerum quaerat
-                                        beatae
-                                        aspernatur, enim nemo ullam reiciendis vero ut impedit quas natus asperiores non
-                                        similique sapiente, numquam doloribus, amet consequatur.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30 d-flex">
-                            <div class="user-links">
-                                <div class="user-links-heading">
-                                    <h3>User Links</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Courses</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Events</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                            <div class="popular-tag">
-                                <div class="popular-tag-heading">
-                                    <h3>Popular Tags</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">Courses</a></li>
-                                    <li><a href="#">Policy</a></li>
-                                    <li><a href="#">Diploma</a></li>
-                                    <li><a href="#">Blogs</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50" style="padding-right: 18px;">
-                            <div class="footer-widget-searchbar">
-                                <div class="subscribe-form">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search">
-                                        <button><i class="fab fa-telegram-plane"></i></button>
-                                    </form>
-                                </div>
-                                <div class="footer-icons" style="color: aliceblue;">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
-                                <div class="numbers">
-                                    <i class="fa-solid fa-phone"></i>
-                                    &nbsp
-                                    041-8580027
-
-                                    <p class="mt-3 text-white">
-                                        <i class="fa-solid fa-phone"></i>
-                                        &nbsp
-                                        0315-8580027
-                                    </p>
-
-                                    <p class="mt-3 text-white">
-                                        <i class="fa-solid fa-envelope"></i>
-                                        &nbsp
-                                        example@gmail.com
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <footer class="footer-section">
+        <div class="container-fluid">
+          <div class="footer-content pt-4">
+            <div class="row p-3">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <h2 style="color: rgb(48, 206, 100)">Logo Here</h2>
+                  </div>
+                  <div class="footer-text">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Earum rerum quaerat beatae aspernatur, enim nemo ullam
+                      reiciendis vero ut impedit quas natus asperiores non
+                      similique sapiente, numquam doloribus, amet consequatur.
+                    </p>
+                  </div>
                 </div>
-            </div>
-            <div class="copyright-area">
-                <div class="container-fluid">
-                    <div class="row bottom-footer">
-                        <div class="col-xl-12 col-lg-12 text-center">
-                            <div class="copyright-text">
-                                <p style="font-size: small; padding-left: 15px;">Copyright &copy; 2023, All Right
-                                    Reserved
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30 d-flex">
+                <div class="user-links">
+                  <div class="user-links-heading">
+                    <h3>User Links</h3>
+                  </div>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
                 </div>
+                <div class="popular-tag">
+                  <div class="popular-tag-heading">
+                    <h3>Popular Tags</h3>
+                  </div>
+                  <ul>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Diploma</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Privacy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="col-xl-4 col-lg-4 col-md-6 mb-50"
+                style="padding-right: 18px"
+              >
+                <div class="footer-widget-searchbar">
+                  <div class="subscribe-form">
+                    <form action="#">
+                      <input type="text" placeholder="Search" />
+                      <button><i class="fab fa-telegram-plane"></i></button>
+                    </form>
+                  </div>
+                  <div class="footer-icons" style="color: aliceblue">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div class="numbers">
+                    <i class="fa-solid fa-phone"></i>
+                    &nbsp 041-8580027
+
+                    <p class="mt-3 text-white">
+                      <i class="fa-solid fa-phone"></i>
+                      &nbsp 0315-8580027
+                    </p>
+
+                    <p class="mt-3 text-white">
+                      <i class="fa-solid fa-envelope"></i>
+                      &nbsp example@gmail.com
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="container-fluid">
+            <div class="row bottom-footer">
+              <div class="col-xl-12 col-lg-12 text-center">
+                <div class="copyright-text">
+                  <p style="font-size: small; padding-left: 15px">
+                    Copyright &copy; 2023, All Right Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 
-        <!-- ------ Footer End ------ -->
+      <!-- ------ Footer End ------ -->
 
-        <!-- ---------------======================================================================================--------------- -->
+      <!-- ---------------======================================================================================--------------- -->
 
-        <!-- ------ Nav Button Link Start ------ -->
-        <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
-        <!-- ------ Nav Button Link End ------ -->
+      <!-- ------ Nav Button Link Start ------ -->
+      <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+      <!-- ------ Nav Button Link End ------ -->
 
-        <!-- -----=====animated-script-start -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init(
-                {
-                    offset: 20,
-                    duration: 1000,
-                }
-            );
-        </script>
+      <!-- -----=====animated-script-start -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          offset: 20,
+          duration: 1000,
+        });
+      </script>
 
-        <!-- ------------=========animated-script-end=======-------- -->
+      <!-- ------------=========animated-script-end=======-------- -->
     </div>
-</body>
-
+  </body>
 </html>
