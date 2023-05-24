@@ -4585,6 +4585,16 @@ a {
   text-align: center !important;
   color: white;
 }
+.contact-with-btn {
+  width: 180px;
+  background: transparent;
+  border: 3px solid #91d0a3;
+  border-radius: 50px;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  font-weight: 700;
+}
 .about-business-butn {
   background: linear-gradient(#36a0ad, #91d0a3);
   width: 200px;
@@ -4910,4 +4920,23 @@ a {
 .contact-card i {
   font-size: 45px;
   color: #36a0ad;
+}
+.main-footer-web {
+  /* background-color: #52afaa; */
+  background-color: #3ac568;
+  padding: 40px 10px 50px 10px;
+  color: white;
+}
+.main-web-footer ul li {
+  line-height: 35px;
+  font-size: 20px;
+  list-style: none;
+}
+.main-footer-sec-list ul {
+  display: flex;
+}
+.main-footer-sec-list ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 20px;
 }
