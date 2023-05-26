@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IVY School-Homepage-1</title>
+    <title>Home</title>
 
     <!-- ------ Bootstrap Link Start ------ -->
     <link rel="stylesheet" href="assets/bootstrap-5.2.2-dist/css/bootstrap.min.css">
     <!-- ------ Bootstrap Link End ------ -->
 
     <!-- ------ CSS Link Start ------ -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <!-- ------ CSS Link End ------ -->
 
-    <!--animation link-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!--animation link-->
+    <!-- ------ Responsive Link Start ------ -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- ------ Responsive Link End ------ -->
+
+    <!-- ======font-family-links======== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- ======font-family-links======== -->
+
 
     <!-- ------ FontAwesome Link Start ------ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -25,7 +32,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- ------ FontAwesome Link End ------ -->
 
-    <!-- ------ Carousel Link Start ------ -->
+    <!-- -------================= Header Image Slider link ===============------- -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,1541 +40,1263 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- ------ Carousel Link End ------ -->
+    <!-- ------- Header Image Slider link ------- -->
+
+    <!--animation link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--animation link-->
+
+    <!-- ----------========java-counter-link-start===========----------------- -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+    <!-- ----------========java-counter-link-end===========----------------- -->
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 
 </head>
 
 <body>
 
-    <div class="container-fluid">
+    <!-- ------ Header Start ------ -->
 
-        <!-- ------ Main Top Nav Start ------ -->
+    <div class="wrapper">
 
-        <div class="row main-top-nav-start">
+        <!-- ------ Toolbar Start ------ -->
 
-            <!-- ------ Main Top Nav Start ------ -->
-
-            <div class="col-lg-6 col-md-6 homepage-1-main-top-nav-start-big-ideas">
-                Certified : ISO 9001:2022
-            </div>
-            <div class="col-lg-6 col-md-6 homepage-1-main-top-nav-start-social-icons">
-                <i class="fa-brands fa-twitter"></i> &nbsp;&nbsp;
-                <i class="fa-brands fa-pinterest-p"></i> &nbsp;&nbsp;
-                <i class="fa-brands fa-google-plus-g"></i> &nbsp;&nbsp;
-                <i class="fa-sharp fa-solid fa-globe"></i> &nbsp;&nbsp;
-            </div>
-
-            <!-- ------ Main Top Nav End ------ -->
-
-        </div>
-
-        <!-- ------ Main Top Nav End ------ -->
-
-        <!-- ---------------======================================================================================--------------- -->
-
-        <!-- ------ Mid Top Nav Start ------ -->
-
-        <div class="row mid-nav pt-3">
-            <div class="col-lg-3 col-md-12 mid-nav-logo pt-4">
-                <h3 style="color: rgb(48, 206, 100);">
-                    LOGO HERE
-                </h3>
-            </div>
-            <div class="col-lg-3 col col-md-4 mid-nav-certificate">
-                <!-- <div class="row d-flex mt-3">
-                    <div class="col-lg-2 col-md-5 mid-nav-certificate-logo">
-                        <i class="fa-solid fa-certificate"
-                            style="color: rgb(48, 206, 100); font-size: 40px; margin-top: 2px;"></i>
+        <section class="tollbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 main-tollbar-left d-md-block d-none">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-envelope-fill"></i> &nbsp info@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-telephone-fill"></i> &nbsp +92 123 456 789
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-lg-6 col-md-7">
-                        Certified Institute
-                        <br>
-                        ISO 9001:2022
-                    </div>
-                </div> -->
-
-                <div class="card mb-3 mid-nav-certificate1">
-                    <div class="row g-0">
-                        <div class="col-lg-2 col-md-3 pt-3">
-                            <i class="fa-solid fa-certificate"
-                                style="color: rgb(48, 206, 100); font-size: 40px; margin-top: 2px;"></i>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                Certified Institute
-                                <br>
-                                ISO 9001:2022
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 mid-nav-great-software">
-                <!-- <div class="row d-flex mt-3">
-                    <div class="col-lg-2 col-md-2">
-                        <i class="fas fa-award"
-                            style="color: rgb(48, 206, 100); padding-left: 42px; font-size: 40px;"></i>
-                    </div>
-                    <div class="col-lg-8 col-md-8">
-                        Great Software
-                        <br>
-                        Solution Provider
-                    </div>
-                </div> -->
-                <div class="card mb-3 mid-nav-great-software1">
-                    <div class="row g-0">
-                        <div class="col-lg-3 col-md-5 pt-3">
-                            <i class="fas fa-award" style="color: rgb(48, 206, 100); font-size: 40px;"></i>
-                        </div>
-                        <div class="col-lg-8 col-md-7">
-                            <div class="card-body">
-                                Great Software
-                                <br>
-                                <span class="solution-provider">
-                                    Solution Provider
-                                </span>
-                            </div>
-                        </div>
+                    <div class="col-md-6 main-tollbar-right">
+                        <ul class="ul-none">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-key-fill"></i> &nbsp Login
+                                </a>
+                            </li>
+                            <li class="text-white">
+                                /
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Register
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 mid-nav-address">
-                <!-- <div class="row d-flex mt-3" style="padding-left: 70px;">
-                    <div class="col-lg-2 col-md-3">
-                        <i class="fa-solid fa-earth-europe mid-nav-address-logo"
-                            style="color: rgb(48, 206, 100); font-size: 40px;"></i>
-                    </div>
-                    <div class="col-lg-10 col-md-9" style="padding-left: 29px;">
-                        Address
-                        <br>
-                        Millatchowk, <span class="solution-provider"> Pakistan </span>
-                    </div>
-                </div> -->
-                <div class="card mb-3 mid-nav-certificate1">
-                    <div class="row g-0">
-                        <div class="col-lg-2 col-md-3 pt-3">
-                            <i class="fa-solid fa-earth-europe mid-nav-address-logo"
-                                style="color: rgb(48, 206, 100); font-size: 40px;"></i>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                Address
-                                <br>
-                                Millatchowk, <span class="solution-provider"> Pakistan </span>
+        </section>
+
+        <!-- ------ Toolbar End ------ -->
+
+        <!-- ------ Navbar Start ------ -->
+
+        <nav class="navbar navbar-expand-lg bg-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#" style="color: #36a0ad; font-size: 30px;">LOGO HERE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <div class="dropdown-pages-ui"><a
+                                class="dropbtn-pages-ui nav-item nav-link navlink-response-ui "><span
+                                    class="active">Home</span></a>
+                            <div class="dropdown-content-pages-ui">
+                                <a href="index.html">Homepage 1</a>
+                                <a href="index2.html">Homepage 2</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ------ Mid Top Nav End ------ -->
-
-    </div>
-
-    <!-- ------ Main Nav Start ------ -->
-
-    <!-- <div class="container-fluid main-nav">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg homepage-2-nav">
-                    <div class="container-fluid">
-                        <a class="text-white" href="#" style="text-decoration: none; font-family: sans-serif;">HOME</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" style="font-family: Sans-serif;">COURSES &nbsp</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" style="font-family: Sans-serif;">BLOGS &nbsp</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" style="font-family: Sans-serif;">ABOUT &nbsp</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" style="font-family: Sans-serif;">EVENTS &nbsp</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" style="font-family: Sans-serif;">CONTACT &nbsp</a>
-                                </li>
-                            </ul>
-                            <span class="navbar-text">
-                                <button class="main-nav-get-a-quote-button" style="font-family: Sans-serif;">
-                                    GET A QUOTE
-                                </button>
-                            </span>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="container-fluid">
-        <div class="row main-nav">
-            <nav class="navbar navbar-expand-lg main-nav1">
-                <div class="container-fluid">
-                    <button class="navbar-toggler main-nav-toggle-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse main-nav-pages" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <div class="dropdown-pages-ui"><a
-                                    class="dropbtn-pages-ui nav-item nav-link navlink-response-ui "
-                                    style="color: rgb(145, 145, 145);">HOME</a>
-                                <div class="dropdown-content-pages-ui">
-                                    <a href="index.html">Homepage</a>
-                                    <a href="index2.html">Homepage-1<span class="float-end nav-active-icon"><i class="fa-solid fa-circle"></i></span></a>
-                                    <a href="index3.html">Homepage-2</a>
-
-                                </div>
-                            </div>
-
-                            <div class="dropdown-pages-ui"><a
-                                    class="dropbtn-pages-ui nav-item nav-link navlink-response-ui "
-                                    href="about.html">ABOUT</a>
-                            </div>
-
-                            <div class="dropdown-pages-ui"><a
-                                    class="dropbtn-pages-ui nav-item nav-link navlink-response-ui ">COURSES</a>
-                                <div class="dropdown-content-pages-ui">
-                                    <a href="courses.html">COURSE</a>
-                                    <a href="courses-1.html">COURSE 1</a>
-                                    <a href="course-detail.html">COURSE DETAILS</a>
-                                </div>
-                            </div>
-
-                            <div class="dropdown-pages-ui"><a
-                                    class="dropbtn-pages-ui nav-item nav-link navlink-response-ui ">EVENTS</a>
-                                <div class="dropdown-content-pages-ui">
-                                    <a href="main-event.html">EVENT</a>
-                                    <a href="events-two.html">EVENT 1</a>
-                                    <a href="events.html">EVENT DETAILS</a>
-                                </div>
-                            </div>
-
-                            <div class="dropdown-pages-ui"><a
-                                    class="dropbtn-pages-ui nav-item nav-link navlink-response-ui "
-                                    href="Main-blogs.html">BLOGS</a>
-                            </div>
-
-                            <div class="dropdown-pages-ui"><a
-                                    class="dropbtn-pages-ui nav-item nav-link navlink-response-ui "
-                                    href="contact.html">CONTACT</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <span class="main-nav-get-a-quote-button">
-            GET A QUOTE
-        </span>
-    </div>
-
-    <!-- ------ Main Nav End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <div class="container-fluid" data-animated="speedIn">
-        <div class="row homepage-2-hero-section">
-
-            <!-- ------ Header Section Start ------ -->
-
-            <div class="container-fluid homepage-2-hero-text">
-                <div class="row pt-5 pb-5 hompage-2-header-text" data-aos="fade-in">
-                    <div class="col-lg-12 hompage-2-hero-section-top-heading pb-2">
-                        How Do I Get To The University?
-                    </div>
-                    <div class="col-lg-12 hompage-2-hero-section-bottom-heading pb-2">
-                        Welcome To IVY<br> Education Way Of School
-                    </div>
-                    <div class="col-lg-6 col-md-9 homepage-2-lorem-ipsum">
-                        <p class="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim faucibus euismod.
-                            Morbi quis tortor eget felis interdum interdum a et elit. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.
-                        </p>
-                    </div>
-                    <div class="col-lg-12 mt-4 homepage-2-hero-section-both-button">
-                        <button class="visit-campus-button mt-2">
-                            VISIT CAMPUS
-                        </button>
-                        <button class="visit-campus-button-1 mt-2">
-                            SCHEDULE
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ------ Header Section End ------ -->
-
-        </div>
-    </div>
-
-    <!-- ---------------======================================================================================--------------- -->
-
-
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- --------------- Homepage-2 Body Section Start --------------- -->
-
-    <!-- ------ Homepage-2 Body Image Section Start ------ -->
-
-    <div class="container-fluid homepage-2-body-image-section">
-        <div class="row image" data-aos="fade-up">
-            <div class="col-lg-4 col-md-6">
-                <div class="homepage-2-body-image-1">
-                    <img src="assets/image/homepage-2/body-image-1.jpg" alt=""
-                        style="width: 100%; border-radius: 15px;">
-                    <div class="homepage-2-body-image-1-overlay">
-                        <p class="text-white mt-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum quasi
-                            minus quod! Doloremque quod hic neque blanditiis iusto natus, sit quidem molestias
-                            pariatur assumenda.
-                        </p>
-                        <span class="homepage-2-body-image-1-overlay-icon">
-                            <i class="fa-solid fa-fan"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="mt-2"></div>
-                <b style="font-size: 20px;">
-                    Content Writing
-                </b>
-                <p>
-                    Lorem ipsum dolor sit amet
-                </p>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="homepage-2-body-image-2">
-                    <img src="assets/image/homepage-2/body-image-2.jpg" alt=""
-                        style="width: 100%; border-radius: 15px;">
-                    <div class="homepage-2-body-image-2-overlay">
-                        <p class="text-white mt-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum quasi
-                            minus quod! Doloremque quod hic neque blanditiis iusto natus, sit quidem molestias
-                            pariatur assumenda.
-                        </p>
-                        <span class="homepage-2-body-image-1-overlay-icon">
-                            <i class="fa-solid fa-fan"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="mt-2"></div>
-                <b style="font-size: 20px;">
-                    IELTS & PTE
-                </b>
-                <p>
-                    Lorem ipsum dolor sit amet
-                </p>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="homepage-2-body-image-3">
-                    <img src="assets/image/homepage-2/body-image-3.jpg" alt=""
-                        style="width: 100%; border-radius: 15px;">
-                    <div class="homepage-2-body-image-3-overlay-3">
-                        <p class="text-white mt-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum quasi
-                            minus quod! Doloremque quod hic neque blanditiis iusto natus, sit quidem molestias
-                            pariatur assumenda.
-                        </p>
-                        <span class="homepage-2-body-image-1-overlay-icon">
-                            <i class="fa-solid fa-fan"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="mt-2"></div>
-                <b style="font-size: 20px;">
-                    IELTS & PTE
-                </b>
-                <p>
-                    Lorem ipsum dolor sit amet
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!-- ------ Homepage-2 Body Image Section End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- ------ Homepage-2 Body Why Choose Us Section Start ------ -->
-
-    <div class="container-fluid homepage-2-why-choose-us-section-start pt-5">
-        <div class="row homepage-2-why-choose-us pb-5">
-            <div class="col-lg-7" data-aos="fade-up">
-                <h1 class="homepage-2-why-choose-us-heading">
-                    WHY CHOOSE US
-                </h1>
-                <h4>
-                    About IVY Institute
-                </h4>
-                <p>
-                    Lorem ipsum dolor siamet,consectetur nulla, eu sagittis felis turpis eget nisl.
-                    adipiscing elit. Quisque vitae ipsum pretium, sagittis felis quis, placerat felis. Sed et pulvinar
-                    diam, at porttitor enim. Morbi risus est, interdum augue
-                    id, vestibulum placerat eni Maecenas luctus velit magna, sed fermentum lorem venenatis sit amet.
-                    Proi congue metus et volutpat faucibus. Fusauctor, ex nec placerat aliquet, est venenatis nulla, eu
-                    sagittis felis turpis eget nisl.
-                    metus et volutpat faucibus. Fusauctor, ex nec placerat aliquet, est venenatis nulla, eu sagittis
-                    felis turpis eget nisl., est venenatis nulla, eu sagittis felis
-                    nulla, eu sagittis felis turpis eget nisl.nulla, eu sagittis felis turpis eget nisl.
-                    nulla, eu sagittis felis turpis eget nisl., est venenatis nulla, eu sagittis felis turpis eget nisl.
-                    eu sagittis felis turpis eget nisl., est venenatis nulla, eu sagittis felis turpis eget nisl.
-                </p>
-                <button class="homepage-1-read-more-button btn btn-primary" type="submit">Read More</button>
-
-            </div>
-            <div class="col-lg-5 homepage-2-why-choose-us-image" data-aos="fade-up">
-                <img src="assets/image/homepage-2/homepage-2-why-choose-us.jpg" alt=""
-                    style="width: 100%; height: 100%;border-radius: 15px;">
-            </div>
-        </div>
-    </div>
-
-    <!-- ------ Homepage-2 Body Why Choose Us Section End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- ------ Homepage-2 Body Feature Courses Section Start ------ -->
-
-    <div class="container-fluid">
-        <div class="row homepage-2-feature-courses pb-5">
-            <div class="col-lg-12 text-center pt-5 homepage-2-feature-courses-heading" data-aos="fade-in">
-                <h1>
-                    FEATURE COURSES
-                </h1>
-            </div>
-            <div class="row homepage-2-feature-courses-carousel pt-5 pb-5">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="homepage-2-feature-courses-image-1">
-                            <img src="assets/image/homepage-2/homepage-2-feature-courses-image-1.jpg" alt=""
-                                style="width: 99%; border-radius: 15px;">
-                            <div class="homepage-2-feature-courses-image-1-overlay">
-                                <h3 style="text-align: center; margin-top: 80px; color: rgb(48, 206, 100);">
-                                    Lorem ipsum
-                                </h3>
-                                <p class="text-center text-white">
-                                    Lorem ipsum dolor sit amet
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="homepage-2-feature-courses-image-1">
-                            <img src="assets/image/homepage-2/homepage-2-feature-courses-image-2.jpg" alt=""
-                                style="width: 99%;border-radius: 15px;">
-                            <div class="homepage-2-feature-courses-image-1-overlay">
-                                <h3 style="text-align: center; margin-top: 80px; color: rgb(48, 206, 100);">
-                                    Lorem ipsum
-                                </h3>
-                                <p class="text-center text-white">
-                                    Lorem ipsum dolor sit amet
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="homepage-2-feature-courses-image-1">
-                            <img src="assets/image/homepage-2/homepage-2-feature-courses-image-3.jpg" alt=""
-                                style="width: 99%;border-radius: 15px;">
-                            <div class="homepage-2-feature-courses-image-1-overlay">
-                                <h3 style="text-align: center; margin-top: 80px; color: rgb(48, 206, 100);">
-                                    Lorem ipsum
-                                </h3>
-                                <p class="text-center text-white">
-                                    Lorem ipsum dolor sit amet
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ------ Homepage-2 Body Feature Courses Section End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- ------ Homepage-2 Body Keep Up To Date Start ------ -->
-
-    <!-- <div class="container-fluid">
-        <div class="row" data-aos="fade-up">
-            <div class="homepage-2-up-to-date skewed">
-                <div class="slider top">
-                    <div class="wrapper">
-                        <div class="content p-4">
-                            <h2 style="color: white;">
-                                KEEP UP TO DATE
-                            </h2>
-                            <p style="color: white;">
-                                &nbsp
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider bottom">
-                    <div class="wrapper">
-                        <div class="content">
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Search">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- ------ Homepage-2 Body Keep Up To Date End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- ------ Homepage-2 Body Testimonials And FAQS Start ------ -->
-
-    <div class="container-fluid">
-        <div class="row pb-5 homepage-2-testimonial-and-faqs">
-            <div class="col-lg-6">
-                <div class="col-sm-12" data-aos="zoom-in">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <h2 style="color: rgb(48, 206, 100);">
-                            TESTIMONIALS
-                        </h2>
-                        <!-- Carousel indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <!-- Wrapper for carousel items -->
-                        <div class="carousel-inner mt-5">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="testimonial">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, in ipsam
-                                                numquam aut mollitia rem atque. Voluptatibus ad optio tenetur quaerat,
-                                                harum ducimus rerum natus nulla ipsam maxime alias voluptate!
-                                            </p>
-                                        </div>
-                                        <div class="row d-flex media">
-                                            <div class="col-lg-3 col-md-3 testimonial-image">
-                                                <img src="assets/image/homepage-2/homepage-2-testimonial-image-1.jpg"
-                                                    class="mr-3" alt="">
-                                            </div>
-                                            <div class="media-body col-lg-6 col-md-6">
-                                                <div class="overview">
-                                                    <div class="name"><b>Mitchel John</b></div>
-                                                    <div class="details">C.E.O London</div>
-                                                    <div class="star-rating">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star-o"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3" style="margin-top: 100px;">
-                                            </div>
+                        <a class="nav-link" href="about.html"><span>About</span></a>
+                                    <a class="nav-link" href="events.html"><span>Events</span></a>
+                                    <div class="dropdown-pages-ui"><a
+                                            class="dropbtn-pages-ui nav-item nav-link navlink-response-ui ">Blogs</a>
+                                        <div class="dropdown-content-pages-ui">
+                                            <a href="blog-grid.html">Blogs 1</a>
+                                            <a href="blog_full-width.html">Blogs 2</a>
+                                            <a href="Main-blogs.html">Blogs 3</a>
+                                            <a href="main-blog_2.html">Blogs 4</a>
+                                            <a href="width-blog_2.html">Blogs 5</a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="testimonial">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, in ipsam
-                                                numquam aut mollitia rem atque. Voluptatibus ad optio tenetur quaerat,
-                                                harum ducimus rerum natus nulla ipsam maxime alias voluptate!
-                                            </p>
-                                        </div>
-                                        <div class="row media">
-                                            <div class="col-lg-3 col-md-3 testimonial-image">
-                                                <img src="assets/image/homepage-2/homepage-2-testimonial-image-2.jpg"
-                                                    class="mr-3" alt="">
-                                            </div>
-                                            <div class="media-body col-lg-6 col-md-6" style="margin-top: 65px;">
-                                                <div class="overview">
-                                                    <div class="name"><b>John Alex</b></div>
-                                                    <div class="details">C.E.O London</div>
-                                                    <div class="star-rating">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star-o"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3" style="margin-top: 100px;">
-                                                <!-- <div class="star-rating">
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i>
-                                                        </li>
-                                                    </ul>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="testimonial">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, in ipsam
-                                                numquam aut mollitia rem atque. Voluptatibus ad optio tenetur quaerat,
-                                                harum ducimus rerum natus nulla ipsam maxime alias voluptate!
-                                            </p>
-                                        </div>
-                                        <div class="row media">
-                                            <div class="col-lg-3 col-md-3 testimonial-image">
-                                                <img src="assets/image/homepage-2/homepage-2-testimonial-image-3.jpg"
-                                                    class="mr-3" alt="">
-                                            </div>
-                                            <div class="media-body col-lg-6 col-md-6" style="margin-top: 65px;">
-                                                <div class="overview">
-                                                    <div class="name" style="padding-left: 2px;"><b>Anthon John</b>
-                                                    </div>
-                                                    <div class="details">C.E.O London</div>
-                                                    <div class="star-rating">
-                                                        <ul class="list-inline" style="padding-right: 5px;">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star-o"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3" style="margin-top: 100px;">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                    <a class="nav-link" href="contact.html"><span>Contact</span></a>
+                        <a class="nav-link" href="#"><button class="z-apply-btn-nav">Get A Qoute</button></a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 homepage-2-faqs" data-aos="fade-right">
-                <h2 class="homepage-2-faqs-heading">
-                    FAQ'S
-                </h2>
-                <div class="col-lg-12 d-flex homepage-2-faqs-text">
-                    <div class="homepage-2-faqs-tab-text">
-                        <button class="text-start" onclick="toggle()"
-                            style="background-color: rgb(51, 51, 51); width: 100%; color: white; border: none;">
-                            <div class="d-flex">
-                                <span class="homepage-2-faqs-text-1">
-                                    <i class="fa-solid fa-plus"></i>
-                                </span> &nbsp&nbsp&nbsp
-                                <p class="pt-2 text-white">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                </p>
-                            </div>
-                        </button>
-                        <div id="div" style="background-color: white;">
-                            <div class="homepage-2-faqs-text-2">
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laboriosam atque,
-                                    harum
-                                    iusto explicabo id illum necessitatibus accusantium cumque voluptates enim omnis est
-                                    sequi, itaque ipsum expedita nostrum inventore iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 d-flex mt-2 homepage-2-faqs-text">
-                    <div class="homepage-2-faqs-tab-text">
-                        <button class="text-start" onclick="toggles()"
-                            style="background-color: rgb(51, 51, 51); width: 100%; color: white; border: none;">
-                            <div class="d-flex">
-                                <span class="homepage-2-faqs-text-1">
-                                    <i class="fa-solid fa-plus"></i>
-                                </span> &nbsp&nbsp&nbsp
-                                <p class="pt-2 text-white">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                </p>
-                            </div>
-                        </button>
-                        <div id="div1" style="display: none; background-color: white;">
-                            <div class="homepage-2-faqs-text-2">
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laboriosam atque,
-                                    harum
-                                    iusto explicabo id illum necessitatibus accusantium cumque voluptates enim omnis est
-                                    sequi, itaque ipsum expedita nostrum inventore iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 d-flex mt-2 homepage-2-faqs-text">
-                    <div class="homepage-2-faqs-tab-text">
-                        <button class="text-start" onclick="toggless()"
-                            style="background-color: rgb(51, 51, 51); width: 100%; color: white; border: none;">
-                            <div class="d-flex">
-                                <span class="homepage-2-faqs-text-1">
-                                    <i class="fa-solid fa-plus"></i>
-                                </span> &nbsp&nbsp&nbsp
-                                <p class="pt-2 text-white">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                </p>
-                            </div>
-                        </button>
-                        <div id="div2" style="display: none; background-color: white;">
-                            <div class="homepage-2-faqs-text-2">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laboriosam atque,
-                                    harum
-                                    iusto explicabo id illum necessitatibus accusantium cumque voluptates enim omnis est
-                                    sequi, itaque ipsum expedita nostrum inventore iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </nav>
 
-    <!-- ------ Homepage-2 Body Testimonials And FAQS End ------ -->
+        <!-- ------ Navbar End ------ -->
 
-    <!-- ---------------======================================================================================--------------- -->
+        <!-- ------ Header Start ------ -->
 
-    <!-- ------ Homepage-2 Body New Events And Blogs Start ------ -->
-
-    <div class="container-fluid">
-        <div class="row homepage-2-new-event-and-blog">
-            <div class="col-lg-6 homepage-2-new-event pt-5 pb-5" data-aos="fade-up">
-                <h1>
-                    New Events
-                </h1>
-                <div class="card homepage-2-new-event-1 custom mt-4 ">
-                    <div class="row g-0">
-                        <div class="col-md-4 homepage-2-new-event-date">
-                            <h1>
-                                02
-                            </h1>
-                            <h4>
-                                Feb 2023
-                            </h4>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body homepage-2-new-event-text">
-                                <div class="homepage-2-new-event-text-1">
-                                    <p>
-                                        Presentation: The Geographics of
-                                        a care based economy year 2020
-                                        <br>
-                                        <span>
-                                            <i class="fa-regular fa-clock" style="color: rgb(4, 214, 74);"></i> &nbsp
-                                            8:00 PM
-                                        </span>
-                                        <span>
-                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                            <i class="fa-solid fa-location-dot" style="color: rgb(4, 214, 74);"></i>
-                                            &nbsp Millat Chock, London
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card homepage-2-new-event-1 custom mt-4 ">
-                    <div class="row g-0">
-                        <div class="col-md-4 homepage-2-new-event-date">
-                            <h1>
-                                02
-                            </h1>
-                            <h4>
-                                Feb 2023
-                            </h4>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body homepage-2-new-event-text">
-                                <div class="homepage-2-new-event-text-1">
-                                    <p>
-                                        Presentation: The Geographics of
-                                        a care based economy year 2020
-                                        <br>
-                                        <span>
-                                            <i class="fa-regular fa-clock" style="color: rgb(4, 214, 74);"></i> &nbsp
-                                            8:00 PM
-                                        </span>
-                                        <span>
-                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                            <i class="fa-solid fa-location-dot" style="color: rgb(4, 214, 74);"></i>
-                                            &nbsp Millat Chock, London
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card homepage-2-new-event-1 custom mt-4 ">
-                    <div class="row g-0">
-                        <div class="col-md-4 homepage-2-new-event-date">
-                            <h1>
-                                02
-                            </h1>
-                            <h4>
-                                Feb 2023
-                            </h4>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body homepage-2-new-event-text">
-                                <div class="homepage-2-new-event-text-1">
-                                    <p>
-                                        Presentation: The Geographics of
-                                        a care based economy year 2020
-                                        <br>
-                                        <span>
-                                            <i class="fa-regular fa-clock" style="color: rgb(4, 214, 74);"></i> &nbsp
-                                            8:00 PM
-                                        </span>
-                                        <span>
-                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                            <i class="fa-solid fa-location-dot" style="color: rgb(4, 214, 74);"></i>
-                                            &nbsp Millat Chock, London
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 homepage-2-blogs pt-5" data-aos="flip-up">
-                <h1>
-                    Blogs
-                </h1>
-                <div class="mt-4 d-flex">
-                    <div class="homepage-2-blog-1">
-                        <p>
-                            IP Serveillence System Lorem, ipsum dolor. & <br>
-                            Its Benifits
-                            <br>
-                            <span>
-                                <i class="fa-regular fa-clock"></i> &nbsp 23 days Ago
-                            </span>
-                            <hr style="color: white; margin-left: 20px;">
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-4 d-flex">
-                    <div class="homepage-2-blog-1">
-                        <p>
-                            How Graphics Designing Lorem, ipsum dolor. <br>
-                            is Evolving?
-                            <br>
-                            <span>
-                                <i class="fa-regular fa-clock"></i> &nbsp 23 days Ago
-                            </span>
-                            <hr style="color: white; margin-left: 20px;">
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-4 d-flex">
-                    <div class="homepage-2-blog-1">
-                        <p>
-                            The latest trend: Digital Lorem, ipsum dolor. <br>
-                            Media Marketing
-                            <br>
-                            <span>
-                                <i class="fa-regular fa-clock"></i> &nbsp 23 days Ago
-                            </span>
-                            <hr style="color: white; margin-left: 20px;">
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ------ Homepage-2 Body New Events And Blogs End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- ------ Homepage-2 Body Gallery Start ------ -->
-
-    <h2 class="text-center pt-5" style="font-weight: bold;" data-aos="fade-in">GALLERY</h2>
-
-    <div id="gallery" class="container-fluid  homepage-2-gallery-styling pt-5" data-aos="fade-up">
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-image-1.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-image-2.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-7.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-5.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-6.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-image-1.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 25%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-7.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-        <div class="home-gallery-image-1">
-            <a>
-                <img src="assets/image/homepage-2/homepage-2-gallery-5.jpg" alt=""
-                    style="width: 100%;border-radius: 15px;">
-                <div class="home-gallery-overlay">
-                    <h3 style="text-align: center; margin-top: 40%;">
-                        <i class="fa fa-eye" style="font-size: 2rem;"></i>
-                    </h3>
-                </div>
-            </a>
-        </div>
-    </div>
-
-    <!-- <div class="container-fluid">
-        <div class="row homepage-2-gallery">
-            <div class="col-lg-12 text-center pt-4">
-                <h1>
-                    GALLERY
-                </h1>
-            </div>
-            <div class="col-lg-4 col-md-4 homepage-2-gallery-image-1">
-                <img src="assets/image/homepage-2/homepage-2-feature-courses-background-image.jpg" alt=""
-                    style="width: 100%; ">
-                <div class="homepage-2-gallery-image-1-overlay">
-                    <h3 style="text-decoration: none; margin-top: 130px; color: rgb(48, 206, 100);">
-                        LOREM IPSUM
-                    </h3>
-                    <h5>
-                        Lorem ipsum dolor sit amet
-                    </h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 homepage-2-gallery-image-2">
-                <img src="assets/image/homepage-2/homepage-2-feature-courses-image-2.jpg" alt=""
-                    style="width: 100%; height: 90%;">
-                <div class="homepage-2-gallery-image-2-overlay">
-                    <h3 style="text-decoration: none; margin-top: 130px; color: rgb(48, 206, 100);">
-                        LOREM IPSUM
-                    </h3>
-                    <h5>
-                        Lorem ipsum dolor sit amet
-                    </h5>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-2 homepage-2-gallery-image-3">
-                <img src="assets/image/homepage-2/homepage-2-gallery-3.jpg" alt="" style="width: 100%; height: 200%;">
-                <div class="homepage-2-gallery-image-3-overlay">
-                    <h3 style="text-decoration: none; margin-top: 300px; color: rgb(48, 206, 100);">
-                        LOREM IPSUM
-                    </h3>
-                    <h5>
-                        Lorem ipsum dolor sit amet
-                    </h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 homepage-2-gallery-image-4">
-                <img src="assets/image/homepage-2/body-image-1.jpg" alt="" style="width: 100%; height: 89%;">
-                <div class="homepage-2-gallery-image-4-overlay">
-                    <h3 style="text-decoration: none; margin-top: 130px; color: rgb(48, 206, 100);">
-                        LOREM IPSUM
-                    </h3>
-                    <h5>
-                        Lorem ipsum dolor sit amet
-                    </h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 homepage-2-gallery-image-5">
-                <img src="assets/image/homepage-2/homepage-2-feature-courses-image-1.jpg" alt="" style="width: 100%;">
-                <div class="homepage-2-gallery-image-5-overlay">
-                    <h3 style="text-decoration: none; margin-top: 150px; color: rgb(48, 206, 100);">
-                        LOREM IPSUM
-                    </h3>
-                    <h5>
-                        Lorem ipsum dolor sit amet
-                    </h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 homepage-2-gallery-image-6">
-                <img src="assets/image/homepage-2/homepage-2-gallery-6.jpg" alt="" style="width: 100%; height: 74%;">
-                <div class="homepage-2-gallery-image-6-overlay">
-                    <h3 style="text-decoration: none; margin-top: 150px; color: rgb(48, 206, 100);">
-                        LOREM IPSUM
-                    </h3>
-                    <h5>
-                        Lorem ipsum dolor sit amet
-                    </h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 homepage-2-gallery-image-7" style="margin-left: 277px;">
-                <img src="assets/image/homepage-2/body-image-2.jpg" alt="" style="width: 100%; height: 74%;">
-                <div class="homepage-2-gallery-image-7-overlay">
-                    <h3 style="text-decoration: none; margin-top: 150px; color: rgb(48, 206, 100);">
-                        LOREM IPSUM
-                    </h3>
-                    <h5>
-                        Lorem ipsum dolor sit amet
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- ------ Homepage-2 Body Gallery End ------ -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-    <!-- ------ Homepage-2 Body Latest News Start ------ -->
-
-    <div class="container-fluid">
-        <div class="row homepage-2-lattest-news-start mt-5 mb-4">
-            <div class="col-lg-12 text-center" data-aos="fade-in">
-                <h1>
-                    LATEST NEWS
-                </h1>
-                <p style="color: grey;">
-                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT.
-                </p>
-            </div>
-            <div class="col-lg-6 mt-4 mb-0">
-                <div class="card homepage-2-latest-news-cards-1 " data-aos="fade-up" style="border-radius: 15px;">
-                    <img src="assets/image/homepage-2/body-image-2.jpg" class="card-img-top" alt="..." height="70%"
-                        width="100%" style="border-radius: 15px;">
-                    <div class=" card-body">
-                        <h3 class="card-title">
-                            THE WORLD BEST UNIVERSITY
-                        </h3>
-                        <p class="card-text" style="color: grey;">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit commodi suscipit optio.
-                            Mollitia, magnam et dicta aperiam quasi autem odio dolores facilis perspiciatis nisi,
-                            officia error nam sapiente ab velit.Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit.
-                        </p>
-                        <div class="row homepage-2-latest-news-card-1-sub-section">
-                            <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-comment">
+        <header>
+            <ul id="slides">
+                <li class="slide slide1 showing ">
+                    <div class="container z-home-slider">
+                        <div class="row">
+                            <div class="col-lg-8 z-home-slider-left">
+                                <h1>
+                                    Education is the passport to the future, for tomorrow belongs to those who prepare
+                                    for it today.
+                                </h1>
                                 <p>
-                                    <i class="fa-solid fa-comment" style="color: rgb(48, 206, 100);"></i>
-                                    Comments
+                                    We also offer specialized programs in areas such as coding, entrepreneurship, <br>
+                                    and foreign languages.
                                 </p>
-                            </div>
-                            <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-person">
-                                <p>
-                                    <i class="fa-solid fa-user" style="color: rgb(48, 206, 100);"></i>
-                                    Mitchel John
-                                </p>
-                            </div>
-                            <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-calender">
-                                <p>
-                                    <i class="fa-solid fa-calendar-days" style="color: rgb(48, 206, 100);"></i>
-                                    12 Feb 2023
-                                </p>
+                                <a href="#">
+                                    <button class="z-learn-btn">
+                                        Learn More
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="z-apply-btn">
+                                        Apply Now
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mt-4" data-aos="zoom-in">
-                <div class="card mb-5" style="border: none;">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/image/homepage-2/homepage-2-feature-courses-image-1.jpg" class="img-fluid "
-                                alt="..." style="width: 100%; height: 100%;border-radius: 15px;">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    THE WORLD BEST UNIVERSITY
-                                </h5>
-                                <p class="card-text" style="color: grey;">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit commodi suscipit
-                                    optio.
-                                </p>
-                                <div class="row pt-3">
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-comment">
-                                        <p class="commentses">
-                                            <i class="fa-solid fa-comment" style="color: rgb(48, 206, 100);"></i>
-                                            Comments
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-person">
-                                        <p class="namesss">
-                                            <i class="fa-solid fa-user" style="color: rgb(48, 206, 100);"></i>
-                                            Mitchel
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-calender">
-                                        <p class="namesss">
-                                            <i class="fa-solid fa-calendar-days" style="color: rgb(48, 206, 100);"></i>
-                                            12 Feb
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-4" style="border: none;">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/image/homepage-2/homepage-2-feature-courses-image-2.jpg" class="img-fluid"
-                                alt="..." style="width: 100%; height: 100%; border-radius: 15px;">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    THE WORLD BEST UNIVERSITY
-                                </h5>
-                                <p class="card-text" style="color: grey;">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit commodi suscipit
-                                    optio.
-                                </p>
-                                <div class="row pt-3">
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-comment">
-                                        <p class="commentses">
-                                            <i class="fa-solid fa-comment" style="color: rgb(48, 206, 100);"></i>
-                                            Comments
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-person">
-                                        <p class="namesss">
-                                            <i class="fa-solid fa-user" style="color: rgb(48, 206, 100);"></i>
-                                            Mitchel
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-calender">
-                                        <p class="namesss">
-                                            <i class="fa-solid fa-calendar-days" style="color: rgb(48, 206, 100);"></i>
-                                            12 Feb
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mt-5" style="border: none;">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/image/homepage-2/homepage-2-feature-courses-image-3.jpg" class="img-fluid "
-                                alt="..." style="width: 100%; height: 100%; border-radius: 15px;">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    THE WORLD BEST UNIVERSITY
-                                </h5>
-                                <p class="card-text" style="color: grey;">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit commodi suscipit
-                                    optio.
-                                </p>
-                                <div class="row pt-3">
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-comment">
-                                        <p class="commentses">
-                                            <i class="fa-solid fa-comment" style="color: rgb(48, 206, 100);"></i>
-                                            Comments
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-person">
-                                        <p class="namesss">
-                                            <i class="fa-solid fa-user" style="color: rgb(48, 206, 100);"></i>
-                                            Mitchel
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 homepage-2-latest-news-card-1-calender">
-                                        <p class="namesss">
-                                            <i class="fa-solid fa-calendar-days" style="color: rgb(48, 206, 100);"></i>
-                                            12 Feb
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-12 homepage-2-map" data-aos="fade-up">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.828535213414!2d73.09456721547845!3d31.446387057937308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922696ac9459bed%3A0x4d837d0ef403530e!2sCareer%20Institute%20-%20Millat%20Chowk%20Campus!5e0!3m2!1sen!2s!4v1673873850668!5m2!1sen!2s"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    </div>
-    </div>
-
-    <!-- ------ Homepage-2 Body Our Partners Start ------ -->
-
-    <!-- ------ Homepage-1 Body Our Partners Start ------ -->
-
-    <div class="owl-carousel owl-theme mb-4" style="padding-right: 50px;">
-        <div class="item">
-            <img src="assets/image/logo/3docean.png" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/image/logo/audiojungle.png" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/image/logo/codecanyon.png" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/image/logo/graphicriver.png" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/image/logo/photodune.png" alt="">
-        </div>
-        <div class="item pt-2">
-            <img src="assets/image/logo/themeforest.png" alt="">
-        </div>
-        <div class="item">
-            <img src="assets/image/logo/videohive.png" alt="">
-        </div>
-    </div>
-
-    <!-- ------ Homepage-1 Body Our Partners End ------ -->
-
-    <!-- ------ Homepage-2 Body Latest News End ------ -->
-
-    <!-- --------------- Homepage-2 Body Section End --------------- -->
-
-    <!-- ---------------======================================================================================--------------- -->
-
-   <!-- Footer  -->
-   <div class="container-fluid main-footer-web">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mt-3">
-          <h2>Logo Here</h2>
-          <p>
-            We’re always in search for talented and motivated people. Don’t
-            be shy introduce yourself! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Voluptates, rerum!
-          </p>
-          <button class="p-2 contact-with-btn text-white">
-            Contact With Us
-          </button>
-        </div>
-        <div class="col-lg-8 col-md-12">
-          <div class="row">
-            <div class="col-lg-4 mt-3 main-web-footer col-md-4">
-              <h2 class="fw-bold">Useful Links</h2>
-              <ul>
-                <li>Marketplace</li>
-                <li>kindergarten</li>
-                <li>University</li>
-                <li>GYM Coaching</li>
-                <li>FAQ</li>
-              </ul>
-            </div>
-            <div class="col-lg-4 mt-3 main-web-footer col-md-4">
-              <h2 class="fw-bold">Our Compony</h2>
-              <ul>
-                <li>Contact Us</li>
-                <li>Become Teacher</li>
-                <li>Blog</li>
-                <li>Instructor</li>
-                <li>Events</li>
-              </ul>
-            </div>
-            <div class="col-lg-4 mt-3 main-web-footer col-md-4">
-              <h2 class="fw-bold">Get Contact</h2>
-              <ul>
-                <li><i class="bi bi-phone me-2"></i> (406) 555-0120</li>
-                <li>
-                  <i class="bi bi-envelope me-2"></i> rainbow@example.com
                 </li>
-                <li>
-                  <i class="bi bi-geo-alt me-2"></i> North America, USA
+                <li class="slide slide2">
+                    <div class="container z-home-slider">
+                        <div class="row">
+                            <div class="col-lg-7 z-home-slider-left">
+                                <h1>
+
+                                    Education is the key to personal and societal growth, and we strive to provide a
+                                    platform.
+                                </h1>
+                                <p>
+                                    We offer a wide range of educational resources, courses, and programs <br> to cater
+                                    to learners of all ages and backgrounds.</p>
+                                <a href="#">
+                                    <button class="z-learn-btn">
+                                        Learn More
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="z-apply-btn">
+                                        Apply Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div
-        class="col-md-12"
-        style="
-          justify-content: space-between;
-          align-items: center;
-          display: flex;
-        "
-      >
-        <div
-          class=""
-          style="
-            justify-content: space-between;
-            align-items: center;
-            display: flex;
-          "
-        >
-          <h6 style="font-size: 20px !important">
-            Copyright © 2023. All Rights Reserved
-          </h6>
-        </div>
-        <div class="main-footer-sec-list mt-0 pt-0">
-          <ul>
-            <li>Terms of service</li>
-            <li>Privacy policy</li>
-            <li>Subscription</li>
-            <li>Login & Register</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Footer End -->
+                <li class="slide slide3">
+                    <div class="container z-home-slider">
+                        <div class="row">
+                            <div class="col-lg-8 z-home-slider-left">
+                                <h1>
+                                    Education is the passport to the future, for tomorrow belongs to those who prepare
+                                    for it today.
+                                </h1>
+                                <p>
+                                    Our dedicated team of educators and experts are committed to creating an inclusive
+                                    and engaging learning environment
+                                </p>
+                                <a href="#">
+                                    <button class="z-learn-btn">
+                                        Learn More
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="z-apply-btn">
+                                        Apply Now
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- <button onClick="prevSlide();"><i class="bi bi-arrow-left arrow arrow-next"></i></button>
+                <button onClick="nextSlide();"><i class="bi bi-arrow-right arrow arrow-prev"></i></button> -->
+            </ul>
 
-    <!-- ------ Nav Button Link Start ------ -->
-    <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
-    <!-- ------ Nav Button Link End ------ -->
 
-    <!-- ------ Carousel Link Start ------ -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
-    <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            dots: false,
-            nav: false,
-            autoplay: true,
-            autoplayHoverPause: true,
-            autoplayTimeout: 2000,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 3
+
+        </header>
+
+
+        <script>
+            var slides = document.querySelectorAll("#slides .slide");
+            var currentSlide = 0;
+            var slideInterval = setInterval(nextSlide, 6000);
+            var hoverActive = false;
+
+            function nextSlide() {
+                if (!hoverActive) {
+                    slides[currentSlide].classList.remove("showing");
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add("showing");
                 }
             }
-        })
-    </script>
-    <!-- ------ Carousel Link End ------ -->
 
-    <!-- ------ Testimonial Slider Start ------ -->
+            function prevSlide() {
+                if (currentSlide > 0) {
+                    slides[currentSlide].classList.remove("showing");
+                    currentSlide = (currentSlide - 1) % slides.length;
+                    slides[currentSlide].classList.add("showing");
+                }
+            }
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+            // Stop slide interval on hover
+            slides.forEach(function (slide) {
+                slide.addEventListener("mouseenter", function () {
+                    hoverActive = true;
+                });
 
-    <!-- ------ Testimonial Slider End ------ -->
+                slide.addEventListener("mouseleave", function () {
+                    hoverActive = false;
+                });
+            });
+        </script>
 
-    <!-- ---------- Hide And Show Button Start -------------- -->
+
+        <!-- ------ Header End ------ -->
+
+        <!-- ------- Why Choose Us Section Start ------- -->
+
+        <div class="container pt-lg-1">
+            <div class="row" data-animated="SpeedIn">
+                <div class="col-lg-6 mt-4 mt-md-5 z-why-sec" data-aos="slide-up">
+                    <div>
+                        <div style="float: left;" class="vertical-line"></div>
+                        <div class="homepage-1-content">
+                            <h2 class="mb-2">WHY CHOOSE US</h2>
+                        </div>
+                        <h5>About <span style="font-weight: bold;">IVY Institute</span></h5>
+                        <p class="text-muted mt-3" style="font-weight: 400;">
+                            Choose our home education program for a personalized and holistic learning experience that
+                            develops both knowledge and character. Join us in cultivating curiosity, critical thinking,
+                            and
+                            creativity.
+                            <br><br>
+                            <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                            &nbsp Flexible scheduling options to accommodate busy lifestyles.
+                            <br>
+                            <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                            &nbsp Focus on curiosity, critical thinking, and creativity
+                            <br>
+                            <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                            &nbsp Personalized learning experience
+                            <br>
+                            <span><i class="bi bi-arrow-right-short" style="font-size: 21px;"></i></span>
+                            &nbsp Personalized learning experience
+                        </p>
+                        <a href="#" class="homepage-1-read-more-button-a">
+                            <button class="homepage-1-read-more-button btn" type="submit">Read More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-md-5" tu data-animated="SpeedIn">
+                    <img src="assets/image/homepage/why-choose-us.jpg" class="float-lg-end"
+                        style="width: 100%; height: 100%;border-radius: 10px; " data-aos="slide-up">
+                </div>
+            </div>
+        </div>
+
+        <!-- ------- Why Choose Us Section End ------- -->
+
+        <!-- ------- Counter Section Start ------- -->
+
+        <section class="z-counter mt-md-5 mt-4 pt-lg-2">
+            <div class="container">
+                <div class="row text-center mb-4">
+                    <div class="col-lg-3 col-md-3 mt-5 pt-5">
+                        <span style="color: white; font-size: 50px;"><i class="bi bi-mortarboard-fill"></i></span>
+                        <br>
+                        <span class=" counter "
+                            style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">98</span><span
+                            style="color: white;font-size: 2rem;">%</span>
+                        <h6 class="" style="color: white;">Graduates</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
+                        <span style="color: white; font-size: 50px;"><i class="bi bi-patch-check-fill"></i></span>
+                        <br>
+                        <span class=" counter"
+                            style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">30</span><span
+                            style="color: white;font-size: 2rem;">+</span>
+                        <h6 style="color: white;">Certified Teachers</h6>
+                    </div>
+                    <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
+                        <span style="color: white; font-size: 50px;"><i class="bi bi-bar-chart-line-fill"></i></span>
+                        <br>
+                        <span class=" counter"
+                            style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">8</span>
+                        <h6 style="color: white;">Student Campuses</h6>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
+                        <span style="color: white; font-size: 50px;"><i class="bi bi-person-fill"></i></span>
+                        <br>
+                        <span class=" counter"
+                            style="display: inline-block; font-size: 45px; font-weight: 100; color: white;">6123</span>
+                        <h6 style="color: white;">Students </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------==================jQuery-link===============----------------- -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="assets/JavaScript/jquery.counterup.min.js"></script>
+        <!-- ------------==================jQuery-link===============----------------- -->
+
+        <!-- ------- Counter Section End ------- -->
+
+        <!-- ------ Popular Courses Section Start ------ -->
+
+        <div class="container mt-4 mt-md-5">
+            <div class="row">
+                <div class="col-lg-12 text-center z-popular-courses-type-heading">
+                    <h2>
+                        Popular Courses
+                    </h2>
+                </div>
+                <div class="col-lg-12 mt-4 mt-md-4">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card z-popular-courses">
+                                <img src="assets/image/homepage/popular-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body pt-3" style="margin-left: -15px;">
+                                    <div class="z-popular-courses-type ms-3">
+                                        <h6>
+                                            Business
+                                        </h6>
+                                    </div>
+                                    <h5 class="mb-3">
+                                        Become a Business Strategy & Planning
+                                    </h5>
+                                    <p class="text-muted" style="font-family: sans-serif !important;">
+                                        Good business leaders create a vision, articulate and passionately the vision.
+                                    </p>
+                                    <hr style="color: gray;">
+                                    <div class="z-popular-courses-teacher">
+                                        <span class="text-muted">
+                                            <i class="bi bi-person"></i> 6 &nbsp
+                                            <i class="bi bi-book"></i> 12 &nbsp
+                                            <i class="bi bi-question-circle"></i> 2
+                                        </span>
+                                        <div class="d-flex align-items-center text-muted"
+                                            style="font-family: sans-serif !important; font-size: 14px;">
+                                            <img src="assets/image/homepage/popular-1(1).jpg" alt=""
+                                                style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Mark Alen
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card z-popular-courses-1">
+                                <img src="assets/image/homepage/popular-2(2).jpg" class="card-img-top-1" alt="...">
+                                <div class="card-body" style="margin-left: -15px;">
+                                    <div class="z-popular-courses-type ms-3">
+                                        <h6>
+                                            Chemistry
+                                        </h6>
+                                    </div>
+                                    <h5 class="mb-3">
+                                        Become a Chemist & Chemical Processes
+                                    </h5>
+                                    <p class="text-muted" style="font-family: sans-serif !important;">
+                                        Chemistry is the study of matter and its properties.
+                                    </p>
+                                    <hr style="color: gray;">
+                                    <div class="z-popular-courses-teacher">
+                                        <span class="text-muted">
+                                            <i class="bi bi-person"></i> 6 &nbsp
+                                            <i class="bi bi-book"></i> 12 &nbsp
+                                            <i class="bi bi-question-circle"></i> 2
+                                        </span>
+                                        <div class="d-flex align-items-center text-muted"
+                                            style="font-family: sans-serif !important; font-size: 14px;">
+                                            <img src="assets/image/homepage/popular-3(3).jpg" alt=""
+                                                style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Philton
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card z-popular-courses-2">
+                                <img src="assets/image/homepage/popular-3.jpg" class="card-img-top-2" alt="...">
+                                <div class="card-body" style="margin-left: -15px;">
+                                    <div class="z-popular-courses-type ms-3">
+                                        <h6>
+                                            Accounts
+                                        </h6>
+                                    </div>
+                                    <h5 class="mb-3">
+                                        Become a Business Strategy & Planning
+                                    </h5>
+                                    <p class="text-muted" style="font-family: sans-serif !important;">
+                                        Good business leaders create a vision, articulate and passionately the vision.
+                                    </p>
+                                    <hr style="color: gray;">
+                                    <div class="z-popular-courses-teacher">
+                                        <span class="text-muted">
+                                            <i class="bi bi-person"></i> 6 &nbsp
+                                            <i class="bi bi-book"></i> 12 &nbsp
+                                            <i class="bi bi-question-circle"></i> 2
+                                        </span>
+                                        <div class="d-flex align-items-center text-muted"
+                                            style="font-family: sans-serif !important; font-size: 14px;">
+                                            <img src="assets/image/homepage/popular-4(4).jpg" alt=""
+                                                style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Alieen
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card z-popular-courses-3">
+                                <img src="assets/image/homepage/popular-4.jpg" class="card-img-top-3" alt="...">
+                                <div class="card-body" style="margin-left: -15px;">
+                                    <div class="z-popular-courses-type ms-3">
+                                        <h6>
+                                            Business
+                                        </h6>
+                                    </div>
+                                    <h5 class="mb-3">
+                                        Become a Business Strategy & Planning
+                                    </h5>
+                                    <p class="text-muted" style="font-family: sans-serif !important;">
+                                        Good business leaders create a vision, articulate and passionately the vision.
+                                    </p>
+                                    <hr style="color: gray;">
+                                    <div class="z-popular-courses-teacher">
+                                        <span class="text-muted">
+                                            <i class="bi bi-person"></i> 6 &nbsp
+                                            <i class="bi bi-book"></i> 12 &nbsp
+                                            <i class="bi bi-question-circle"></i> 2
+                                        </span>
+                                        <div class="d-flex align-items-center text-muted"
+                                            style="font-family: sans-serif !important; font-size: 14px;">
+                                            <img src="assets/image/homepage/popular-5(5).jpg" alt=""
+                                                style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Mark Alen
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card z-popular-courses-4">
+                                <img src="assets/image/homepage/popular-5.jpg" class="card-img-top-4" alt="...">
+                                <div class="card-body" style="margin-left: -15px;">
+                                    <div class="z-popular-courses-type ms-3">
+                                        <h6>
+                                            Business
+                                        </h6>
+                                    </div>
+                                    <h5 class="mb-3">
+                                        Become a Business Strategy & Planning
+                                    </h5>
+                                    <p class="text-muted" style="font-family: sans-serif !important;">
+                                        Good business leaders create a vision, articulate and passionately the vision.
+                                    </p>
+                                    <hr style="color: gray;">
+                                    <div class="z-popular-courses-teacher">
+                                        <span class="text-muted">
+                                            <i class="bi bi-person"></i> 6 &nbsp
+                                            <i class="bi bi-book"></i> 12 &nbsp
+                                            <i class="bi bi-question-circle"></i> 2
+                                        </span>
+                                        <div class="d-flex align-items-center text-muted"
+                                            style="font-family: sans-serif !important; font-size: 14px;">
+                                            <img src="assets/image/homepage/popular6(6).jpg" alt=""
+                                                style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Alexende
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card z-popular-courses-5">
+                                <img src="assets/image/homepage/popular-6.jpg" class="card-img-top-5" alt="...">
+                                <div class="card-body" style="margin-left: -15px;">
+                                    <div class="z-popular-courses-type ms-3">
+                                        <h6>
+                                            Business
+                                        </h6>
+                                    </div>
+                                    <h5 class="mb-3">
+                                        Become a Business Strategy & Planning
+                                    </h5>
+                                    <p class="text-muted" style="font-family: sans-serif !important;">
+                                        Good business leaders create a vision, articulate and passionately the vision.
+                                    </p>
+                                    <hr style="color: gray;">
+                                    <div class="z-popular-courses-teacher">
+                                        <span class="text-muted">
+                                            <i class="bi bi-person"></i> 6 &nbsp
+                                            <i class="bi bi-book"></i> 12 &nbsp
+                                            <i class="bi bi-question-circle"></i> 2
+                                        </span>
+                                        <div class="d-flex align-items-center text-muted"
+                                            style="font-family: sans-serif !important; font-size: 14px;">
+                                            <img src="assets/image/homepage/popular8(8).jpg" alt=""
+                                                style="width: 40px; height: 40px; border-radius: 50%;"> &nbsp Mark Alen
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+            integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript">
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: false,
+                autoplay: true,
+                mouseDrag: true,
+                autoplayHoverPause: true,
+                autoplayTimeout: 2000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3.5
+                    }
+                }
+            })
+        </script>
+
+        <!-- ------ Popular Courses Section End ------ -->
+
+        <!-- ------- Upcoming Events Start ------- -->
+
+        <div class="container">
+            <div class="row z-up-event mt-4 mt-md-5">
+                <div class="col-lg-12 text-center z-up-event-heading">
+                    <h2>
+                        upcoming events
+                    </h2>
+                    <p>
+                        Upcoming Educational Events for your future career.
+                    </p>
+                </div>
+                <div class="col-lg-6 mt-lg-4 mt-3">
+                    <div class="card mb-3 upcoming-event-card-1">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="assets/image/homepage/upcoming-event-img-1.jpg" class="img-fluid" alt="..."
+                                    style="width: 100%;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="text-center d-flex">
+                                        <h3>
+                                            23 <br> <span>June</span>
+                                        </h3>
+                                        <p>
+                                            <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
+                                            <br>
+                                            <i class="bi bi-geo-alt"></i> Sityana Road
+                                        </p>
+                                    </div>
+                                    <div class="upcoming-event-card-1-about">
+                                        <h5 style="font-family: sans-serif !important;">
+                                            College Eucharistal (John of Rome) at Bartlemas Chapel.
+                                        </h5>
+                                        <a href="#">
+                                            <button>
+                                                View Details
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-4 mt-3">
+                    <div class="card mb-3 upcoming-event-card-2">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="assets/image/homepage/upcoming-event-img-2.jpg" class="img-fluid" alt="..."
+                                    style="width: 100%;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="text-center d-flex">
+                                        <h3>
+                                            23 <br> <span>June</span>
+                                        </h3>
+                                        <p>
+                                            <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
+                                            <br>
+                                            <i class="bi bi-geo-alt"></i> Sityana Road
+                                        </p>
+                                    </div>
+                                    <div class="upcoming-event-card-2-about">
+                                        <h5 style="font-family: sans-serif !important;">
+                                            Joined Roman Catholic Mass at Corpuse Christal College Chapel.
+                                        </h5>
+                                        <a href="#">
+                                            <button>
+                                                View Details
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------- Upcoming Events End ------- -->
+
+        <!-- ------- Testimonial Start ------- -->
+
+        <section class="z-testimonial mt-4 mt-md-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 style="font-size: 1.9rem; margin-bottom: 0px;">
+                            TESTIMONIAL
+                        </h2>
+                        <p class="fs-5 ps-3 pt-2" style="font-family: sans-serif !important;">
+                            How people said about Education
+                        </p>
+                    </div>
+                    <div class="testimonial-carousel row mt-5">
+                        <div class="testimonial col-lg-4 col-md-6">
+                            <figure class="snip1390">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg"
+                                    alt="profile-sample3" class="profile" />
+                                <figcaption>
+                                    <h2>Samira</h2>
+                                    <h4>UX Design</h4>
+                                    <blockquote class="text-muted">
+                                        " I am absolutely thrilled with the UX design that was created for my website "
+                                    </blockquote>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="testimonial col-lg-4 col-md-6 mt-lg-0 mt-md-0 mt-4">
+                            <figure class="snip1390 hover"><img
+                                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg"
+                                    alt="profile-sample5" class="profile" />
+                                <figcaption>
+                                    <h2>Olivers</h2>
+                                    <h4>Accountant</h4>
+                                    <blockquote class="text-muted">
+                                        " An accountant is not just a number cruncher, but a valuable partner ibusiness
+                                        "
+                                    </blockquote>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="testimonial col-lg-4 col-md-6 mt-lg-0 mt-md-5 mt-4">
+                            <figure class="snip1390"><img
+                                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg"
+                                    alt="profile-sample6" class="profile" />
+                                <figcaption>
+                                    <h2>Avelina</h2>
+                                    <h4>Biology</h4>
+                                    <blockquote class="text-muted">
+                                        " The professors at Alliance great University there subject knowledge and
+                                        research "
+                                    </blockquote>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <script>
+            const testimonials = document.querySelectorAll(".testimonial");
+            const carousel = document.querySelector(".testimonial-carousel");
+
+            let currentIndex = 0;
+
+            function showTestimonial(index) {
+                testimonials.forEach((testimonial) => testimonial.classList.remove("active"));
+                testimonials[index].classList.add("active");
+            }
+
+            function nextTestimonial() {
+                currentIndex++;
+                if (currentIndex >= testimonials.length) {
+                    currentIndex = 0;
+                }
+                showTestimonial(currentIndex);
+            }
+
+            setInterval(nextTestimonial, 3000);
+
+            showTestimonial(currentIndex);
+
+        </script>
+
+        <!-- ------- Testimonial End ------- -->
+
+        <!-- ------- Our Blog Start ------- -->
+
+        <section class="mt-4 mt-md-5">
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col-lg-12 text-center z-home-blog-heading">
+                        <h2>
+                            OUR BLOGS
+                        </h2>
+                        <p class="text-muted" style="font-family: sans-serif !important;">
+                            Education news all over the world.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="card z-blog-card-1">
+                            <span>
+                                <img src="assets/image/homepage/blog-1.jpg" class="card-img-top" alt="...">
+                                <div class="z-blog-card-1-date">
+                                    <button>July 10, 2023</button>
+                                </div>
+                            </span>
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Empowering Minds and Transforming Lives</h5>
+                                <p class="card-text text-muted mb-3" style="font-family: sans-serif !important;">
+                                    Education is the most powerful weapon which you can use to change the world.
+                                </p>
+                                <a href="#" class="text-muted">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="card z-blog-card-1">
+                            <span>
+                                <img src="assets/image/homepage/blog-2.jpg" class="card-img-top" alt="...">
+                                <div class="z-blog-card-1-date">
+                                    <button>July 10, 2023</button>
+                                </div>
+                            </span>
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Empowering Minds and Transforming Lives</h5>
+                                <p class="card-text text-muted mb-3" style="font-family: sans-serif !important;">
+                                    Education is the most powerful weapon which you can use to change the world.
+                                </p>
+                                <a href="#" class="text-muted">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="card z-blog-card-1">
+                            <span>
+                                <img src="assets/image/homepage/blog-3.jpg" class="card-img-top" alt="...">
+                                <div class="z-blog-card-1-date">
+                                    <button>July 10, 2023</button>
+                                </div>
+                            </span>
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Empowering Minds and Transforming Lives</h5>
+                                <p class="card-text text-muted mb-3" style="font-family: sans-serif !important;">
+                                    Education is the most powerful weapon which you can use to change the world.
+                                </p>
+                                <a href="#" class="text-muted">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------- Our Blog End ------- -->
+
+        <!-- ------- More Information Section Start ------- -->
+
+        <!-- <section class="z-information mt-4 mt-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 z-information-form">
+                    <span class="text-center">
+                        <h5>
+                            You want to know more information?
+                            <br>
+                            Send us a mail!
+                        </h5>
+                    </span>
+                    <form>
+                        <input type="search" placeholder="Enter your email...">
+                        <button>
+                            <i class="bi bi-send-fill"></i> Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+        <section class="mt-4 mt-md-5 z-info-home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 pt-4">
+                        <h2>
+                            Subscribe To Our Newsletter
+                        </h2>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <input type="search" placeholder="Enter your email...">
+                            <button>
+                                <i class="bi bi-send-fill"></i> Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ------- More Information Section End ------- -->
+
+        <!-- ------- Gallery Secttion Start ------- -->
+
+        <section>
+            <div class="container">
+                <div class="row z-home-gallery mt-4 mt-md-5">
+                    <div class="col-lg-12 text-center">
+                        <h2>
+                            Our Gallery
+                        </h2>
+                        <p class="text-muted">
+                            Alumni Success Stories
+                        </p>
+                        <div class="w3-bar w3-black mt-3">
+                            <button class="w3-bar-item w3-button" onclick="openCity('All')">All</button>
+                            <button class="w3-bar-item w3-button" onclick="openCity('Library')">Library</button>
+                            <button class="w3-bar-item w3-button" onclick="openCity('ClassRoom')">Classroom</button>
+                            <button class="w3-bar-item w3-button" onclick="openCity('Hall')">Hall</button>
+                            <button class="w3-bar-item w3-button" onclick="openCity('Ground')">Ground</button>
+                            <button class="w3-bar-item w3-button" onclick="openCity('Security')">Security</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="All" class="w3-container city">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <div class="tz-gallery">
+
+                            <div class="row">
+
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-1.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-1.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/ground/gallery-ground-1.jpg">
+                                        <img src="assets/image/homepage/gallery/ground/gallery-ground-1.jpg"
+                                            alt="Ground">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/hall/gallery-hall-1.jpg">
+                                        <img src="assets/image/homepage/gallery/hall/gallery-hall-1.jpg" alt="Hall">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/library/gallery-library-1.jpg">
+                                        <img src="assets/image/homepage/gallery/library/gallery-library-1.jpg"
+                                            alt="Library">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/security/gallery-security-1.jpg">
+                                        <img src="assets/image/homepage/gallery/security/gallery-security-1.jpg"
+                                            alt="Security">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-2.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-2.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+
+
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-3.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-3.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/ground/gallery-ground-2.jpg">
+                                        <img src="assets/image/homepage/gallery/ground/gallery-ground-2.jpg"
+                                            alt="Ground">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/library/gallery-library-2.jpg">
+                                        <img src="assets/image/homepage/gallery/library/gallery-library-2.jpg"
+                                            alt="Library">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/security/gallery-security-2.jpg">
+                                        <img src="assets/image/homepage/gallery/security/gallery-security-2.jpg"
+                                            alt="Security">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-4.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-4.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/hall/gallery-hall-3.jpg">
+                                        <img src="assets/image/homepage/gallery/hall/gallery-hall-3.jpg" alt="Hall">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Library" class="w3-container city" style="display:none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <div class="tz-gallery">
+
+                            <div class="row">
+
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/library/gallery-library-1.jpg">
+                                        <img src="assets/image/homepage/gallery/library/gallery-library-1.jpg"
+                                            alt="Library">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/library/gallery-library-2.jpg">
+                                        <img src="assets/image/homepage/gallery/library/gallery-library-2.jpg"
+                                            alt="Library">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/library/gallery-library-3.jpg">
+                                        <img src="assets/image/homepage/gallery/library/gallery-library-3.jpg"
+                                            alt="Library">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/library/gallery-library-4.jpg">
+                                        <img src="assets/image/homepage/gallery/library/gallery-library-4.jpg"
+                                            alt="Library">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ClassRoom" class="w3-container city" style="display:none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <div class="tz-gallery">
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-1.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-1.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-2.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-2.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-3.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-3.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-4.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-4.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-5.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-5.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/class/gallery-class-6.jpg">
+                                        <img src="assets/image/homepage/gallery/class/gallery-class-6.jpg"
+                                            alt="ClassRoom">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Hall" class="w3-container city" style="display: none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <div class="tz-gallery">
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/hall/gallery-hall-1.jpg">
+                                        <img src="assets/image/homepage/gallery/hall/gallery-hall-1.jpg" alt="Hall">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox" href="assets/image/homepage/gallery/hall/gallery-hall-3.jpg">
+                                        <img src="assets/image/homepage/gallery/hall/gallery-hall-3.jpg" alt="Hall">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Ground" class="w3-container city" style="display:none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <div class="tz-gallery">
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/ground/gallery-ground-1.jpg">
+                                        <img src="assets/image/homepage/gallery/ground/gallery-ground-1.jpg"
+                                            alt="Ground">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/ground/gallery-ground-2.jpg">
+                                        <img src="assets/image/homepage/gallery/ground/gallery-ground-2.jpg"
+                                            alt="Ground">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/ground/gallery-ground-3.jpg">
+                                        <img src="assets/image/homepage/gallery/ground/gallery-ground-3.jpg"
+                                            alt="Ground">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/ground/gallery-ground-4.jpg">
+                                        <img src="assets/image/homepage/gallery/ground/gallery-ground-4.jpg"
+                                            alt="Ground">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/ground/gallery-ground-5.jpg">
+                                        <img src="assets/image/homepage/gallery/ground/gallery-ground-5.jpg"
+                                            alt="Ground">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Security" class="w3-container city" style="display:none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <div class="tz-gallery">
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/security/gallery-security-1.jpg">
+                                        <img src="assets/image/homepage/gallery/security/gallery-security-1.jpg"
+                                            alt="Security">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/security/gallery-security-2.jpg">
+                                        <img src="assets/image/homepage/gallery/security/gallery-security-2.jpg"
+                                            alt="Security">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/security/gallery-security-3.jpg">
+                                        <img src="assets/image/homepage/gallery/security/gallery-security-3.jpg"
+                                            alt="Security">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4 p-2">
+                                    <a class="lightbox"
+                                        href="assets/image/homepage/gallery/security/gallery-security-4.jpg">
+                                        <img src="assets/image/homepage/gallery/security/gallery-security-4.jpg"
+                                            alt="Security">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <script>
-        function toggle() {
-            var x = document.getElementById("div");
-
-            if (x.style.display === "none") {
-                x.style.display = "block";
+        function openCity(type) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
             }
-
-            else {
-                x.style.display = "none";
-            }
+            document.getElementById(type).style.display = "block";
         }
     </script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script>
-        function toggles() {
-            var x = document.getElementById("div1");
-
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            }
-
-            else {
-                x.style.display = "none";
-            }
-        }
+        baguetteBox.run('.tz-gallery');
     </script>
 
-    <script>
-        function toggless() {
-            var x = document.getElementById("div2");
+    <!-- ------- Gallery Section End ------- -->
 
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            }
-
-            else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-
-    <!-- ---------- Hide And Show Button End ------------- -->
-
-
-    <!-- -----=====animated-script-start -->
+    <!-- -----=======animated-script-link====----- -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init(
             {
                 offset: 20,
-                duration: 1000,
+                duration: 800,
             }
         );
     </script>
+    <!-- -----=======animated-script-link====----- -->
 
-    <!-- ------------=========animated-script-end=======-------- -->
+    <!-- ------ Nav Button Link Start ------ -->
+    <script src="assets/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <!-- ------ Nav Button Link End ------ -->
+
+
+
 </body>
 
 </html>
