@@ -12,6 +12,9 @@
   .homepage-1-main-top-nav-start {
     padding: 0px 40px 8px;
   }
+  .main-footer-sec-list{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -62,6 +65,9 @@
   }
 
   .upcoming-event-card-2 .card-body p::before {
+    display: none;
+  }
+  .main-footer-sec-list{
     display: none;
   }
 }

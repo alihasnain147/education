@@ -4923,8 +4923,12 @@ a {
 }
 .main-footer-web {
   /* background-color: #52afaa; */
-  background-color: #3ac568;
-  padding: 40px 10px 50px 10px;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../image/about/gucci.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 10px 20px 10px;
+  padding-top: 60px;
   color: white;
 }
 .main-web-footer ul li {
