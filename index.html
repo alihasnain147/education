@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IVY School-Homepage-1</title>
+    <title>Home</title>
 
     <!-- ------ Bootstrap Link Start ------ -->
     <link
@@ -14,8 +14,7 @@
     <!-- ------ Bootstrap Link End ------ -->
 
     <!-- ------ CSS Link Start ------ -->
-    <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ------ CSS Link End ------ -->
 
     <!-- ------ Responsive Link Start ------ -->
@@ -73,587 +72,428 @@
       });
     </script>
     <!-- ----------========java-counter-link-end===========----------------- -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css"
+    />
   </head>
 
   <body>
-    <!-- ------ Header Start ------ -->
+    <div class="wrapper">
+      <!-- ------ Toolbar Start ------ -->
 
-    <div
-      id="carouselExampleControls"
-      class="carousel slide m-0"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="carousel-item-text container">
-            <div class="row">
-              <div class="col-md-10 offset-md-1">
-                <p data-aos="zoom-in" data-animated="10000">
-                  Ready to Launch - School, College, University or Course
-                  Website
-                </p>
-                <h1
-                  class="text-white"
-                  data-aos="zoom-out"
-                  data-animated="10000"
-                >
-                  Education is the passport to the future, for tomorrow belongs
-                  to those who prepare for it today
-                </h1>
-                <a href="#">
-                  <button data-aos="fade-up" data-animated-duration="5000">
-                    Get Started
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item carousel-item-image-1">
-          <div class="carousel-item-text">
-            <div class="row">
-              <div class="col-md-8 offset-md-2">
-                <p>
-                  Ready to Launch - School, College, University or Course
-                  Website
-                </p>
-                <h1 class="text-white">
-                  Education is the most powerful weapon which you can use to
-                  change the world
-                </h1>
-                <a href="#">
-                  <button>Get Started</button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item carousel-item-image-2">
-          <div class="carousel-item-text">
-            <div class="row">
-              <div class="col-md-8 offset-md-2">
-                <p>
-                  Ready to Launch - School, College, University or Course
-                  Website
-                </p>
-                <h1 class="text-white">
-                  The function of education is to teach one to think intensively
-                  and to think critically
-                </h1>
-                <a href="#">
-                  <button>Get Started</button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button> -->
-    </div>
-
-    <script>
-      // Set the time interval for the auto slider
-      let sliderInterval = setInterval(() => {
-        $("#carouselExampleControls").carousel("next");
-      }, 4000);
-
-      // Pause the auto slider when the user interacts with the carousel
-      $(".carousel").on("slide.bs.carousel", () => {
-        clearInterval(sliderInterval);
-      });
-
-      // Resume the auto slider when the user stops interacting with the carousel
-      $(".carousel").on("slid.bs.carousel", () => {
-        sliderInterval = setInterval(() => {
-          $("#carouselExampleControls").carousel("next");
-        }, 4000);
-      });
-    </script>
-
-    <!-- ------ Header End ------ -->
-
-    <!-- ------- Why Choose Us Section Start ------- -->
-
-    <div class="container pt-lg-1">
-      <div class="row" data-animated="SpeedIn">
-        <div class="col-lg-6 mt-4 mt-md-5 z-why-sec" data-aos="slide-up">
-          <div>
-            <div style="float: left" class="vertical-line"></div>
-            <div class="homepage-1-content">
-              <h2 class="mb-2">WHY CHOOSE US</h2>
-            </div>
-            <h5>About <span style="font-weight: bold">IVY Institute</span></h5>
-            <p class="text-muted mt-3" style="font-weight: 400">
-              Choose our home education program for a personalized and holistic
-              learning experience that develops both knowledge and character.
-              Join us in cultivating curiosity, critical thinking, and
-              creativity.
-              <br /><br />
-              <span
-                ><i class="bi bi-arrow-right-short" style="font-size: 21px"></i
-              ></span>
-              &nbsp Flexible scheduling options to accommodate busy lifestyles.
-              <br />
-              <span
-                ><i class="bi bi-arrow-right-short" style="font-size: 21px"></i
-              ></span>
-              &nbsp Focus on curiosity, critical thinking, and creativity
-              <br />
-              <span
-                ><i class="bi bi-arrow-right-short" style="font-size: 21px"></i
-              ></span>
-              &nbsp Personalized learning experience
-              <br />
-              <span
-                ><i class="bi bi-arrow-right-short" style="font-size: 21px"></i
-              ></span>
-              &nbsp Personalized learning experience
-            </p>
-            <a href="#">
-              <button class="homepage-1-read-more-button btn" type="submit">
-                Read More
-              </button>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-6 mt-4 mt-md-5" tu data-animated="SpeedIn">
-          <img
-            src="assets/image/homepage/why-choose-us.jpg"
-            class="float-lg-end"
-            style="width: 100%; height: 100%; border-radius: 10px"
-            data-aos="slide-up"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- ------- Why Choose Us Section End ------- -->
-
-    <!-- ------- Counter Section Start ------- -->
-
-    <section class="z-counter mt-md-5 mt-4 pt-lg-2">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col-lg-3 col-md-3 mt-5 pt-5">
-            <span style="color: white; font-size: 50px"
-              ><i class="bi bi-mortarboard-fill"></i
-            ></span>
-            <br />
-            <span
-              class="counter"
-              style="
-                display: inline-block;
-                font-size: 45px;
-                font-weight: 100;
-                color: white;
-              "
-              >98</span
-            ><span style="color: white; font-size: 2rem">%</span>
-            <h6 class="" style="color: white">Graduates</h6>
-          </div>
-          <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
-            <span style="color: white; font-size: 50px"
-              ><i class="bi bi-patch-check-fill"></i
-            ></span>
-            <br />
-            <span
-              class="counter"
-              style="
-                display: inline-block;
-                font-size: 45px;
-                font-weight: 100;
-                color: white;
-              "
-              >30</span
-            ><span style="color: white; font-size: 2rem">+</span>
-            <h6 style="color: white">Certified Teachers</h6>
-          </div>
-          <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
-            <span style="color: white; font-size: 50px"
-              ><i class="bi bi-bar-chart-line-fill"></i
-            ></span>
-            <br />
-            <span
-              class="counter"
-              style="
-                display: inline-block;
-                font-size: 45px;
-                font-weight: 100;
-                color: white;
-              "
-              >8</span
-            >
-            <h6 style="color: white">Student Campuses</h6>
-          </div>
-          <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
-            <span style="color: white; font-size: 50px"
-              ><i class="bi bi-person-fill"></i
-            ></span>
-            <br />
-            <span
-              class="counter"
-              style="
-                display: inline-block;
-                font-size: 45px;
-                font-weight: 100;
-                color: white;
-              "
-              >6123</span
-            >
-            <h6 style="color: white">Students</h6>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ------- Counter Section End ------- -->
-
-    <!-- ------ Popular Courses Section Start ------ -->
-
-    <div class="container mt-4 mt-md-5">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>Popular Courses</h2>
-        </div>
-        <div class="col-lg-12 mt-4 mt-md-4">
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="card z-popular-courses">
-                <img
-                  src="assets/image/homepage/popular-1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body pt-3" style="margin-left: -15px">
-                  <div class="z-popular-courses-type ms-3">
-                    <h6>Business</h6>
-                  </div>
-                  <h5>Become a Business Strategy & Planning</h5>
-                  <p
-                    class="text-muted"
-                    style="font-family: sans-serif !important"
-                  >
-                    Good business leaders create a vision, articulate and
-                    passionately the vision.
-                  </p>
-                  <hr style="color: gray" />
-                  <div class="z-popular-courses-teacher">
-                    <span class="text-muted">
-                      <i class="bi bi-person"></i> 6 &nbsp
-                      <i class="bi bi-book"></i> 12 &nbsp
-                      <i class="bi bi-question-circle"></i> 2
-                    </span>
-                    <div
-                      class="d-flex align-items-center text-muted"
-                      style="
-                        font-family: sans-serif !important;
-                        font-size: 14px;
-                      "
-                    >
-                      <img
-                        src="assets/image/homepage/popular-1(1).jpg"
-                        alt=""
-                        style="width: 40px; height: 40px; border-radius: 50%"
-                      />
-                      &nbsp Mark Alen
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card z-popular-courses-1">
-                <img
-                  src="assets/image/homepage/popular-2(2).jpg"
-                  class="card-img-top-1"
-                  alt="..."
-                />
-                <div class="card-body" style="margin-left: -15px">
-                  <div class="z-popular-courses-type ms-3">
-                    <h6>Chemistry</h6>
-                  </div>
-                  <h5>Become a Chemist & Chemical Processes</h5>
-                  <p
-                    class="text-muted"
-                    style="font-family: sans-serif !important"
-                  >
-                    Chemistry is the study of matter and its properties.
-                  </p>
-                  <hr style="color: gray" />
-                  <div class="z-popular-courses-teacher">
-                    <span class="text-muted">
-                      <i class="bi bi-person"></i> 6 &nbsp
-                      <i class="bi bi-book"></i> 12 &nbsp
-                      <i class="bi bi-question-circle"></i> 2
-                    </span>
-                    <div
-                      class="d-flex align-items-center text-muted"
-                      style="
-                        font-family: sans-serif !important;
-                        font-size: 14px;
-                      "
-                    >
-                      <img
-                        src="assets/image/homepage/popular-3(3).jpg"
-                        alt=""
-                        style="width: 40px; height: 40px; border-radius: 50%"
-                      />
-                      &nbsp Philton
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card z-popular-courses-2">
-                <img
-                  src="assets/image/homepage/popular-3.jpg"
-                  class="card-img-top-2"
-                  alt="..."
-                />
-                <div class="card-body" style="margin-left: -15px">
-                  <div class="z-popular-courses-type ms-3">
-                    <h6>Accounts</h6>
-                  </div>
-                  <h5>Become a Business Strategy & Planning</h5>
-                  <p
-                    class="text-muted"
-                    style="font-family: sans-serif !important"
-                  >
-                    Good business leaders create a vision, articulate and
-                    passionately the vision.
-                  </p>
-                  <hr style="color: gray" />
-                  <div class="z-popular-courses-teacher">
-                    <span class="text-muted">
-                      <i class="bi bi-person"></i> 6 &nbsp
-                      <i class="bi bi-book"></i> 12 &nbsp
-                      <i class="bi bi-question-circle"></i> 2
-                    </span>
-                    <div
-                      class="d-flex align-items-center text-muted"
-                      style="
-                        font-family: sans-serif !important;
-                        font-size: 14px;
-                      "
-                    >
-                      <img
-                        src="assets/image/homepage/popular-4(4).jpg"
-                        alt=""
-                        style="width: 40px; height: 40px; border-radius: 50%"
-                      />
-                      &nbsp Alieen
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card z-popular-courses-3">
-                <img
-                  src="assets/image/homepage/popular-4.jpg"
-                  class="card-img-top-3"
-                  alt="..."
-                />
-                <div class="card-body" style="margin-left: -15px">
-                  <div class="z-popular-courses-type ms-3">
-                    <h6>Business</h6>
-                  </div>
-                  <h5>Become a Business Strategy & Planning</h5>
-                  <p
-                    class="text-muted"
-                    style="font-family: sans-serif !important"
-                  >
-                    Good business leaders create a vision, articulate and
-                    passionately the vision.
-                  </p>
-                  <hr style="color: gray" />
-                  <div class="z-popular-courses-teacher">
-                    <span class="text-muted">
-                      <i class="bi bi-person"></i> 6 &nbsp
-                      <i class="bi bi-book"></i> 12 &nbsp
-                      <i class="bi bi-question-circle"></i> 2
-                    </span>
-                    <div
-                      class="d-flex align-items-center text-muted"
-                      style="
-                        font-family: sans-serif !important;
-                        font-size: 14px;
-                      "
-                    >
-                      <img
-                        src="assets/image/homepage/popular-5(5).jpg"
-                        alt=""
-                        style="width: 40px; height: 40px; border-radius: 50%"
-                      />
-                      &nbsp Mark Alen
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card z-popular-courses-4">
-                <img
-                  src="assets/image/homepage/popular-5.jpg"
-                  class="card-img-top-4"
-                  alt="..."
-                />
-                <div class="card-body" style="margin-left: -15px">
-                  <div class="z-popular-courses-type ms-3">
-                    <h6>Business</h6>
-                  </div>
-                  <h5>Become a Business Strategy & Planning</h5>
-                  <p
-                    class="text-muted"
-                    style="font-family: sans-serif !important"
-                  >
-                    Good business leaders create a vision, articulate and
-                    passionately the vision.
-                  </p>
-                  <hr style="color: gray" />
-                  <div class="z-popular-courses-teacher">
-                    <span class="text-muted">
-                      <i class="bi bi-person"></i> 6 &nbsp
-                      <i class="bi bi-book"></i> 12 &nbsp
-                      <i class="bi bi-question-circle"></i> 2
-                    </span>
-                    <div
-                      class="d-flex align-items-center text-muted"
-                      style="
-                        font-family: sans-serif !important;
-                        font-size: 14px;
-                      "
-                    >
-                      <img
-                        src="assets/image/homepage/popular6(6).jpg"
-                        alt=""
-                        style="width: 40px; height: 40px; border-radius: 50%"
-                      />
-                      &nbsp Alexende
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card z-popular-courses-5">
-                <img
-                  src="assets/image/homepage/popular-6.jpg"
-                  class="card-img-top-5"
-                  alt="..."
-                />
-                <div class="card-body" style="margin-left: -15px">
-                  <div class="z-popular-courses-type ms-3">
-                    <h6>Business</h6>
-                  </div>
-                  <h5>Become a Business Strategy & Planning</h5>
-                  <p
-                    class="text-muted"
-                    style="font-family: sans-serif !important"
-                  >
-                    Good business leaders create a vision, articulate and
-                    passionately the vision.
-                  </p>
-                  <hr style="color: gray" />
-                  <div class="z-popular-courses-teacher">
-                    <span class="text-muted">
-                      <i class="bi bi-person"></i> 6 &nbsp
-                      <i class="bi bi-book"></i> 12 &nbsp
-                      <i class="bi bi-question-circle"></i> 2
-                    </span>
-                    <div
-                      class="d-flex align-items-center text-muted"
-                      style="
-                        font-family: sans-serif !important;
-                        font-size: 14px;
-                      "
-                    >
-                      <img
-                        src="assets/image/homepage/popular8(8).jpg"
-                        alt=""
-                        style="width: 40px; height: 40px; border-radius: 50%"
-                      />
-                      &nbsp Mark Alen
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script type="text/javascript">
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: false,
-        dots: false,
-        autoplay: true,
-        mouseDrag: true,
-        autoplayHoverPause: true,
-        autoplayTimeout: 2000,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          1000: {
-            items: 3.5,
-          },
-        },
-      });
-    </script>
-
-    <!-- ------ Popular Courses Section End ------ -->
-
-    <!-- ------- Count Down Section Start ------- -->
-    <!-- 
-    <section class="z-countdown-bg mt-4 mt-md-5">
+      <section class="tollbar">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 z-countdown">
-                    <h6 id="headline">
-                        Get 100S of online courses for free
-                    </h6>
-                    <h1>
-                        REGISTER NOW
-                    </h1>
-                    <div id="countdown">
-                        <ul>
-                            <li><span id="days"></span> <br> days</li>
-                            <li><span id="hours"></span> <br> Hours</li>
-                            <li><span id="minutes"></span> <br> Minutes</li>
-                            <li><span id="seconds"></span> <br> Seconds</li>
-                        </ul>
-                    </div>
+          <div class="row">
+            <div class="col-md-6 main-tollbar-left d-md-block d-none">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-envelope-fill"></i> &nbsp info@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-telephone-fill"></i> &nbsp +92 123 456 789
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 main-tollbar-right">
+              <ul class="ul-none">
+                <li>
+                  <a href="#">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#"> <i class="bi bi-key-fill"></i> &nbsp Login </a>
+                </li>
+                <li class="text-white">/</li>
+                <li>
+                  <a href="#"> Register </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------ Toolbar End ------ -->
+
+      <!-- ------ Mid Nav Start ------ -->
+
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-lg-3 col-md-12 mid-nav-1">
+            <a
+              class="navbar-brand"
+              href="#"
+              style="color: #36a0ad; font-size: 30px"
+              >LOGO HERE</a
+            >
+          </div>
+          <div class="col-lg-3 d-lg-block d-none mid-nav-2">
+            <ul>
+              <li>
+                <i class="bi bi-award-fill"></i>
+              </li>
+              <li>
+                Certified <br />
+                ISO 9001:2023
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 d-lg-block d-none mid-nav-3">
+            <ul>
+              <li>
+                <i class="bi bi-browser-edge"></i>
+              </li>
+              <li>
+                Great Software <br />
+                Solution Provider
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 d-lg-block d-none mid-nav-4 justify-content-end">
+            <ul>
+              <li>
+                <i class="bi bi-geo-alt-fill"></i>
+              </li>
+              <li>
+                Address <br />
+                Sityana Road, Pakistan
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------ Mid Nav End ------ -->
+
+      <!-- ------ Header Start ------ -->
+
+      <header class="home-2-header">
+        <ul id="slides">
+          <li class="slide slide1 showing">
+            <div class="container z-home-slider">
+              <div class="row">
+                <div class="col-lg-8 z-home-slider-left">
+                  <h1>
+                    Education is the passport to the future, for tomorrow
+                    belongs to those who prepare for it today.
+                  </h1>
+                  <p>
+                    We also offer specialized programs in areas such as coding,
+                    entrepreneurship, <br />
+                    and foreign languages.
+                  </p>
+                  <a href="#">
+                    <button class="z-learn-btn">Learn More</button>
+                  </a>
+                  <a href="#">
+                    <button class="z-apply-btn">Apply Now</button>
+                  </a>
                 </div>
-                <div class="col-lg-4 z-account-form">
+              </div>
+            </div>
+          </li>
+          <li class="slide slide2">
+            <div class="container z-home-slider">
+              <div class="row">
+                <div class="col-lg-7 z-home-slider-left">
+                  <h1>
+                    Education is the key to personal and societal growth, and we
+                    strive to provide a platform.
+                  </h1>
+                  <p>
+                    We offer a wide range of educational resources, courses, and
+                    programs <br />
+                    to cater to learners of all ages and backgrounds.
+                  </p>
+                  <a href="#">
+                    <button class="z-learn-btn">Learn More</button>
+                  </a>
+                  <a href="#">
+                    <button class="z-apply-btn">Apply Now</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="slide slide3">
+            <div class="container z-home-slider">
+              <div class="row">
+                <div class="col-lg-8 z-home-slider-left">
+                  <h1>
+                    Education is the passport to the future, for tomorrow
+                    belongs to those who prepare for it today.
+                  </h1>
+                  <p>
+                    Our dedicated team of educators and experts are committed to
+                    creating an inclusive and engaging learning environment
+                  </p>
+                  <a href="#">
+                    <button class="z-learn-btn">Learn More</button>
+                  </a>
+                  <a href="#">
+                    <button class="z-apply-btn">Apply Now</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- <button onClick="prevSlide();"><i class="bi bi-arrow-left arrow arrow-next"></i></button>
+                <button onClick="nextSlide();"><i class="bi bi-arrow-right arrow arrow-prev"></i></button> -->
+        </ul>
+
+        <!-- ------ Navbar Start ------ -->
+
+        <section class="home-2-navbar">
+          <div class="container sticky-top">
+            <nav class="navbar navbar-expand-lg main-navbar">
+              <div class="container">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse navbar-collapse-1"
+                  id="navbarNavAltMarkup"
+                >
+                  <div class="navbar-nav main-navbar-1">
+                    <div class="dropdown-pages-ui">
+                      <a
+                        class="dropbtn-pages-ui nav-item nav-link navlink-response-ui text-white"
+                        ><span class="active text-white">Home</span></a
+                      >
+                      <div class="dropdown-content-pages-ui">
+                        <a href="index.html">Homepage 1</a>
+                        <a href="index2.html">Homepage 2</a>
+                      </div>
+                    </div>
+                    <a class="nav-link text-white" href="about.html"
+                      ><span>About</span></a
+                    >
+                    <a class="nav-link text-white" href="events.html"
+                      ><span>Events</span></a
+                    >
+                    <div class="dropdown-pages-ui">
+                      <a
+                        class="dropbtn-pages-ui nav-item nav-link navlink-response-ui text-white"
+                        >Blogs</a
+                      >
+                      <div class="dropdown-content-pages-ui">
+                        <a href="blog-grid.html">Blogs 1</a>
+                        <a href="blog_full-width.html">Blogs 2</a>
+                        <a href="Main-blogs.html">Blogs 3</a>
+                        <a href="main-blog_2.html">Blogs 4</a>
+                        <a href="width-blog_2.html">Blogs 5</a>
+                      </div>
+                    </div>
+                    <a class="nav-link text-white" href="contact.html"
+                      ><span>Contact</span></a
+                    >
+                    <!-- <div class="dropdown-pages-ui"><a
+                                            class="dropbtn-pages-ui nav-item nav-link navlink-response-ui text-white">Contact</a>
+                                        <div class="dropdown-content-pages-ui">
+                                            <a href="main-event.html">Contact 1</a>
+                                            <a href="events-two.html">Contact 2</a>
+                                        </div>
+                                    </div> -->
+                  </div>
+                </div>
+                <a class="nav-link" href="#"
+                  ><button class="z-apply-btn-navbar">Get A Qoute</button></a
+                >
+              </div>
+            </nav>
+          </div>
+        </section>
+
+        <!-- ------ Navbar End ------ -->
+      </header>
+
+      <script>
+        var slides = document.querySelectorAll("#slides .slide");
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 6000);
+        var hoverActive = false;
+
+        function nextSlide() {
+          if (!hoverActive) {
+            slides[currentSlide].classList.remove("showing");
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add("showing");
+          }
+        }
+
+        function prevSlide() {
+          if (currentSlide > 0) {
+            slides[currentSlide].classList.remove("showing");
+            currentSlide = (currentSlide - 1) % slides.length;
+            slides[currentSlide].classList.add("showing");
+          }
+        }
+
+        // Stop slide interval on hover
+        slides.forEach(function (slide) {
+          slide.addEventListener("mouseenter", function () {
+            hoverActive = true;
+          });
+
+          slide.addEventListener("mouseleave", function () {
+            hoverActive = false;
+          });
+        });
+      </script>
+
+      <!-- ------ Header End ------ -->
+
+      <!-- ------- Why Choose Us Section Start ------- -->
+
+      <div class="container pt-lg-1">
+        <div class="row" data-animated="SpeedIn">
+          <div class="col-lg-6 mt-4 mt-md-5 home-2-why-sec" data-aos="slide-up">
+            <div class="mt-lg-5 pt-lg-3">
+              <div style="float: left" class="vertical-line"></div>
+              <div class="homepage-1-content">
+                <h2 class="mb-2">WHY CHOOSE US</h2>
+              </div>
+              <h5>
+                About <span style="font-weight: bold">IVY Institute</span>
+              </h5>
+              <p class="text-muted mt-3" style="font-weight: 400">
+                Choose our home education program for a personalized and
+                holistic learning experience that develops both knowledge and
+                character. Join us in cultivating curiosity, critical thinking,
+                and creativity.
+                <br /><br />
+                <span
+                  ><i
+                    class="bi bi-arrow-right-short"
+                    style="font-size: 21px"
+                  ></i
+                ></span>
+                &nbsp Flexible scheduling options to accommodate busy
+                lifestyles.
+                <br />
+                <span
+                  ><i
+                    class="bi bi-arrow-right-short"
+                    style="font-size: 21px"
+                  ></i
+                ></span>
+                &nbsp Focus on curiosity, critical thinking, and creativity
+                <br />
+                <span
+                  ><i
+                    class="bi bi-arrow-right-short"
+                    style="font-size: 21px"
+                  ></i
+                ></span>
+                &nbsp Personalized learning experience
+                <br />
+                <span
+                  ><i
+                    class="bi bi-arrow-right-short"
+                    style="font-size: 21px"
+                  ></i
+                ></span>
+                &nbsp Personalized learning experience
+              </p>
+              <a href="#" class="homepage-1-read-more-button-a">
+                <button class="homepage-1-read-more-button btn" type="submit">
+                  Read More
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 mt-4 mt-md-5 home-2-header-why-image-sec"
+            tu
+            data-animated="SpeedIn"
+          >
+            <img
+              src="assets/image/homepage/home-2-why-image-1.jpg"
+              class="float-lg-end home-2-why-image-1"
+              data-aos="slide-up"
+            />
+            <img
+              src="assets/image/homepage/home-2-why-image-2.jpg"
+              class="float-lg-end home-2-why-image-2"
+              data-aos="slide-up"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- ------- Why Choose Us Section End ------- -->
+
+      <!-- ------- Count Down Section Start ------- -->
+
+      <section class="z-countdown-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 z-countdown">
+              <h6 id="headline">Get 100S of online courses for free</h6>
+              <h1>REGISTER NOW</h1>
+              <div id="countdown">
+                <ul>
+                  <li>
+                    <span id="days"></span> <br />
+                    days
+                  </li>
+                  <li>
+                    <span id="hours"></span> <br />
+                    Hours
+                  </li>
+                  <li>
+                    <span id="minutes"></span> <br />
+                    Minutes
+                  </li>
+                  <li>
+                    <span id="seconds"></span> <br />
+                    Seconds
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <div class="col-lg-4 z-account-form">
                     <h3>
                         Create Your Account Now
                     </h3>
@@ -665,471 +505,898 @@
                             GET IT NOW
                         </button>
                     </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <script>
-      (function () {
-        const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
-
-        //I'm adding this section so I don't have to keep updating this pen every year :-)
-        //remove this if you don't need it
-        let today = new Date(),
-          dd = String(today.getDate()).padStart(2, "0"),
-          mm = String(today.getMonth() + 1).padStart(2, "0"),
-          yyyy = today.getFullYear(),
-          nextYear = yyyy + 1,
-          dayMonth = "09/30/",
-          birthday = dayMonth + yyyy;
-
-        today = mm + "/" + dd + "/" + yyyy;
-        if (today > birthday) {
-          birthday = dayMonth + nextYear;
-        }
-        //end
-
-        const countDown = new Date(birthday).getTime(),
-          x = setInterval(function () {
-            const now = new Date().getTime(),
-              distance = countDown - now;
-
-            (document.getElementById("days").innerText = Math.floor(
-              distance / day
-            )),
-              (document.getElementById("hours").innerText = Math.floor(
-                (distance % day) / hour
-              )),
-              (document.getElementById("minutes").innerText = Math.floor(
-                (distance % hour) / minute
-              )),
-              (document.getElementById("seconds").innerText = Math.floor(
-                (distance % minute) / second
-              ));
-
-            //do something later when date is reached
-            if (distance < 0) {
-              document.getElementById("headline").innerText =
-                "It's my birthday!";
-              document.getElementById("countdown").style.display = "none";
-              document.getElementById("content").style.display = "block";
-              clearInterval(x);
-            }
-            //seconds
-          }, 0);
-      })();
-    </script>
-
-    <!-- ------- Count Down Section End ------- -->
-
-    <!-- ------- Upcoming Events Start ------- -->
-
-    <div class="container">
-      <div class="row z-up-event mt-4 mt-md-5">
-        <div class="col-lg-12 text-center z-up-event-heading">
-          <h2>upcoming events</h2>
-          <p>Upcoming Educational Events for your future career.</p>
-        </div>
-        <div class="col-lg-6 mt-lg-4 mt-3">
-          <div class="card mb-3 upcoming-event-card-1">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="assets/image/homepage/upcoming-event-img-1.jpg"
-                  class="img-fluid"
-                  alt="..."
-                  style="width: 100%"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <div class="text-center d-flex">
-                    <h3>
-                      23 <br />
-                      <span>June</span>
-                    </h3>
-                    <p>
-                      <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
-                      <br />
-                      <i class="bi bi-geo-alt"></i> Sityana Road
-                    </p>
-                  </div>
-                  <div class="upcoming-event-card-1-about">
-                    <h5 style="font-family: sans-serif !important">
-                      College Eucharistal (John of Rome) at Bartlemas Chapel.
-                    </h5>
-                    <a href="#">
-                      <button>View Details</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+                </div> -->
           </div>
         </div>
-        <div class="col-lg-6 mt-lg-4 mt-3">
-          <div class="card mb-3 upcoming-event-card-2">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="assets/image/homepage/upcoming-event-img-2.jpg"
-                  class="img-fluid"
-                  alt="..."
-                  style="width: 100%"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <div class="text-center d-flex">
-                    <h3>
-                      23 <br />
-                      <span>June</span>
-                    </h3>
-                    <p>
-                      <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
-                      <br />
-                      <i class="bi bi-geo-alt"></i> Sityana Road
-                    </p>
-                  </div>
-                  <div class="upcoming-event-card-2-about">
-                    <h5 style="font-family: sans-serif !important">
-                      Joined Roman Catholic Mass at Corpuse Christal College
-                      Chapel.
-                    </h5>
-                    <a href="#">
-                      <button>View Details</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- ------- Upcoming Events End ------- -->
+      <script>
+        (function () {
+          const second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
 
-    <!-- ------- Testimonial Start ------- -->
+          //I'm adding this section so I don't have to keep updating this pen every year :-)
+          //remove this if you don't need it
+          let today = new Date(),
+            dd = String(today.getDate()).padStart(2, "0"),
+            mm = String(today.getMonth() + 1).padStart(2, "0"),
+            yyyy = today.getFullYear(),
+            nextYear = yyyy + 1,
+            dayMonth = "09/30/",
+            birthday = dayMonth + yyyy;
 
-    <section class="z-testimonial mt-4 mt-md-5">
-      <div class="container">
+          today = mm + "/" + dd + "/" + yyyy;
+          if (today > birthday) {
+            birthday = dayMonth + nextYear;
+          }
+          //end
+
+          const countDown = new Date(birthday).getTime(),
+            x = setInterval(function () {
+              const now = new Date().getTime(),
+                distance = countDown - now;
+
+              (document.getElementById("days").innerText = Math.floor(
+                distance / day
+              )),
+                (document.getElementById("hours").innerText = Math.floor(
+                  (distance % day) / hour
+                )),
+                (document.getElementById("minutes").innerText = Math.floor(
+                  (distance % hour) / minute
+                )),
+                (document.getElementById("seconds").innerText = Math.floor(
+                  (distance % minute) / second
+                ));
+
+              //do something later when date is reached
+              if (distance < 0) {
+                document.getElementById("headline").innerText =
+                  "It's my birthday!";
+                document.getElementById("countdown").style.display = "none";
+                document.getElementById("content").style.display = "block";
+                clearInterval(x);
+              }
+              //seconds
+            }, 0);
+        })();
+      </script>
+
+      <!-- ------- Count Down Section End ------- -->
+
+      <!-- ------ Popular Courses Section Start ------ -->
+
+      <div class="container mt-4 mt-md-5">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 style="font-size: 1.9rem; margin-bottom: 0px">TESTIMONIAL</h2>
-            <p class="fs-5 ps-3" style="font-family: sans-serif !important">
-              How people said about Education
-            </p>
+          <div class="col-lg-12 text-center z-popular-courses-type-heading">
+            <h2>Popular Courses</h2>
           </div>
-          <div class="testimonial-carousel row mt-4">
-            <div class="testimonial col-lg-4">
-              <figure class="snip1390">
-                <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg"
-                  alt="profile-sample3"
-                  class="profile"
-                />
-                <figcaption>
-                  <h2>Samira</h2>
-                  <h4>UX Design</h4>
-                  <blockquote class="text-muted">
-                    " I am absolutely thrilled with the UX design that was
-                    created for my website "
-                  </blockquote>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="testimonial col-lg-4">
-              <figure class="snip1390 hover">
-                <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg"
-                  alt="profile-sample5"
-                  class="profile"
-                />
-                <figcaption>
-                  <h2>Olivers</h2>
-                  <h4>Accountant</h4>
-                  <blockquote class="text-muted">
-                    " An accountant is not just a number cruncher, but a
-                    valuable partner ibusiness "
-                  </blockquote>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="testimonial col-lg-4">
-              <figure class="snip1390">
-                <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg"
-                  alt="profile-sample6"
-                  class="profile"
-                />
-                <figcaption>
-                  <h2>Avelina</h2>
-                  <h4>Biology</h4>
-                  <blockquote class="text-muted">
-                    " The professors at Alliance great University there subject
-                    knowledge and research "
-                  </blockquote>
-                </figcaption>
-              </figure>
+          <div class="col-lg-12 mt-4 mt-md-4">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="card z-popular-courses">
+                  <img
+                    src="assets/image/homepage/popular-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body pt-3" style="margin-left: -15px">
+                    <div class="z-popular-courses-type ms-3">
+                      <h6>Business</h6>
+                    </div>
+                    <h5 class="mb-3">Become a Business Strategy & Planning</h5>
+                    <p
+                      class="text-muted"
+                      style="font-family: sans-serif !important"
+                    >
+                      Good business leaders create a vision, articulate and
+                      passionately the vision.
+                    </p>
+                    <hr style="color: gray" />
+                    <div class="z-popular-courses-teacher">
+                      <span class="text-muted">
+                        <i class="bi bi-person"></i> 6 &nbsp
+                        <i class="bi bi-book"></i> 12 &nbsp
+                        <i class="bi bi-question-circle"></i> 2
+                      </span>
+                      <div
+                        class="d-flex align-items-center text-muted"
+                        style="
+                          font-family: sans-serif !important;
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="assets/image/homepage/popular-1(1).jpg"
+                          alt=""
+                          style="width: 40px; height: 40px; border-radius: 50%"
+                        />
+                        &nbsp Mark Alen
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card z-popular-courses-1">
+                  <img
+                    src="assets/image/homepage/popular-2(2).jpg"
+                    class="card-img-top-1"
+                    alt="..."
+                  />
+                  <div class="card-body" style="margin-left: -15px">
+                    <div class="z-popular-courses-type ms-3">
+                      <h6>Chemistry</h6>
+                    </div>
+                    <h5 class="mb-3">Become a Chemist & Chemical Processes</h5>
+                    <p
+                      class="text-muted"
+                      style="font-family: sans-serif !important"
+                    >
+                      Chemistry is the study of matter and its properties.
+                    </p>
+                    <hr style="color: gray" />
+                    <div class="z-popular-courses-teacher">
+                      <span class="text-muted">
+                        <i class="bi bi-person"></i> 6 &nbsp
+                        <i class="bi bi-book"></i> 12 &nbsp
+                        <i class="bi bi-question-circle"></i> 2
+                      </span>
+                      <div
+                        class="d-flex align-items-center text-muted"
+                        style="
+                          font-family: sans-serif !important;
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="assets/image/homepage/popular-3(3).jpg"
+                          alt=""
+                          style="width: 40px; height: 40px; border-radius: 50%"
+                        />
+                        &nbsp Philton
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card z-popular-courses-2">
+                  <img
+                    src="assets/image/homepage/popular-3.jpg"
+                    class="card-img-top-2"
+                    alt="..."
+                  />
+                  <div class="card-body" style="margin-left: -15px">
+                    <div class="z-popular-courses-type ms-3">
+                      <h6>Accounts</h6>
+                    </div>
+                    <h5 class="mb-3">Become a Business Strategy & Planning</h5>
+                    <p
+                      class="text-muted"
+                      style="font-family: sans-serif !important"
+                    >
+                      Good business leaders create a vision, articulate and
+                      passionately the vision.
+                    </p>
+                    <hr style="color: gray" />
+                    <div class="z-popular-courses-teacher">
+                      <span class="text-muted">
+                        <i class="bi bi-person"></i> 6 &nbsp
+                        <i class="bi bi-book"></i> 12 &nbsp
+                        <i class="bi bi-question-circle"></i> 2
+                      </span>
+                      <div
+                        class="d-flex align-items-center text-muted"
+                        style="
+                          font-family: sans-serif !important;
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="assets/image/homepage/popular-4(4).jpg"
+                          alt=""
+                          style="width: 40px; height: 40px; border-radius: 50%"
+                        />
+                        &nbsp Alieen
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card z-popular-courses-3">
+                  <img
+                    src="assets/image/homepage/popular-4.jpg"
+                    class="card-img-top-3"
+                    alt="..."
+                  />
+                  <div class="card-body" style="margin-left: -15px">
+                    <div class="z-popular-courses-type ms-3">
+                      <h6>Business</h6>
+                    </div>
+                    <h5 class="mb-3">Become a Business Strategy & Planning</h5>
+                    <p
+                      class="text-muted"
+                      style="font-family: sans-serif !important"
+                    >
+                      Good business leaders create a vision, articulate and
+                      passionately the vision.
+                    </p>
+                    <hr style="color: gray" />
+                    <div class="z-popular-courses-teacher">
+                      <span class="text-muted">
+                        <i class="bi bi-person"></i> 6 &nbsp
+                        <i class="bi bi-book"></i> 12 &nbsp
+                        <i class="bi bi-question-circle"></i> 2
+                      </span>
+                      <div
+                        class="d-flex align-items-center text-muted"
+                        style="
+                          font-family: sans-serif !important;
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="assets/image/homepage/popular-5(5).jpg"
+                          alt=""
+                          style="width: 40px; height: 40px; border-radius: 50%"
+                        />
+                        &nbsp Mark Alen
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card z-popular-courses-4">
+                  <img
+                    src="assets/image/homepage/popular-5.jpg"
+                    class="card-img-top-4"
+                    alt="..."
+                  />
+                  <div class="card-body" style="margin-left: -15px">
+                    <div class="z-popular-courses-type ms-3">
+                      <h6>Business</h6>
+                    </div>
+                    <h5 class="mb-3">Become a Business Strategy & Planning</h5>
+                    <p
+                      class="text-muted"
+                      style="font-family: sans-serif !important"
+                    >
+                      Good business leaders create a vision, articulate and
+                      passionately the vision.
+                    </p>
+                    <hr style="color: gray" />
+                    <div class="z-popular-courses-teacher">
+                      <span class="text-muted">
+                        <i class="bi bi-person"></i> 6 &nbsp
+                        <i class="bi bi-book"></i> 12 &nbsp
+                        <i class="bi bi-question-circle"></i> 2
+                      </span>
+                      <div
+                        class="d-flex align-items-center text-muted"
+                        style="
+                          font-family: sans-serif !important;
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="assets/image/homepage/popular6(6).jpg"
+                          alt=""
+                          style="width: 40px; height: 40px; border-radius: 50%"
+                        />
+                        &nbsp Alexende
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card z-popular-courses-5">
+                  <img
+                    src="assets/image/homepage/popular-6.jpg"
+                    class="card-img-top-5"
+                    alt="..."
+                  />
+                  <div class="card-body" style="margin-left: -15px">
+                    <div class="z-popular-courses-type ms-3">
+                      <h6>Business</h6>
+                    </div>
+                    <h5 class="mb-3">Become a Business Strategy & Planning</h5>
+                    <p
+                      class="text-muted"
+                      style="font-family: sans-serif !important"
+                    >
+                      Good business leaders create a vision, articulate and
+                      passionately the vision.
+                    </p>
+                    <hr style="color: gray" />
+                    <div class="z-popular-courses-teacher">
+                      <span class="text-muted">
+                        <i class="bi bi-person"></i> 6 &nbsp
+                        <i class="bi bi-book"></i> 12 &nbsp
+                        <i class="bi bi-question-circle"></i> 2
+                      </span>
+                      <div
+                        class="d-flex align-items-center text-muted"
+                        style="
+                          font-family: sans-serif !important;
+                          font-size: 14px;
+                        "
+                      >
+                        <img
+                          src="assets/image/homepage/popular8(8).jpg"
+                          alt=""
+                          style="width: 40px; height: 40px; border-radius: 50%"
+                        />
+                        &nbsp Mark Alen
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <script>
-      const testimonials = document.querySelectorAll(".testimonial");
-      const carousel = document.querySelector(".testimonial-carousel");
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script type="text/javascript">
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: false,
+          dots: false,
+          autoplay: true,
+          mouseDrag: true,
+          autoplayHoverPause: true,
+          autoplayTimeout: 2000,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 3.5,
+            },
+          },
+        });
+      </script>
 
-      let currentIndex = 0;
+      <!-- ------ Popular Courses Section End ------ -->
 
-      function showTestimonial(index) {
-        testimonials.forEach((testimonial) =>
-          testimonial.classList.remove("active")
-        );
-        testimonials[index].classList.add("active");
-      }
+      <!-- ------- Upcoming Events Start ------- -->
 
-      function nextTestimonial() {
-        currentIndex++;
-        if (currentIndex >= testimonials.length) {
-          currentIndex = 0;
-        }
-        showTestimonial(currentIndex);
-      }
-
-      setInterval(nextTestimonial, 3000);
-
-      showTestimonial(currentIndex);
-    </script>
-
-    <!-- ------- Testimonial End ------- -->
-
-    <!-- ------- Our Blog Start ------- -->
-
-    <section class="mt-4 mt-md-5">
       <div class="container">
-        <div class="row mt-4">
-          <div class="col-lg-12 text-center">
-            <h2>OUR BLOGS</h2>
-            <p>Education news all over the world.</p>
+        <div class="row z-up-event mt-4 mt-md-5">
+          <div class="col-lg-12 text-center z-up-event-heading">
+            <h2>upcoming events</h2>
+            <p>Upcoming Educational Events for your future career.</p>
           </div>
-          <div class="col-lg-4 col-md-6 mt-3">
-            <div class="card z-blog-card-1">
-              <span>
-                <img
-                  src="assets/image/homepage/blog-1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="z-blog-card-1-date">
-                  <button>July 10, 2023</button>
+          <div class="col-lg-6 mt-lg-4 mt-3">
+            <div class="card mb-3 upcoming-event-card-1">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="assets/image/homepage/upcoming-event-img-1.jpg"
+                    class="img-fluid"
+                    alt="..."
+                    style="width: 100%"
+                  />
                 </div>
-              </span>
-              <div class="card-body mt-3">
-                <h5 class="card-title">
-                  Empowering Minds and Transforming Lives
-                </h5>
-                <p
-                  class="card-text text-muted"
-                  style="font-family: sans-serif !important"
-                >
-                  Education is the most powerful weapon which you can use to
-                  change the world.
-                </p>
-                <a href="#" class="text-muted">Read More</a>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <div class="text-center d-flex">
+                      <h3>
+                        23 <br />
+                        <span>June</span>
+                      </h3>
+                      <p>
+                        <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
+                        <br />
+                        <i class="bi bi-geo-alt"></i> Sityana Road
+                      </p>
+                    </div>
+                    <div class="upcoming-event-card-1-about">
+                      <h5 style="font-family: sans-serif !important">
+                        College Eucharistal (John of Rome) at Bartlemas Chapel.
+                      </h5>
+                      <a href="#">
+                        <button>View Details</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 mt-3">
-            <div class="card z-blog-card-1">
-              <span>
-                <img
-                  src="assets/image/homepage/blog-2.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="z-blog-card-1-date">
-                  <button>July 10, 2023</button>
+          <div class="col-lg-6 mt-lg-4 mt-3">
+            <div class="card mb-3 upcoming-event-card-2">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="assets/image/homepage/upcoming-event-img-2.jpg"
+                    class="img-fluid"
+                    alt="..."
+                    style="width: 100%"
+                  />
                 </div>
-              </span>
-              <div class="card-body mt-3">
-                <h5 class="card-title">
-                  Empowering Minds and Transforming Lives
-                </h5>
-                <p
-                  class="card-text text-muted"
-                  style="font-family: sans-serif !important"
-                >
-                  Education is the most powerful weapon which you can use to
-                  change the world.
-                </p>
-                <a href="#" class="text-muted">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-3">
-            <div class="card z-blog-card-1">
-              <span>
-                <img
-                  src="assets/image/homepage/blog-3.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="z-blog-card-1-date">
-                  <button>July 10, 2023</button>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <div class="text-center d-flex">
+                      <h3>
+                        23 <br />
+                        <span>June</span>
+                      </h3>
+                      <p>
+                        <i class="bi bi-clock"></i> &nbsp 08:00AM - 05:00PM
+                        <br />
+                        <i class="bi bi-geo-alt"></i> Sityana Road
+                      </p>
+                    </div>
+                    <div class="upcoming-event-card-2-about">
+                      <h5 style="font-family: sans-serif !important">
+                        Joined Roman Catholic Mass at Corpuse Christal College
+                        Chapel.
+                      </h5>
+                      <a href="#">
+                        <button>View Details</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </span>
-              <div class="card-body mt-3">
-                <h5 class="card-title">
-                  Empowering Minds and Transforming Lives
-                </h5>
-                <p
-                  class="card-text text-muted"
-                  style="font-family: sans-serif !important"
-                >
-                  Education is the most powerful weapon which you can use to
-                  change the world.
-                </p>
-                <a href="#" class="text-muted">Read More</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- ------- Our Blog End ------- -->
+      <!-- ------- Upcoming Events End ------- -->
 
-    <!-- ------- More Information Section Start ------- -->
+      <!-- ------- Counter Section Start ------- -->
 
-    <!-- <section class="z-information mt-4 mt-md-5">
+      <section class="z-counter mt-md-5 mt-4 pt-lg-2">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 z-information-form">
-                    <span class="text-center">
-                        <h5>
-                            You want to know more information?
-                            <br>
-                            Send us a mail!
-                        </h5>
-                    </span>
-                    <form>
-                        <input type="search" placeholder="Enter your email...">
-                        <button>
-                            <i class="bi bi-send-fill"></i> Send
-                        </button>
-                    </form>
+          <div class="row text-center mb-4">
+            <div class="col-lg-3 col-md-3 mt-5 pt-5">
+              <span style="color: white; font-size: 50px"
+                ><i class="bi bi-mortarboard-fill"></i
+              ></span>
+              <br />
+              <span
+                class="counter"
+                style="
+                  display: inline-block;
+                  font-size: 45px;
+                  font-weight: 100;
+                  color: white;
+                "
+                >98</span
+              ><span style="color: white; font-size: 2rem">%</span>
+              <h6 class="" style="color: white">Graduates</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
+              <span style="color: white; font-size: 50px"
+                ><i class="bi bi-patch-check-fill"></i
+              ></span>
+              <br />
+              <span
+                class="counter"
+                style="
+                  display: inline-block;
+                  font-size: 45px;
+                  font-weight: 100;
+                  color: white;
+                "
+                >30</span
+              ><span style="color: white; font-size: 2rem">+</span>
+              <h6 style="color: white">Certified Teachers</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
+              <span style="color: white; font-size: 50px"
+                ><i class="bi bi-bar-chart-line-fill"></i
+              ></span>
+              <br />
+              <span
+                class="counter"
+                style="
+                  display: inline-block;
+                  font-size: 45px;
+                  font-weight: 100;
+                  color: white;
+                "
+                >8</span
+              >
+              <h6 style="color: white">Student Campuses</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 mt-4 mt-md-5 pt-md-5">
+              <span style="color: white; font-size: 50px"
+                ><i class="bi bi-person-fill"></i
+              ></span>
+              <br />
+              <span
+                class="counter"
+                style="
+                  display: inline-block;
+                  font-size: 45px;
+                  font-weight: 100;
+                  color: white;
+                "
+                >6123</span
+              >
+              <h6 style="color: white">Students</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------==================jQuery-link===============----------------- -->
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="assets/JavaScript/jquery.counterup.min.js"></script>
+      <!-- ------------==================jQuery-link===============----------------- -->
+
+      <!-- ------- Counter Section End ------- -->
+
+      <!-- ------- Our Blog Start ------- -->
+
+      <section class="mt-4 mt-md-5">
+        <div class="container">
+          <div class="row mt-4">
+            <div class="col-lg-12 text-center z-home-blog-heading">
+              <h2>OUR BLOGS</h2>
+              <p class="text-muted" style="font-family: sans-serif !important">
+                Education news all over the world.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4">
+              <div class="card z-blog-card-1">
+                <span>
+                  <img
+                    src="assets/image/homepage/blog-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="z-blog-card-1-date">
+                    <button>July 10, 2023</button>
+                  </div>
+                </span>
+                <div class="card-body mt-3">
+                  <h5 class="card-title">
+                    Empowering Minds and Transforming Lives
+                  </h5>
+                  <p
+                    class="card-text text-muted mb-3"
+                    style="font-family: sans-serif !important"
+                  >
+                    Education is the most powerful weapon which you can use to
+                    change the world.
+                  </p>
+                  <a href="#" class="text-muted">Read More</a>
                 </div>
+              </div>
             </div>
-        </div>
-    </section> -->
-
-    <section class="mt-4 mt-md-5 z-info-home">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 pt-4">
-            <h2>Subscribe To Our Newsletter</h2>
-          </div>
-          <div class="col-lg-6">
-            <form>
-              <input type="search" placeholder="Enter your email..." />
-              <button><i class="bi bi-send-fill"></i> Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ------- More Information Section End ------- -->
-    <!-- Footer  -->
-    <div class="container-fluid main-footer-web">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 mt-3">
-            <h2>Logo Here</h2>
-            <p>
-              We’re always in search for talented and motivated people. Don’t be
-              shy introduce yourself! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptates, rerum!
-            </p>
-            <button class="p-2 contact-with-btn text-white">
-              Contact With Us
-            </button>
-          </div>
-          <div class="col-lg-8 col-md-12">
-            <div class="row">
-              <div class="col-lg-4 mt-3 main-web-footer col-md-4">
-                <h2 class="fw-bold">Useful Links</h2>
-                <ul>
-                  <li>Marketplace</li>
-                  <li>kindergarten</li>
-                  <li>University</li>
-                  <li>GYM Coaching</li>
-                  <li>FAQ</li>
-                </ul>
+            <div class="col-lg-4 col-md-6 mt-4">
+              <div class="card z-blog-card-1">
+                <span>
+                  <img
+                    src="assets/image/homepage/blog-2.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="z-blog-card-1-date">
+                    <button>July 10, 2023</button>
+                  </div>
+                </span>
+                <div class="card-body mt-3">
+                  <h5 class="card-title">
+                    Empowering Minds and Transforming Lives
+                  </h5>
+                  <p
+                    class="card-text text-muted mb-3"
+                    style="font-family: sans-serif !important"
+                  >
+                    Education is the most powerful weapon which you can use to
+                    change the world.
+                  </p>
+                  <a href="#" class="text-muted">Read More</a>
+                </div>
               </div>
-              <div class="col-lg-4 mt-3 main-web-footer col-md-4">
-                <h2 class="fw-bold">Our Compony</h2>
-                <ul>
-                  <li>Contact Us</li>
-                  <li>Become Teacher</li>
-                  <li>Blog</li>
-                  <li>Instructor</li>
-                  <li>Events</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 mt-3 main-web-footer col-md-4">
-                <h2 class="fw-bold">Get Contact</h2>
-                <ul>
-                  <li><i class="bi bi-phone me-2"></i> (406) 555-0120</li>
-                  <li>
-                    <i class="bi bi-envelope me-2"></i> rainbow@example.com
-                  </li>
-                  <li><i class="bi bi-geo-alt me-2"></i> North America, USA</li>
-                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4">
+              <div class="card z-blog-card-1">
+                <span>
+                  <img
+                    src="assets/image/homepage/blog-3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="z-blog-card-1-date">
+                    <button>July 10, 2023</button>
+                  </div>
+                </span>
+                <div class="card-body mt-3">
+                  <h5 class="card-title">
+                    Empowering Minds and Transforming Lives
+                  </h5>
+                  <p
+                    class="card-text text-muted mb-3"
+                    style="font-family: sans-serif !important"
+                  >
+                    Education is the most powerful weapon which you can use to
+                    change the world.
+                  </p>
+                  <a href="#" class="text-muted">Read More</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <hr />
-        <div
-          class="col-md-12"
-          style="
-            justify-content: space-between;
-            align-items: center;
-            display: flex;
-          "
-        >
+      </section>
+
+      <!-- ------- Our Blog End ------- -->
+
+      <!-- ------ Testimonial Start ------ -->
+
+      <section class="z-testimonial mt-4 mt-md-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 style="font-size: 1.9rem; margin-bottom: 0px">TESTIMONIAL</h2>
+              <p
+                class="fs-5 ps-3 pt-2"
+                style="font-family: sans-serif !important"
+              >
+                How people said about Education
+              </p>
+            </div>
+            <div class="col-lg-4 mt-4 mt-md-5 home-2-testimonial-card">
+              <div class="home-2-testimonial-1">
+                <div class="home-2-testimonial-1-inner">
+                  <div class="home-2-testimonial-1-front">
+                    <img src="assets/image/homepage/popular-4(4).jpg" alt="" />
+                    <h2>Robert Garrison</h2>
+                    <p>Full Stack Developer</p>
+                  </div>
+                  <div class="home-2-testimonial-1-back">
+                    <img src="assets/image/homepage/popular-4(4).jpg" alt="" />
+                    <h2>Robert Garrison</h2>
+                    <p>Full Stack Developer</p>
+                    <p>
+                      I made bacck the purchase price in just 48 hours! Thank
+                      you for making it pain less, pleasant. The service was
+                      execellent. I will refer everyone I know.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-md-5 home-2-testimonial-card">
+              <div class="home-2-testimonial-1">
+                <div class="home-2-testimonial-1-inner">
+                  <div class="home-2-testimonial-1-front">
+                    <img src="assets/image/homepage/popular8(8).jpg" alt="" />
+                    <h2>Alexandra Daddario</h2>
+                    <p>Biology</p>
+                  </div>
+                  <div class="home-2-testimonial-1-back">
+                    <img src="assets/image/homepage/popular8(8).jpg" alt="" />
+                    <h2>Alexandra Daddario</h2>
+                    <p>Biology</p>
+                    <p>
+                      My interest in science widened when I started high school.
+                      It gave me the opportunity to do well on my favourite
+                      subjects.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-md-5 home-2-testimonial-card">
+              <div class="home-2-testimonial-1">
+                <div class="home-2-testimonial-1-inner">
+                  <div class="home-2-testimonial-1-front">
+                    <img src="assets/image/homepage/popular-5(5).jpg" alt="" />
+                    <h2>Sivakumar</h2>
+                    <p>Civil Enginner</p>
+                  </div>
+                  <div class="home-2-testimonial-1-back">
+                    <img src="assets/image/homepage/popular-5(5).jpg" alt="" />
+                    <h2>Sivakumar</h2>
+                    <p>Civil Enginner</p>
+                    <p>
+                      When I started this position 18 years ago, I knew nothing
+                      about civil and environmental engineering, and yet it had
+                      become my job to write about it.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------ Testimonial End ------ -->
+
+      <!-- ------ NewsLetter Start ------ -->
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row home-2-newsletter">
+                <div class="col-lg-6 home-2-newsletter-1 mt-4 mt-md-5">
+                  <div>
+                    <img src="assets/image/homepage/newsletter.webp" alt="" />
+                    <h2>Creative & Tecnology Base</h2>
+                    <p>
+                      It is the fusion of imagination and innovation that
+                      propels humanity forward, driving the evolution of society
+                      and unlocking boundless opportunities for progress.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 home-2-newsletter-2 mt-4 mt-md-5">
+                  <div>
+                    <img src="assets/image/homepage/newsletter-1.webp" alt="" />
+                    <h2>25 Years Of Experience</h2>
+                    <p>
+                      As he continues to contribute to his field, his experience
+                      becomes a valuable asset, inspiring others and making a
+                      lasting impact.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 home-2-newsletter-3 mt-4 mt-md-5">
+                  <div>
+                    <img src="assets/image/homepage/newsletter-1.webp" alt="" />
+                    <h2>25 Years Of Experience</h2>
+                    <p>
+                      As he continues to contribute to his field, his experience
+                      becomes a valuable asset, inspiring others and making a
+                      lasting impact.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 home-2-newsletter-4 mt-4 mt-md-5">
+                  <div>
+                    <img src="assets/image/homepage/newsletter-2.webp" alt="" />
+                    <h2>Best lab facilities</h2>
+                    <p>
+                      The best lab facilities provide a nurturing environment
+                      where innovation thrives, discoveries are made, and
+                      boundaries are pushed beyond imagination.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 home-2-newsletter-0 mt-4 mt-md-5">
+              <h2>SIGNUP WITH NEWSLATTER</h2>
+              <p>
+                Stay informed, stay inspired. Sign up for our newsletter today!
+              </p>
+              <form>
+                <input type="email" placeholder="Email" />
+                <textarea
+                  name="text"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+                <br />
+                <button>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------ NewsLetter End ------ -->
+
+      <!-- Footer  -->
+      <div class="container-fluid main-footer-web">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mt-3">
+              <h2>Logo Here</h2>
+              <p>
+                We’re always in search for talented and motivated people. Don’t
+                be shy introduce yourself! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Voluptates, rerum!
+              </p>
+              <button class="p-2 contact-with-btn text-white">
+                Contact With Us
+              </button>
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <div class="row">
+                <div class="col-lg-4 mt-3 main-web-footer col-md-4">
+                  <h2 class="fw-bold">Useful Links</h2>
+                  <ul>
+                    <li>Marketplace</li>
+                    <li>kindergarten</li>
+                    <li>University</li>
+                    <li>GYM Coaching</li>
+                    <li>FAQ</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 mt-3 main-web-footer col-md-4">
+                  <h2 class="fw-bold">Our Compony</h2>
+                  <ul>
+                    <li>Contact Us</li>
+                    <li>Become Teacher</li>
+                    <li>Blog</li>
+                    <li>Instructor</li>
+                    <li>Events</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 mt-3 main-web-footer col-md-4">
+                  <h2 class="fw-bold">Get Contact</h2>
+                  <ul>
+                    <li><i class="bi bi-phone me-2"></i> (406) 555-0120</li>
+                    <li>
+                      <i class="bi bi-envelope me-2"></i> rainbow@example.com
+                    </li>
+                    <li>
+                      <i class="bi bi-geo-alt me-2"></i> North America, USA
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
           <div
-            class=""
+            class="col-md-12"
             style="
               justify-content: space-between;
               align-items: center;
               display: flex;
             "
           >
-            <h6 style="font-size: 20px !important">
-              Copyright © 2023. All Rights Reserved
-            </h6>
-          </div>
-          <div class="main-footer-sec-list mt-0 pt-0">
-            <ul>
-              <li>Terms of service</li>
-              <li>Privacy policy</li>
-              <li>Subscription</li>
-              <li>Login & Register</li>
-            </ul>
+            <div
+              class=""
+              style="
+                justify-content: space-between;
+                align-items: center;
+                display: flex;
+              "
+            >
+              <h6 style="font-size: 20px !important">
+                Copyright © 2023. All Rights Reserved
+              </h6>
+            </div>
+            <div class="main-footer-sec-list mt-0 pt-0">
+              <ul>
+                <li>Terms of service</li>
+                <li>Privacy policy</li>
+                <li>Subscription</li>
+                <li>Login & Register</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+      <!-- Footer End -->
     </div>
-    <!-- Footer End -->
 
     <!-- ------------==================jQuery-link===============----------------- -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
