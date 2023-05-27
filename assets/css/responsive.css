@@ -15,6 +15,10 @@
   .main-footer-sec-list{
     display: none;
   }
+
+  .home-2-header{
+    margin-top: 5%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -92,5 +96,15 @@
 
   .main-about-page-sectt {
     text-align: center !important;
+  }
+
+  .home-2-header{
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .home-2-header{
+    margin-top: 18%;
   }
 }
