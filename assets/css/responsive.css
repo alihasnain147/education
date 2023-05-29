@@ -22,6 +22,22 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .event_first_sec{
+    display: block;
+  }
+  .event_first_sec_2 p{
+    padding: 20px;
+  }
+  .event_secondsec_1{
+    display: block;
+  }
+  .event_secondsec_3 img{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .event_sec3_1{
+    display: block;
+  }
   .z-countdown ul {
     display: block;
   }
