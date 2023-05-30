@@ -22,6 +22,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .main-footer-sec-list{
+    display: none;
+  }
   .event_first_sec{
     display: block;
   }
